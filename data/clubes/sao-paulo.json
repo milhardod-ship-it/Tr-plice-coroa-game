@@ -1,0 +1,9 @@
+{
+  "id": "sao-paulo",
+  "nome": "São Paulo",
+  "cores": {
+    "primaria": "#E30613",
+    "secundaria": "#000000"
+  },
+  "temporadas": []
+}

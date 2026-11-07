@@ -1,0 +1,649 @@
+{
+  "descricao": "Campeão e vice de cada edição da Copa Libertadores (1980–2025). O \"id\" liga ao arquivo do clube jogável (data/clubes/<id>.json) ou ao elenco em data/adversarios.json. Preenchido de memória: conferir cada linha e trocar \"revisado\" para true.",
+  "finais": [
+    {
+      "ano": 1980,
+      "campeao": {
+        "id": "nacional-uru",
+        "nome": "Nacional",
+        "pais": "Uruguai"
+      },
+      "vice": {
+        "id": "internacional",
+        "nome": "Internacional",
+        "pais": "Brasil"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1981,
+      "campeao": {
+        "id": "flamengo",
+        "nome": "Flamengo",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "cobreloa",
+        "nome": "Cobreloa",
+        "pais": "Chile"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1982,
+      "campeao": {
+        "id": "penarol",
+        "nome": "Peñarol",
+        "pais": "Uruguai"
+      },
+      "vice": {
+        "id": "cobreloa",
+        "nome": "Cobreloa",
+        "pais": "Chile"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1983,
+      "campeao": {
+        "id": "gremio",
+        "nome": "Grêmio",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "penarol",
+        "nome": "Peñarol",
+        "pais": "Uruguai"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1984,
+      "campeao": {
+        "id": "independiente",
+        "nome": "Independiente",
+        "pais": "Argentina"
+      },
+      "vice": {
+        "id": "gremio",
+        "nome": "Grêmio",
+        "pais": "Brasil"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1985,
+      "campeao": {
+        "id": "argentinos-juniors",
+        "nome": "Argentinos Juniors",
+        "pais": "Argentina"
+      },
+      "vice": {
+        "id": "america-de-cali",
+        "nome": "América de Cali",
+        "pais": "Colômbia"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1986,
+      "campeao": {
+        "id": "river-plate",
+        "nome": "River Plate",
+        "pais": "Argentina"
+      },
+      "vice": {
+        "id": "america-de-cali",
+        "nome": "América de Cali",
+        "pais": "Colômbia"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1987,
+      "campeao": {
+        "id": "penarol",
+        "nome": "Peñarol",
+        "pais": "Uruguai"
+      },
+      "vice": {
+        "id": "america-de-cali",
+        "nome": "América de Cali",
+        "pais": "Colômbia"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1988,
+      "campeao": {
+        "id": "nacional-uru",
+        "nome": "Nacional",
+        "pais": "Uruguai"
+      },
+      "vice": {
+        "id": "newells",
+        "nome": "Newell's Old Boys",
+        "pais": "Argentina"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1989,
+      "campeao": {
+        "id": "atletico-nacional",
+        "nome": "Atlético Nacional",
+        "pais": "Colômbia"
+      },
+      "vice": {
+        "id": "olimpia",
+        "nome": "Olimpia",
+        "pais": "Paraguai"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1990,
+      "campeao": {
+        "id": "olimpia",
+        "nome": "Olimpia",
+        "pais": "Paraguai"
+      },
+      "vice": {
+        "id": "barcelona-sc",
+        "nome": "Barcelona",
+        "pais": "Equador"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1991,
+      "campeao": {
+        "id": "colo-colo",
+        "nome": "Colo-Colo",
+        "pais": "Chile"
+      },
+      "vice": {
+        "id": "olimpia",
+        "nome": "Olimpia",
+        "pais": "Paraguai"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1992,
+      "campeao": {
+        "id": "sao-paulo",
+        "nome": "São Paulo",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "newells",
+        "nome": "Newell's Old Boys",
+        "pais": "Argentina"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1993,
+      "campeao": {
+        "id": "sao-paulo",
+        "nome": "São Paulo",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "universidad-catolica",
+        "nome": "Universidad Católica",
+        "pais": "Chile"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1994,
+      "campeao": {
+        "id": "velez",
+        "nome": "Vélez Sarsfield",
+        "pais": "Argentina"
+      },
+      "vice": {
+        "id": "sao-paulo",
+        "nome": "São Paulo",
+        "pais": "Brasil"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1995,
+      "campeao": {
+        "id": "gremio",
+        "nome": "Grêmio",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "atletico-nacional",
+        "nome": "Atlético Nacional",
+        "pais": "Colômbia"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1996,
+      "campeao": {
+        "id": "river-plate",
+        "nome": "River Plate",
+        "pais": "Argentina"
+      },
+      "vice": {
+        "id": "america-de-cali",
+        "nome": "América de Cali",
+        "pais": "Colômbia"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1997,
+      "campeao": {
+        "id": "cruzeiro",
+        "nome": "Cruzeiro",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "sporting-cristal",
+        "nome": "Sporting Cristal",
+        "pais": "Peru"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1998,
+      "campeao": {
+        "id": "vasco",
+        "nome": "Vasco",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "barcelona-sc",
+        "nome": "Barcelona",
+        "pais": "Equador"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 1999,
+      "campeao": {
+        "id": "palmeiras",
+        "nome": "Palmeiras",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "deportivo-cali",
+        "nome": "Deportivo Cali",
+        "pais": "Colômbia"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2000,
+      "campeao": {
+        "id": "boca-juniors",
+        "nome": "Boca Juniors",
+        "pais": "Argentina"
+      },
+      "vice": {
+        "id": "palmeiras",
+        "nome": "Palmeiras",
+        "pais": "Brasil"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2001,
+      "campeao": {
+        "id": "boca-juniors",
+        "nome": "Boca Juniors",
+        "pais": "Argentina"
+      },
+      "vice": {
+        "id": "cruz-azul",
+        "nome": "Cruz Azul",
+        "pais": "México"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2002,
+      "campeao": {
+        "id": "olimpia",
+        "nome": "Olimpia",
+        "pais": "Paraguai"
+      },
+      "vice": {
+        "id": "sao-caetano",
+        "nome": "São Caetano",
+        "pais": "Brasil"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2003,
+      "campeao": {
+        "id": "boca-juniors",
+        "nome": "Boca Juniors",
+        "pais": "Argentina"
+      },
+      "vice": {
+        "id": "santos",
+        "nome": "Santos",
+        "pais": "Brasil"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2004,
+      "campeao": {
+        "id": "once-caldas",
+        "nome": "Once Caldas",
+        "pais": "Colômbia"
+      },
+      "vice": {
+        "id": "boca-juniors",
+        "nome": "Boca Juniors",
+        "pais": "Argentina"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2005,
+      "campeao": {
+        "id": "sao-paulo",
+        "nome": "São Paulo",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "athletico-pr",
+        "nome": "Atlético Paranaense",
+        "pais": "Brasil"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2006,
+      "campeao": {
+        "id": "internacional",
+        "nome": "Internacional",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "sao-paulo",
+        "nome": "São Paulo",
+        "pais": "Brasil"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2007,
+      "campeao": {
+        "id": "boca-juniors",
+        "nome": "Boca Juniors",
+        "pais": "Argentina"
+      },
+      "vice": {
+        "id": "gremio",
+        "nome": "Grêmio",
+        "pais": "Brasil"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2008,
+      "campeao": {
+        "id": "ldu-quito",
+        "nome": "LDU Quito",
+        "pais": "Equador"
+      },
+      "vice": {
+        "id": "fluminense",
+        "nome": "Fluminense",
+        "pais": "Brasil"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2009,
+      "campeao": {
+        "id": "estudiantes",
+        "nome": "Estudiantes",
+        "pais": "Argentina"
+      },
+      "vice": {
+        "id": "cruzeiro",
+        "nome": "Cruzeiro",
+        "pais": "Brasil"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2010,
+      "campeao": {
+        "id": "internacional",
+        "nome": "Internacional",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "guadalajara",
+        "nome": "Guadalajara",
+        "pais": "México"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2011,
+      "campeao": {
+        "id": "santos",
+        "nome": "Santos",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "penarol",
+        "nome": "Peñarol",
+        "pais": "Uruguai"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2012,
+      "campeao": {
+        "id": "corinthians",
+        "nome": "Corinthians",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "boca-juniors",
+        "nome": "Boca Juniors",
+        "pais": "Argentina"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2013,
+      "campeao": {
+        "id": "atletico-mg",
+        "nome": "Atlético-MG",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "olimpia",
+        "nome": "Olimpia",
+        "pais": "Paraguai"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2014,
+      "campeao": {
+        "id": "san-lorenzo",
+        "nome": "San Lorenzo",
+        "pais": "Argentina"
+      },
+      "vice": {
+        "id": "nacional-par",
+        "nome": "Nacional",
+        "pais": "Paraguai"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2015,
+      "campeao": {
+        "id": "river-plate",
+        "nome": "River Plate",
+        "pais": "Argentina"
+      },
+      "vice": {
+        "id": "tigres",
+        "nome": "Tigres",
+        "pais": "México"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2016,
+      "campeao": {
+        "id": "atletico-nacional",
+        "nome": "Atlético Nacional",
+        "pais": "Colômbia"
+      },
+      "vice": {
+        "id": "independiente-del-valle",
+        "nome": "Independiente del Valle",
+        "pais": "Equador"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2017,
+      "campeao": {
+        "id": "gremio",
+        "nome": "Grêmio",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "lanus",
+        "nome": "Lanús",
+        "pais": "Argentina"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2018,
+      "campeao": {
+        "id": "river-plate",
+        "nome": "River Plate",
+        "pais": "Argentina"
+      },
+      "vice": {
+        "id": "boca-juniors",
+        "nome": "Boca Juniors",
+        "pais": "Argentina"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2019,
+      "campeao": {
+        "id": "flamengo",
+        "nome": "Flamengo",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "river-plate",
+        "nome": "River Plate",
+        "pais": "Argentina"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2020,
+      "campeao": {
+        "id": "palmeiras",
+        "nome": "Palmeiras",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "santos",
+        "nome": "Santos",
+        "pais": "Brasil"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2021,
+      "campeao": {
+        "id": "palmeiras",
+        "nome": "Palmeiras",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "flamengo",
+        "nome": "Flamengo",
+        "pais": "Brasil"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2022,
+      "campeao": {
+        "id": "flamengo",
+        "nome": "Flamengo",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "athletico-pr",
+        "nome": "Athletico Paranaense",
+        "pais": "Brasil"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2023,
+      "campeao": {
+        "id": "fluminense",
+        "nome": "Fluminense",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "boca-juniors",
+        "nome": "Boca Juniors",
+        "pais": "Argentina"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2024,
+      "campeao": {
+        "id": "botafogo",
+        "nome": "Botafogo",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "atletico-mg",
+        "nome": "Atlético-MG",
+        "pais": "Brasil"
+      },
+      "revisado": false
+    },
+    {
+      "ano": 2025,
+      "campeao": {
+        "id": "flamengo",
+        "nome": "Flamengo",
+        "pais": "Brasil"
+      },
+      "vice": {
+        "id": "palmeiras",
+        "nome": "Palmeiras",
+        "pais": "Brasil"
+      },
+      "revisado": false
+    }
+  ]
+}

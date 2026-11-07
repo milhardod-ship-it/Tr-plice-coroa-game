@@ -1,0 +1,665 @@
+{
+  "id": "vasco",
+  "nome": "Vasco",
+  "cores": {
+    "primaria": "#000000",
+    "secundaria": "#FFFFFF"
+  },
+  "temporadas": [
+    {
+      "ano": 1989,
+      "observacao": "Campeão Brasileiro (final contra o São Paulo no Morumbi)",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Acácio",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Luiz Carlos Winck",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Quiñónez",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Marco Aurélio",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Mazinho",
+          "posicao": "LE",
+          "alternativas": [
+            "VOL",
+            "MC"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Zé do Carmo",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Boiadeiro",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Andrade",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "William",
+          "posicao": "MEI",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Bismarck",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD",
+            "PE"
+          ],
+          "nota": 83
+        },
+        {
+          "nome": "Bebeto",
+          "posicao": "ATA",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 90
+        },
+        {
+          "nome": "Sorato",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74
+        }
+      ]
+    },
+    {
+      "ano": 1997,
+      "observacao": "Campeão Brasileiro; Edmundo artilheiro com recorde de gols",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Carlos Germano",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Maricá",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Odvan",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Mauro Galvão",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Felipe",
+          "posicao": "LE",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Luisinho",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Nasa",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Juninho Pernambucano",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Ramon",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Pedrinho",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Edmundo",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 95
+        },
+        {
+          "nome": "Evair",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 84
+        }
+      ]
+    },
+    {
+      "ano": 1998,
+      "observacao": "Campeão da Libertadores (final contra o Barcelona-EQU), ano do centenário",
+      "titulos": [
+        "Copa Libertadores"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Carlos Germano",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Vágner",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Odvan",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Mauro Galvão",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Felipe",
+          "posicao": "LE",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Luisinho",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Nasa",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Juninho Pernambucano",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Ramon",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Pedrinho",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Donizete",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Luizão",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 84
+        }
+      ]
+    },
+    {
+      "ano": 2000,
+      "observacao": "Campeão da Copa Mercosul (virada de 4 a 3 sobre o Palmeiras) e da Copa João Havelange",
+      "titulos": [
+        "Copa Mercosul",
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Helton",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Clébson",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Odvan",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Júnior Baiano",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Mauro Galvão",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Jorginho Paulista",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Felipe",
+          "posicao": "LE",
+          "alternativas": [
+            "MEI",
+            "PE"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Jorginho",
+          "posicao": "VOL",
+          "alternativas": [
+            "LD"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Nasa",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Juninho Pernambucano",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 86
+        },
+        {
+          "nome": "Juninho Paulista",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Pedrinho",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Euller",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Romário",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 95
+        }
+      ]
+    },
+    {
+      "ano": 2011,
+      "observacao": "Campeão da Copa do Brasil e vice-campeão brasileiro",
+      "titulos": [
+        "Copa do Brasil"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fernando Prass",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Fagner",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Allan",
+          "posicao": "LD",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 68
+        },
+        {
+          "nome": "Dedé",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Anderson Martins",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Márcio Careca",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Rômulo",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Nilton",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Eduardo Costa",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Jumar",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 66
+        },
+        {
+          "nome": "Felipe",
+          "posicao": "MEI",
+          "alternativas": [
+            "MC",
+            "LE"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Juninho Pernambucano",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Diego Souza",
+          "posicao": "MEI",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Bernardo",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 68
+        },
+        {
+          "nome": "Éder Luís",
+          "posicao": "PD",
+          "alternativas": [
+            "PE",
+            "ATA"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Alecsandro",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Elton",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 70
+        }
+      ]
+    },
+    {
+      "ano": 2024,
+      "observacao": "Semifinalista da Copa do Brasil; Payet e a volta de Philippe Coutinho",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Léo Jardim",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Paulo Henrique",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Puma Rodríguez",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "João Victor",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Maicon",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Léo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Lucas Piton",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Hugo Moura",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Sforza",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "Jair",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Mateus Carvalho",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Payet",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Philippe Coutinho",
+          "posicao": "MEI",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "David",
+          "posicao": "PE",
+          "alternativas": [
+            "PD",
+            "ATA"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Adson",
+          "posicao": "PD",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "Rayan",
+          "posicao": "PD",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 68
+        },
+        {
+          "nome": "Emerson Rodríguez",
+          "posicao": "PE",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Vegetti",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        }
+      ]
+    }
+  ]
+}

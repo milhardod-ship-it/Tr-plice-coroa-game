@@ -320,3 +320,10 @@ summary { padding: 14px; font-weight: 700; min-height: 48px; }
 .stats div { padding: 10px 4px; border-radius: 12px; background: var(--painel); border: 1px solid var(--borda); text-align: center; }
 .stats b { display: block; font-size: 20px; font-weight: 900; }
 .stats small { font-size: 11px; color: var(--fraco); }
+
+/* ================= Etapa 4: rivais ================= */
+.abas { grid-template-columns: repeat(5, 1fr); gap: 4px; }
+.abas button { font-size: 12px; padding: 0 2px; }
+.duvida { display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px; margin-left: 6px; border-radius: 50%; background: #f59e0b; color: #1a1000; font-size: 12px; font-weight: 900; vertical-align: 1px; }
+.nome-rival { color: var(--texto); font-size: 15px; }
+.sep-reservas { list-style: none; margin: 12px 0 2px 6px; font-size: 11px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; color: var(--fraco); }

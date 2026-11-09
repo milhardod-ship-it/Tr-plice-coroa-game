@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import { escalarAutomatico, simularPartida, timeDoDraft, type ResultadoPartida } from '../../core/motor';
+import { simularPartida, timeDoDraft, type ResultadoPartida } from '../../core/motor';
 import { Rng } from '../../core/rng';
-import { CLUBES } from '../../dados';
+import { POOL } from '../../dados';
 import { Placar } from '../componentes/Placar';
 import { novaSeed } from '../persistencia';
 import { forcaGeral, type EstadoDraft } from '../../core/draft';
@@ -43,12 +43,10 @@ export function TimeCompleto({
 
   const [amistoso, setAmistoso] = useState<{ nomeB: string; r: ResultadoPartida } | null>(null);
   const jogarAmistoso = () => {
-    // Adversário: qualquer temporada cadastrada (de qualquer clube), escalada automaticamente.
+    // Adversário: qualquer time histórico do pool (finalistas + temporadas dos clubes).
     const rng = new Rng(novaSeed());
-    const pool = CLUBES.flatMap((c) => c.temporadas.map((t) => ({ c, t })));
-    const { c, t } = rng.item(pool);
+    const adv = rng.item(POOL).time;
     const meu = timeDoDraft(estado, 'meu', `Seu ${clube.nome}`);
-    const adv = { id: c.id, nome: `${c.nome} ${t.ano}`, estilo: 'equilibrado' as const, escalacao: escalarAutomatico(t.jogadores) };
     setAmistoso({ nomeB: adv.nome, r: simularPartida(meu, adv, rng) });
   };
 

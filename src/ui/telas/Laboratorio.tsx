@@ -1,25 +1,15 @@
 import { useMemo, useState } from 'react';
 import type { Estilo } from '../../core/draft';
-import { escalarAutomatico, estatisticas, forcas, mediasDeGols, simularPartida, type Mando, type ResultadoPartida, type Time } from '../../core/motor';
+import { estatisticas, forcas, mediasDeGols, simularPartida, type Mando, type ResultadoPartida, type Time } from '../../core/motor';
 import { Rng } from '../../core/rng';
-import { CLUBES } from '../../dados';
+import { POOL } from '../../dados';
 import { Placar } from '../componentes/Placar';
 import { novaSeed } from '../persistencia';
 
-/** Todas as temporadas cadastradas viram times escalados automaticamente. */
-function opcoes(): Time[] {
-  return CLUBES.flatMap((c) =>
-    c.temporadas.map((t) => ({
-      id: `${c.id}-${t.ano}`, nome: `${c.nome} ${t.ano}`, ano: t.ano, estilo: 'equilibrado' as Estilo,
-      escalacao: escalarAutomatico(t.jogadores),
-    })),
-  );
-}
-
 export function Laboratorio() {
-  const times = useMemo(opcoes, []);
-  const [ia, setIa] = useState(0);
-  const [ib, setIb] = useState(Math.min(1, times.length - 1));
+  const times = useMemo(() => POOL.map((p) => p.time), []);
+  const [ia, setIa] = useState(() => Math.max(0, times.findIndex((t) => t.id === 'flamengo-1981')));
+  const [ib, setIb] = useState(() => Math.max(0, times.findIndex((t) => t.id === 'boca-juniors-2000')));
   const [estiloA, setEstiloA] = useState<Estilo>('equilibrado');
   const [mando, setMando] = useState<Mando>('neutro');
   const [mataMata, setMataMata] = useState(false);

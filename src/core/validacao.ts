@@ -42,6 +42,7 @@ function validarJogador(j: Jogador, onde: string, erros: string[]) {
       if (a === j.posicao) erros.push(`${quem}: alternativa repete a posição principal.`);
     }
   }
+  if (j.duvida !== undefined && typeof j.duvida !== 'boolean') erros.push(`${quem}: "duvida" deve ser true ou false.`);
   if (!Number.isInteger(j.nota) || j.nota < NOTA_MIN || j.nota > NOTA_MAX) {
     erros.push(`${quem}: nota ${j.nota} fora do intervalo ${NOTA_MIN}–${NOTA_MAX}.`);
   }
@@ -102,6 +103,8 @@ export function validarDados(
       if (!Array.isArray(t.titulos)) erros.push(`${onde}: "titulos" deve ser uma lista.`);
       const js = t.jogadores ?? [];
       js.forEach((j) => validarJogador(j, onde, erros));
+      const duv = js.filter((j) => j.duvida).length;
+      if (duv) avisos.push(`${onde}: ${duv} jogador(es) marcados como dúvida.`);
 
       const nomes = new Set<string>();
       for (const j of js) {
@@ -139,7 +142,12 @@ export function validarDados(
     if ((a.reservas?.length ?? 0) > 3) erros.push(`${onde}: mais de 3 reservas.`);
     const todos = [...(a.titulares ?? []), ...(a.reservas ?? [])];
     todos.forEach((j) => validarJogador(j, onde, erros));
-    if (!(a.titulares ?? []).some((j) => j.posicao === 'GOL')) erros.push(`${onde}: nenhum goleiro entre os titulares.`);
+    const goleiros = (a.titulares ?? []).filter((j) => j.posicao === 'GOL').length;
+    if (goleiros !== 1) erros.push(`${onde}: precisa de exatamente 1 goleiro titular (tem ${goleiros}).`);
+    const nomes = todos.map((j) => j.nome);
+    if (new Set(nomes).size !== nomes.length) erros.push(`${onde}: jogador repetido no elenco.`);
+    const duvidas = todos.filter((j) => j.duvida).length;
+    if (duvidas) avisos.push(`${onde}: ${duvidas} jogador(es) marcados como dúvida.`);
   }
 
   // ---- Finalistas ----

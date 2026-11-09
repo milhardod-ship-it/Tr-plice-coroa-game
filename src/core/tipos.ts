@@ -28,6 +28,8 @@ export interface Jogador {
   alternativas: Posicao[];
   /** Nota do jogador NAQUELA temporada (40–99), não na carreira. */
   nota: number;
+  /** true = baixa confiança de que estava neste elenco (revisar primeiro). */
+  duvida?: boolean;
 }
 
 export interface Temporada {

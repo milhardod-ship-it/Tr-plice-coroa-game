@@ -1,1 +1,5004 @@
-{ "adversarios": [] }
+{
+  "adversarios": [
+    {
+      "id": "nacional-uru",
+      "nome": "Nacional",
+      "pais": "Uruguai",
+      "ano": 1980,
+      "observacao": "Campeão da Libertadores 1980 (final contra o Internacional)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Rodolfo Rodríguez",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "José Moreira",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Hugo De León",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Juan Carlos Blanco",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Daniel Enríquez",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Eduardo De la Peña",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Alberto Bica",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 77,
+          "duvida": true
+        },
+        {
+          "nome": "Arsenio Luzardo",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 79,
+          "duvida": true
+        },
+        {
+          "nome": "Denis Milar",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Julio César Morales",
+          "posicao": "MEI",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Waldemar Victorino",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 86
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "cobreloa",
+      "nome": "Cobreloa",
+      "pais": "Chile",
+      "ano": 1981,
+      "observacao": "Vice da Libertadores 1981 (final contra o Flamengo)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Óscar Wirth",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Raúl Tabilo",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Mario Soto",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Enzo Escobar",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Héctor Puebla",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Eduardo Jiménez",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Rubén Gómez",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Armando Alarcón",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Víctor Merello",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Jorge Siviero",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Washington Olivera",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "cobreloa",
+      "nome": "Cobreloa",
+      "pais": "Chile",
+      "ano": 1982,
+      "observacao": "Vice da Libertadores 1982 (final contra o Peñarol)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Óscar Wirth",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Raúl Tabilo",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Mario Soto",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Enzo Escobar",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Héctor Puebla",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Eduardo Jiménez",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Rubén Gómez",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Armando Alarcón",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Víctor Merello",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Jorge Siviero",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Washington Olivera",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "penarol",
+      "nome": "Peñarol",
+      "pais": "Uruguai",
+      "ano": 1982,
+      "observacao": "Campeão da Libertadores 1982 (final contra o Cobreloa)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Gustavo Fernández",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Víctor Diogo",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Walter Olivera",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Nelson Gutiérrez",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Juan Vicente Morales",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Miguel Bossio",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Mario Saralegui",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Jair",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Ernesto Vargas",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Venancio Ramos",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Fernando Morena",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 90
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "penarol",
+      "nome": "Peñarol",
+      "pais": "Uruguai",
+      "ano": 1983,
+      "observacao": "Vice da Libertadores 1983 (final contra o Grêmio)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Gustavo Fernández",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Víctor Diogo",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Walter Olivera",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Nelson Gutiérrez",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Juan Vicente Morales",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Miguel Bossio",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Mario Saralegui",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Jair",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80,
+          "duvida": true
+        },
+        {
+          "nome": "Ernesto Vargas",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Venancio Ramos",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 80,
+          "duvida": true
+        },
+        {
+          "nome": "Fernando Morena",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 86
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "independiente",
+      "nome": "Independiente",
+      "pais": "Argentina",
+      "ano": 1984,
+      "observacao": "Campeão da Libertadores 1984 (final contra o Grêmio)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Carlos Goyén",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Néstor Clausen",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Hugo Villaverde",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Enzo Trossero",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Carlos Enrique",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Ricardo Giusti",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Claudio Marangoni",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Ricardo Bochini",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 92
+        },
+        {
+          "nome": "Jorge Burruchaga",
+          "posicao": "MEI",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 86
+        },
+        {
+          "nome": "Alejandro Barberón",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "José Percudani",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Gerardo Reinoso",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "america-de-cali",
+      "nome": "América de Cali",
+      "pais": "Colômbia",
+      "ano": 1985,
+      "observacao": "Vice da Libertadores 1985 (final contra o Argentinos Juniors)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Julio César Falcioni",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Víctor Luna",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Luis Eduardo Reyes",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Gonzalo Soto",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Jorge Porras",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Pedro Sarmiento",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Hernán Darío Herrera",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Juan Manuel Battaglia",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Willington Ortiz",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Roberto Cabañas",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Ricardo Gareca",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 84
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Antony de Ávila",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ]
+    },
+    {
+      "id": "argentinos-juniors",
+      "nome": "Argentinos Juniors",
+      "pais": "Argentina",
+      "ano": 1985,
+      "observacao": "Campeão da Libertadores 1985 (final contra o América de Cali)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Enrique Vidallé",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Jorge Olguín",
+          "posicao": "LD",
+          "alternativas": [
+            "ZAG"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "José Luis Pavoni",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Carmelo Villalba",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Adrián Domenech",
+          "posicao": "LE",
+          "alternativas": [
+            "ZAG"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Sergio Batista",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Mario Videla",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Claudio Borghi",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 88
+        },
+        {
+          "nome": "Emilio Commisso",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Carlos Ereros",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "José Antonio Castro",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Renato Corsi",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "america-de-cali",
+      "nome": "América de Cali",
+      "pais": "Colômbia",
+      "ano": 1986,
+      "observacao": "Vice da Libertadores 1986 (final contra o River Plate)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Julio César Falcioni",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Víctor Luna",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Luis Eduardo Reyes",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Gonzalo Soto",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Jorge Porras",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Pedro Sarmiento",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Hernán Darío Herrera",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Juan Manuel Battaglia",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Willington Ortiz",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Roberto Cabañas",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Ricardo Gareca",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 84
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Antony de Ávila",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ]
+    },
+    {
+      "id": "river-plate",
+      "nome": "River Plate",
+      "pais": "Argentina",
+      "ano": 1986,
+      "observacao": "Campeão da Libertadores 1986 (final contra o América de Cali)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Nery Pumpido",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Jorge Gordillo",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Oscar Ruggeri",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Nelson Gutiérrez",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Alejandro Montenegro",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Héctor Enrique",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Américo Gallego",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Norberto Alonso",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 88
+        },
+        {
+          "nome": "Antonio Alzamendi",
+          "posicao": "PD",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Roque Alfaro",
+          "posicao": "MEI",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Juan Gilberto Funes",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "america-de-cali",
+      "nome": "América de Cali",
+      "pais": "Colômbia",
+      "ano": 1987,
+      "observacao": "Vice da Libertadores 1987 (final contra o Peñarol)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Julio César Falcioni",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Víctor Luna",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Luis Eduardo Reyes",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Gonzalo Soto",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Jorge Porras",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Pedro Sarmiento",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Hernán Darío Herrera",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Juan Manuel Battaglia",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Antony de Ávila",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Roberto Cabañas",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Ricardo Gareca",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "penarol",
+      "nome": "Peñarol",
+      "pais": "Uruguai",
+      "ano": 1987,
+      "observacao": "Campeão da Libertadores 1987 (final contra o América de Cali)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Eduardo Pereira",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "José Herrera",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Obdulio Trasante",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Marcelo Rotti",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Alfonso Domínguez",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "José Perdomo",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Eduardo da Silva",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Jorge Cabrera",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Ricardo Viera",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Daniel Vidal",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Diego Aguirre",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 84
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "nacional-uru",
+      "nome": "Nacional",
+      "pais": "Uruguai",
+      "ano": 1988,
+      "observacao": "Campeão da Libertadores 1988 (final contra o Newell's Old Boys)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Jorge Seré",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Tony Gómez",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Hugo De León",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Felipe Revelez",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "José Pintos Saldanha",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Jorge Cardaccio",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Santiago Ostolaza",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "William Castro",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Yubert Lemos",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Héctor Morán",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Juan Carlos De Lima",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "newells",
+      "nome": "Newell's Old Boys",
+      "pais": "Argentina",
+      "ano": 1988,
+      "observacao": "Vice da Libertadores 1988 (final contra o Nacional)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Norberto Scoponi",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Fabián Basualdo",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "José Theiler",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Juan Manuel Llop",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Roberto Sensini",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Juan Ramón Rocha",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Gerardo Martino",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Sergio Almirón",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80,
+          "duvida": true
+        },
+        {
+          "nome": "Julio Zamora",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Abel Balbo",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80,
+          "duvida": true
+        },
+        {
+          "nome": "Gabriel Batistuta",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "atletico-nacional",
+      "nome": "Atlético Nacional",
+      "pais": "Colômbia",
+      "ano": 1989,
+      "observacao": "Campeão da Libertadores 1989 (final contra o Olimpia)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "René Higuita",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Gildardo Gómez",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Andrés Escobar",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Luis Carlos Perea",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "León Villa",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Leonel Álvarez",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Alexis García",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Luis Fernando Herrera",
+          "posicao": "MC",
+          "alternativas": [
+            "LD"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Felipe Pérez",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "John Jairo Tréllez",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Albeiro Usuriaga",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "olimpia",
+      "nome": "Olimpia",
+      "pais": "Paraguai",
+      "ano": 1989,
+      "observacao": "Vice da Libertadores 1989 (final contra o Atlético Nacional)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Ever Almeida",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Vidal Sanabria",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Rogelio Delgado",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Marcial Cáceres",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Silvio Suárez",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Jorge Guasch",
+          "posicao": "VOL",
+          "alternativas": [
+            "ZAG"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Fermín Balbuena",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Luis Monzón",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Gabriel González",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Raúl Vicente Amarilla",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Adriano Samaniego",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "barcelona-sc",
+      "nome": "Barcelona",
+      "pais": "Equador",
+      "ano": 1990,
+      "observacao": "Vice da Libertadores 1990 (final contra o Olimpia)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Carlos Luis Morales",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "Jimmy Izquierdo",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Holger Quiñónez",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Luis Gómez",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Raúl Noriega",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Héctor Chiriboga",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Rubén Darío Insúa",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80,
+          "duvida": true
+        },
+        {
+          "nome": "Marcelo Trobbiani",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "Pietro Marsetti",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Carlos Muñoz",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80,
+          "duvida": true
+        },
+        {
+          "nome": "Raúl Avilés",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "olimpia",
+      "nome": "Olimpia",
+      "pais": "Paraguai",
+      "ano": 1990,
+      "observacao": "Campeão da Libertadores 1990 (final contra o Barcelona)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Ever Almeida",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Vidal Sanabria",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Rogelio Delgado",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Marcial Cáceres",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Silvio Suárez",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Jorge Guasch",
+          "posicao": "VOL",
+          "alternativas": [
+            "ZAG"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Fermín Balbuena",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Luis Monzón",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Gabriel González",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Raúl Vicente Amarilla",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 85
+        },
+        {
+          "nome": "Adriano Samaniego",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "colo-colo",
+      "nome": "Colo-Colo",
+      "pais": "Chile",
+      "ano": 1991,
+      "observacao": "Campeão da Libertadores 1991 (final contra o Olimpia)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Daniel Morón",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Lizardo Garrido",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Javier Margas",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Miguel Ramírez",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Gabriel Mendoza",
+          "posicao": "LE",
+          "alternativas": [
+            "LD"
+          ],
+          "nota": 80,
+          "duvida": true
+        },
+        {
+          "nome": "Jaime Pizarro",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Eduardo Vilches",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Gustavo Peralta",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "Marcelo Barticciotto",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Patricio Yáñez",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Rubén Martínez",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Leonel Herrera",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Hugo Rubio",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "olimpia",
+      "nome": "Olimpia",
+      "pais": "Paraguai",
+      "ano": 1991,
+      "observacao": "Vice da Libertadores 1991 (final contra o Colo-Colo)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Ever Almeida",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Vidal Sanabria",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Rogelio Delgado",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "Marcial Cáceres",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Silvio Suárez",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Jorge Guasch",
+          "posicao": "VOL",
+          "alternativas": [
+            "ZAG"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Fermín Balbuena",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Luis Monzón",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80,
+          "duvida": true
+        },
+        {
+          "nome": "Gabriel González",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Raúl Vicente Amarilla",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82,
+          "duvida": true
+        },
+        {
+          "nome": "Adriano Samaniego",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80,
+          "duvida": true
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "newells",
+      "nome": "Newell's Old Boys",
+      "pais": "Argentina",
+      "ano": 1992,
+      "observacao": "Vice da Libertadores 1992 (final contra o São Paulo)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Norberto Scoponi",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Fernando Gamboa",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Mauricio Pochettino",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Eduardo Berizzo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Juan Manuel Llop",
+          "posicao": "LD",
+          "alternativas": [
+            "ZAG"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Julio Saldaña",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Alfredo Berti",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Gerardo Martino",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Julio Zamora",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Ricardo Lunari",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Alfredo Mendoza",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Cristian Domizzi",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "universidad-catolica",
+      "nome": "Universidad Católica",
+      "pais": "Chile",
+      "ano": 1993,
+      "observacao": "Vice da Libertadores 1993 (final contra o São Paulo)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Patricio Toledo",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Andrés Romero",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Miguel Ardiman",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Raúl Ormeño",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Juan Carlos Almada",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Mario Lepe",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Rodrigo Barrera",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Néstor Gorosito",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Raimundo Tupper",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Ricardo Lunari",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "Luka Tudor",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "velez",
+      "nome": "Vélez Sarsfield",
+      "pais": "Argentina",
+      "ano": 1994,
+      "observacao": "Campeão da Libertadores 1994 (final contra o São Paulo)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "José Luis Chilavert",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 88
+        },
+        {
+          "nome": "Héctor Almandoz",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Roberto Trotta",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Víctor Sotomayor",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Raúl Cardozo",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Marcelo Gómez",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "José Basualdo",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Christian Bassedas",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Roberto Pompei",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Omar Asad",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "José Flores",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Marcelo Herrera",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "atletico-nacional",
+      "nome": "Atlético Nacional",
+      "pais": "Colômbia",
+      "ano": 1995,
+      "observacao": "Vice da Libertadores 1995 (final contra o Grêmio)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "René Higuita",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Wilmer Cabrera",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "José Fernando Santa",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Alexis Mendoza",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Gildardo Gómez",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Mauricio Serna",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Óscar Pareja",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Hernán Gaviria",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Jorge Ramírez",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Víctor Aristizábal",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Juan Pablo Ángel",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "america-de-cali",
+      "nome": "América de Cali",
+      "pais": "Colômbia",
+      "ano": 1996,
+      "observacao": "Vice da Libertadores 1996 (final contra o River Plate)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Óscar Córdoba",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82,
+          "duvida": true
+        },
+        {
+          "nome": "Wilmer Cabrera",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Jorge Bermúdez",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80,
+          "duvida": true
+        },
+        {
+          "nome": "Alexis Mendoza",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Jorge Porras",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Wilson Pérez",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Leonel Álvarez",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "Jersson González",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Alexander Viveros",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Alex Escobar",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "Antony de Ávila",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "river-plate",
+      "nome": "River Plate",
+      "pais": "Argentina",
+      "ano": 1996,
+      "observacao": "Campeão da Libertadores 1996 (final contra o América de Cali)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Germán Burgos",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Hernán Díaz",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Celso Ayala",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Eduardo Berizzo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Juan Pablo Sorín",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Leonardo Astrada",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Matías Almeyda",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Ariel Ortega",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Enzo Francescoli",
+          "posicao": "MEI",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Marcelo Gallardo",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Hernán Crespo",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 86
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Julio Cruz",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Sergio Berti",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "sporting-cristal",
+      "nome": "Sporting Cristal",
+      "pais": "Peru",
+      "ano": 1997,
+      "observacao": "Vice da Libertadores 1997 (final contra o Cruzeiro)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Julio César Balerio",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80,
+          "duvida": true
+        },
+        {
+          "nome": "Martín Hidalgo",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Pedro Garay",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Marco Valencia",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Germán Pinillos",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Jorge Soto",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Juan Carlos Bazalar",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Julinho",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Roberto Palacios",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Luis Bonnet",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Flavio Maestri",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "barcelona-sc",
+      "nome": "Barcelona",
+      "pais": "Equador",
+      "ano": 1998,
+      "observacao": "Vice da Libertadores 1998 (final contra o Vasco)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "José Francisco Cevallos",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Luis Capurro",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Alberto Montaño",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Raúl Noriega",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Jimmy Montanero",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Byron Tenorio",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Edwin Villafuerte",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Marcelo Fleitas",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Ariel Graziani",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80,
+          "duvida": true
+        },
+        {
+          "nome": "Nicolás Asencio",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "Agustín Delgado",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "deportivo-cali",
+      "nome": "Deportivo Cali",
+      "pais": "Colômbia",
+      "ano": 1999,
+      "observacao": "Vice da Libertadores 1999 (final contra o Palmeiras)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Miguel Calero",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Andrés Pérez",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Mario Yepes",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Martín Zapata",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Wilson Cano",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Gerardo Bedoya",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "Jhon Mario Ramírez",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Óscar Pareja",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Sergio Herrera",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Víctor Bonilla",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Jairo Castillo",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "boca-juniors",
+      "nome": "Boca Juniors",
+      "pais": "Argentina",
+      "ano": 2000,
+      "observacao": "Campeão da Libertadores 2000 (final contra o Palmeiras)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Óscar Córdoba",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Hugo Ibarra",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Jorge Bermúdez",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Walter Samuel",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Rodolfo Arruabarrena",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Mauricio Serna",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Sebastián Battaglia",
+          "posicao": "MC",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Juan Román Riquelme",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 91
+        },
+        {
+          "nome": "Guillermo Barros Schelotto",
+          "posicao": "PD",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Marcelo Delgado",
+          "posicao": "PE",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Martín Palermo",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 86
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "José Basualdo",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Antonio Barijho",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76
+        }
+      ]
+    },
+    {
+      "id": "boca-juniors",
+      "nome": "Boca Juniors",
+      "pais": "Argentina",
+      "ano": 2001,
+      "observacao": "Campeão da Libertadores 2001 (final contra o Cruz Azul)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Óscar Córdoba",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Hugo Ibarra",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Jorge Bermúdez",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Nicolás Burdisso",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Clemente Rodríguez",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Mauricio Serna",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Cristian Traverso",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Sebastián Battaglia",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Juan Román Riquelme",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 92
+        },
+        {
+          "nome": "Marcelo Delgado",
+          "posicao": "PE",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Guillermo Barros Schelotto",
+          "posicao": "PD",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 82
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Antonio Barijho",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Aníbal Matellán",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "cruz-azul",
+      "nome": "Cruz Azul",
+      "pais": "México",
+      "ano": 2001,
+      "observacao": "Vice da Libertadores 2001 (final contra o Boca Juniors)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Óscar Pérez",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Juan de Dios Ramírez Perales",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Sergio Almaguer",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Melvin Brown",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Joel Huiqui",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Gerardo Galindo",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Juan Pablo Rodríguez",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Cesáreo Victorino",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Pedro Pineda",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Arnold Cruz",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Francisco Palencia",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "olimpia",
+      "nome": "Olimpia",
+      "pais": "Paraguai",
+      "ano": 2002,
+      "observacao": "Campeão da Libertadores 2002 (final contra o São Caetano)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Ricardo Tavarelli",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Néstor Isasi",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Julio César Cáceres",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Juan Carlos Franco",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Pedro Benítez",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Julio César Enciso",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Gastón Córdoba",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Sergio Órteman",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Hernán Rodrigo López",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "Richart Báez",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Miguel Ángel Benítez",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Mauro Caballero",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "sao-caetano",
+      "nome": "São Caetano",
+      "pais": "Brasil",
+      "ano": 2002,
+      "observacao": "Vice da Libertadores 2002 (final contra o Olimpia)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Sílvio Luiz",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Mancini",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Serginho",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Dininho",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Rubens Cardoso",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Marlon",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Aílton",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Adãozinho",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Anaílson",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "Esquerdinha",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Brandão",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Somália",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "boca-juniors",
+      "nome": "Boca Juniors",
+      "pais": "Argentina",
+      "ano": 2003,
+      "observacao": "Campeão da Libertadores 2003 (final contra o Santos)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Roberto Abbondanzieri",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Hugo Ibarra",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Rolando Schiavi",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Nicolás Burdisso",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Clemente Rodríguez",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Raúl Cascini",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Sebastián Battaglia",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Diego Cagna",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Guillermo Barros Schelotto",
+          "posicao": "PD",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Marcelo Delgado",
+          "posicao": "PE",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Carlos Tevez",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 86
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Matías Donnet",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76
+        }
+      ]
+    },
+    {
+      "id": "boca-juniors",
+      "nome": "Boca Juniors",
+      "pais": "Argentina",
+      "ano": 2004,
+      "observacao": "Vice da Libertadores 2004 (final contra o Once Caldas)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Roberto Abbondanzieri",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Hugo Ibarra",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "Rolando Schiavi",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Luis Perea",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Clemente Rodríguez",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Raúl Cascini",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Fabián Vargas",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Diego Cagna",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Neri Cardozo",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Guillermo Barros Schelotto",
+          "posicao": "PD",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Carlos Tevez",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 88
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Nicolás Burdisso",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "once-caldas",
+      "nome": "Once Caldas",
+      "pais": "Colômbia",
+      "ano": 2004,
+      "observacao": "Campeão da Libertadores 2004 (final contra o Boca Juniors)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Juan Carlos Henao",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Edwin Cubillos",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Samuel Vanegas",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Catalino Rivarola",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Herly Alcázar",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "John Viáfara",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Rubén Darío Velásquez",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Elkin Soto",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Jorge Agudelo",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Arnubio Valencia",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Sergio Galván Rey",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Dayro Moreno",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "athletico-pr",
+      "nome": "Atlético Paranaense",
+      "pais": "Brasil",
+      "ano": 2005,
+      "observacao": "Vice da Libertadores 2005 (final contra o São Paulo)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Diego",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Jancarlos",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Marcão",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Danilo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Michel",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Fernandinho",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Cocito",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Evandro",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Jádson",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Dagoberto",
+          "posicao": "PE",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Aloísio",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Lima",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "boca-juniors",
+      "nome": "Boca Juniors",
+      "pais": "Argentina",
+      "ano": 2007,
+      "observacao": "Campeão da Libertadores 2007 (final contra o Grêmio)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Mauricio Caranta",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Hugo Ibarra",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Daniel Díaz",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Matías Silvestre",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Claudio Morel Rodríguez",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Sebastián Battaglia",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Éver Banega",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Pablo Ledesma",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Juan Román Riquelme",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 92
+        },
+        {
+          "nome": "Rodrigo Palacio",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 85
+        },
+        {
+          "nome": "Martín Palermo",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 84
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Neri Cardozo",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 76
+        }
+      ]
+    },
+    {
+      "id": "ldu-quito",
+      "nome": "LDU Quito",
+      "pais": "Equador",
+      "ano": 2008,
+      "observacao": "Campeão da Libertadores 2008 (final contra o Fluminense)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "José Francisco Cevallos",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Neicer Reasco",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Norberto Araujo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Jairo Campos",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Paúl Ambrosi",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Enrique Vera",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Patricio Urrutia",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Damián Manso",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Joffre Guerrón",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Luis Bolaños",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Claudio Bieler",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Renán Calle",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "estudiantes",
+      "nome": "Estudiantes",
+      "pais": "Argentina",
+      "ano": 2009,
+      "observacao": "Campeão da Libertadores 2009 (final contra o Cruzeiro)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Mariano Andújar",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Christian Cellay",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Leandro Desábato",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Germán Ré",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Juan Manuel Díaz",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Rodrigo Braña",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Juan Sebastián Verón",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 88
+        },
+        {
+          "nome": "Leandro Benítez",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Enzo Pérez",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Gastón Fernández",
+          "posicao": "ATA",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Mauro Boselli",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 84
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Marcos Angeleri",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74
+        }
+      ]
+    },
+    {
+      "id": "guadalajara",
+      "nome": "Guadalajara",
+      "pais": "México",
+      "ano": 2010,
+      "observacao": "Vice da Libertadores 2010 (final contra o Internacional)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Luis Ernesto Michel",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Omar Esparza",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Jonny Magallón",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Héctor Reynoso",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Mario de Luna",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Patricio Araujo",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Xavier Báez",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Adolfo Bautista",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Marco Fabián",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Alberto Medina",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Omar Bravo",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Javier Hernández",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "penarol",
+      "nome": "Peñarol",
+      "pais": "Uruguai",
+      "ano": 2011,
+      "observacao": "Vice da Libertadores 2011 (final contra o Santos)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Sebastián Sosa",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Alejandro González",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Guillermo Rodríguez",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Carlos Valdez",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Darío Rodríguez",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Nicolás Freitas",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Matías Corujo",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Luis Aguiar",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Antonio Pacheco",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Juan Manuel Olivera",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Alejandro Martinuccio",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Fabián Estoyanoff",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "boca-juniors",
+      "nome": "Boca Juniors",
+      "pais": "Argentina",
+      "ano": 2012,
+      "observacao": "Vice da Libertadores 2012 (final contra o Corinthians)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Agustín Orión",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Franco Sosa",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Rolando Schiavi",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Matías Caruzzo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Clemente Rodríguez",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Leandro Somoza",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Walter Erviti",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Diego Rivero",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Juan Román Riquelme",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Pablo Mouche",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Santiago Silva",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Darío Cvitanich",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "olimpia",
+      "nome": "Olimpia",
+      "pais": "Paraguai",
+      "ano": 2013,
+      "observacao": "Vice da Libertadores 2013 (final contra o Atlético-MG)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Martín Silva",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Miguel Paniagua",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Salustiano Candia",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Julio Manzur",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Herminio Miranda",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Eduardo Aranda",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Wilson Pittoni",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Juan Manuel Salgueiro",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Alejandro Silva",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Fredy Bareiro",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Juan Carlos Ferreyra",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Richard Ortiz",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "nacional-par",
+      "nome": "Nacional",
+      "pais": "Paraguai",
+      "ano": 2014,
+      "observacao": "Vice da Libertadores 2014 (final contra o San Lorenzo)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Ignacio Don",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Marcos Riveros",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Ramón Coronel",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Iván Ramírez",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Silvio Torales",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Derlis Orué",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Marcos Melgarejo",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Fredy Bareiro",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Brian Montenegro",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Juan Manuel Salgueiro",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Julián Benítez",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "san-lorenzo",
+      "nome": "San Lorenzo",
+      "pais": "Argentina",
+      "ano": 2014,
+      "observacao": "Campeão da Libertadores 2014 (final contra o Nacional)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Sebastián Torrico",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Julio Buffarini",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Mario Yepes",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Walter Kannemann",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Emmanuel Más",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Juan Mercier",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Néstor Ortigoza",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Enzo Kalinski",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Leandro Romagnoli",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Ignacio Piatti",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Mauro Matos",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Héctor Villalba",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Martín Cauteruccio",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Santiago Gentiletti",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "river-plate",
+      "nome": "River Plate",
+      "pais": "Argentina",
+      "ano": 2015,
+      "observacao": "Campeão da Libertadores 2015 (final contra o Tigres)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Marcelo Barovero",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Gabriel Mercado",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Jonatan Maidana",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Ramiro Funes Mori",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Leonel Vangioni",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Matías Kranevitter",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Leonardo Ponzio",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Carlos Sánchez",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Leonardo Pisculichi",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Rodrigo Mora",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Lucas Alario",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Gonzalo Martínez",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Tabaré Viudez",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "tigres",
+      "nome": "Tigres",
+      "pais": "México",
+      "ano": 2015,
+      "observacao": "Vice da Libertadores 2015 (final contra o River Plate)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Nahuel Guzmán",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Israel Jiménez",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Juninho",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Hugo Ayala",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Jorge Torres Nilo",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Guido Pizarro",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Egidio Arévalo Ríos",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Javier Aquino",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Rafael Sóbis",
+          "posicao": "MEI",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Jürgen Damm",
+          "posicao": "PE",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "André-Pierre Gignac",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 84
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Damián Álvarez",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 76
+        }
+      ]
+    },
+    {
+      "id": "atletico-nacional",
+      "nome": "Atlético Nacional",
+      "pais": "Colômbia",
+      "ano": 2016,
+      "observacao": "Campeão da Libertadores 2016 (final contra o Independiente del Valle)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Franco Armani",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Daniel Bocanegra",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Davinson Sánchez",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Alexis Henríquez",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Farid Díaz",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Alexander Mejía",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Sebastián Pérez",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Macnelly Torres",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Orlando Berrío",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Marlos Moreno",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Miguel Borja",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 84
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Alejandro Guerra",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        }
+      ]
+    },
+    {
+      "id": "independiente-del-valle",
+      "nome": "Independiente del Valle",
+      "pais": "Equador",
+      "ano": 2016,
+      "observacao": "Vice da Libertadores 2016 (final contra o Atlético Nacional)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Librado Azcona",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Christian Cruz",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Arturo Mina",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Luis Caicedo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Mario Pineida",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Jefferson Orejuela",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Emiliano Ramírez",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Junior Sornoza",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Julio Angulo",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Bryan Cabezas",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "José Angulo",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Daniel Angulo",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "id": "lanus",
+      "nome": "Lanús",
+      "pais": "Argentina",
+      "ano": 2017,
+      "observacao": "Vice da Libertadores 2017 (final contra o Grêmio)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Esteban Andrada",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "José Luis Gómez",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Rolando García Guerreño",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Diego Braghieri",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Maximiliano Velázquez",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Iván Marcone",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Román Martínez",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Nicolás Pasquini",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Alejandro Silva",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Lautaro Acosta",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "José Sand",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        }
+      ],
+      "reservas": []
+    },
+    {
+      "id": "boca-juniors",
+      "nome": "Boca Juniors",
+      "pais": "Argentina",
+      "ano": 2018,
+      "observacao": "Vice da Libertadores 2018 (final contra o River Plate)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Esteban Andrada",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Leonardo Jara",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Carlos Izquierdoz",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Lisandro Magallán",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Frank Fabra",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Wilmar Barrios",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Nahitan Nández",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Pablo Pérez",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Sebastián Villa",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Cristian Pavón",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Darío Benedetto",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Carlos Tevez",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Ramón Ábila",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Fernando Gago",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 78
+        }
+      ]
+    },
+    {
+      "id": "river-plate",
+      "nome": "River Plate",
+      "pais": "Argentina",
+      "ano": 2018,
+      "observacao": "Campeão da Libertadores 2018 (final contra o Boca Juniors)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Franco Armani",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Gonzalo Montiel",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Jonatan Maidana",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Javier Pinola",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Milton Casco",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Leonardo Ponzio",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Enzo Pérez",
+          "posicao": "MC",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Exequiel Palacios",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Gonzalo Martínez",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 86
+        },
+        {
+          "nome": "Ignacio Fernández",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Lucas Pratto",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Juan Fernando Quintero",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Rafael Santos Borré",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Lucas Martínez Quarta",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        }
+      ]
+    },
+    {
+      "id": "river-plate",
+      "nome": "River Plate",
+      "pais": "Argentina",
+      "ano": 2019,
+      "observacao": "Vice da Libertadores 2019 (final contra o Flamengo)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Franco Armani",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Gonzalo Montiel",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Lucas Martínez Quarta",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Javier Pinola",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Milton Casco",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Enzo Pérez",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Exequiel Palacios",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Ignacio Fernández",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Nicolás De la Cruz",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Rafael Santos Borré",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Matías Suárez",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Leonardo Ponzio",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Lucas Pratto",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Paulo Díaz",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        }
+      ]
+    },
+    {
+      "id": "athletico-pr",
+      "nome": "Athletico Paranaense",
+      "pais": "Brasil",
+      "ano": 2022,
+      "observacao": "Vice da Libertadores 2022 (final contra o Flamengo)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Bento",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Khellven",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Pedro Henrique",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Thiago Heleno",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Abner",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Fernandinho",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Hugo Moura",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Alex Santana",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "David Terans",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Pablo",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Vitor Roque",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Agustín Canobbio",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Vitinho",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 74
+        }
+      ]
+    },
+    {
+      "id": "boca-juniors",
+      "nome": "Boca Juniors",
+      "pais": "Argentina",
+      "ano": 2023,
+      "observacao": "Vice da Libertadores 2023 (final contra o Fluminense)",
+      "revisado": false,
+      "titulares": [
+        {
+          "nome": "Sergio Romero",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Luis Advíncula",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Nicolás Figal",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Marcos Rojo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Frank Fabra",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Pol Fernández",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Equi Fernández",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Cristian Medina",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Valentín Barco",
+          "posicao": "MEI",
+          "alternativas": [
+            "LE"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Miguel Merentiel",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Edinson Cavani",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        }
+      ],
+      "reservas": [
+        {
+          "nome": "Nicolás Valentini",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        }
+      ]
+    }
+  ]
+}

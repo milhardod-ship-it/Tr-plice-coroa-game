@@ -20,3 +20,7 @@ export const CLUBES: ClubeJogavel[] = Object.values(modulos).sort(
 );
 export const ADVERSARIOS = adversariosJson as ArquivoAdversarios;
 export const FINALISTAS = finalistasJson as ArquivoFinalistas;
+
+import { montarPool } from '../core/pool';
+/** Todos os times históricos (adversários + temporadas dos clubes jogáveis). */
+export const POOL = montarPool(CLUBES, ADVERSARIOS, FINALISTAS);

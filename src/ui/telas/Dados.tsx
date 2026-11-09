@@ -1,12 +1,12 @@
 import { useMemo, useState } from 'react';
-import { CLUBES, ADVERSARIOS, FINALISTAS } from '../../dados';
+import { CLUBES, ADVERSARIOS, FINALISTAS, POOL } from '../../dados';
 import { validarDados } from '../../core/validacao';
 import { raridade, NOME_RARIDADE } from '../../core/raridade';
-import type { ClubeJogavel, Temporada } from '../../core/tipos';
+import type { ClubeJogavel, Jogador } from '../../core/tipos';
 import { Faixa } from '../componentes/Faixa';
 import { Laboratorio } from './Laboratorio';
 
-type Aba = 'clubes' | 'finais' | 'validacao' | 'motor';
+type Aba = 'clubes' | 'rivais' | 'finais' | 'validacao' | 'motor';
 
 export function Dados({ voltar }: { voltar: () => void }) {
   const [aba, setAba] = useState<Aba>('clubes');
@@ -16,11 +16,13 @@ export function Dados({ voltar }: { voltar: () => void }) {
       <h2 className="titulo-tela">Conferência dos dados</h2>
       <nav className="abas">
         <button className={aba === 'clubes' ? 'ativa' : ''} onClick={() => setAba('clubes')}>Clubes</button>
+        <button className={aba === 'rivais' ? 'ativa' : ''} onClick={() => setAba('rivais')}>Rivais</button>
         <button className={aba === 'finais' ? 'ativa' : ''} onClick={() => setAba('finais')}>Finais</button>
         <button className={aba === 'validacao' ? 'ativa' : ''} onClick={() => setAba('validacao')}>Validação</button>
         <button className={aba === 'motor' ? 'ativa' : ''} onClick={() => setAba('motor')}>Motor</button>
       </nav>
       {aba === 'clubes' && <AbaClubes />}
+      {aba === 'rivais' && <AbaRivais />}
       {aba === 'finais' && <AbaFinais />}
       {aba === 'validacao' && <AbaValidacao />}
       {aba === 'motor' && <Laboratorio />}
@@ -63,30 +65,66 @@ function DetalheClube({ clube, voltar }: { clube: ClubeJogavel; voltar: () => vo
             </span>
             <span className="qtd">{t.jogadores.length}</span>
           </button>
-          {aberta === t.ano && <Elenco t={t} />}
+          {aberta === t.ano && <Elenco jogadores={t.jogadores} />}
         </div>
       ))}
     </div>
   );
 }
 
-function Elenco({ t }: { t: Temporada }) {
+function Elenco({ jogadores, reservas }: { jogadores: Jogador[]; reservas?: Jogador[] }) {
+  const linha = (j: Jogador) => {
+    const r = raridade(j.nota);
+    return (
+      <li key={j.nome} className={`jogador r-${r}`}>
+        <span className="pos">{j.posicao}</span>
+        <span className="nome">
+          {j.nome}
+          {j.duvida && <span className="duvida" title="Dúvida: conferir">?</span>}
+          {j.alternativas.length > 0 && <small> · {j.alternativas.join(', ')}</small>}
+        </span>
+        <span className="nota" title={NOME_RARIDADE[r]}>{j.nota}</span>
+      </li>
+    );
+  };
   return (
     <ul className="elenco">
-      {t.jogadores.map((j) => {
-        const r = raridade(j.nota);
+      {jogadores.map(linha)}
+      {reservas && reservas.length > 0 && <li className="sep-reservas">Reservas</li>}
+      {reservas?.map(linha)}
+    </ul>
+  );
+}
+
+function AbaRivais() {
+  const [aberto, setAberto] = useState<string | null>(null);
+  const advs = [...ADVERSARIOS.adversarios].sort((a, b) => b.ano - a.ano);
+  const totalDuvidas = advs.reduce((s, a) => s + [...a.titulares, ...a.reservas].filter((j) => j.duvida).length, 0);
+  return (
+    <>
+      <p className="nota-rodape">
+        {advs.length} elencos de finalistas da Libertadores que não são clubes jogáveis.{' '}
+        <span className="duvida">?</span> = {totalDuvidas} jogadores marcados como dúvida (conferir primeiro).
+      </p>
+      {advs.map((a) => {
+        const chave = `${a.id}-${a.ano}`;
+        const forca = POOL.find((p) => p.chave === chave)?.forca;
+        const duv = [...a.titulares, ...a.reservas].filter((j) => j.duvida).length;
+        const campeao = a.observacao.startsWith('Campeão');
         return (
-          <li key={j.nome} className={`jogador r-${r}`}>
-            <span className="pos">{j.posicao}</span>
-            <span className="nome">
-              {j.nome}
-              {j.alternativas.length > 0 && <small> · {j.alternativas.join(', ')}</small>}
-            </span>
-            <span className="nota" title={NOME_RARIDADE[r]}>{j.nota}</span>
-          </li>
+          <div key={chave} className={`temporada ${campeao ? 'lendaria' : ''}`}>
+            <button className="cab-temporada" onClick={() => setAberto(aberto === chave ? null : chave)}>
+              <span className="ano">{a.ano}</span>
+              <span className="obs">
+                <strong className="nome-rival">{a.nome}</strong> · {a.pais}
+                <br />{campeao ? 'Campeão' : 'Vice'} · força {forca}{duv ? ` · ${duv} dúvida${duv > 1 ? 's' : ''}` : ''}
+              </span>
+            </button>
+            {aberto === chave && <Elenco jogadores={a.titulares} reservas={a.reservas} />}
+          </div>
         );
       })}
-    </ul>
+    </>
   );
 }
 

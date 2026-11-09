@@ -142,15 +142,15 @@ falso, sem notificação de culpa.
 | 1 | Estrutura do projeto + dados de Vasco e Flamengo + finalistas 1980–2025 + validação | ✅ feita |
 | 2 | Telas de clube, modo, formação e o draft completo (itens 1–2 de engajamento) | ✅ feita |
 | 3 | Motor de simulação + testes | ✅ feita |
-| 4 | Elencos dos finalistas da Libertadores (adversários) | ⏭ próxima |
-| 5 | Torneio Libertadores com revelação jogo a jogo (itens 3–4) | |
+| 4 | Elencos dos finalistas da Libertadores (adversários) | ✅ feita |
+| 5 | Torneio Libertadores com revelação jogo a jogo (itens 3–4) | ⏭ próxima |
 | 6 | Tela final + card de compartilhamento (item 5) | |
 | 7 | Dados dos 10 clubes jogáveis restantes | |
 | 8 | Desafio do Dia, sequência, álbum, conquistas, recordes e sons (itens 6–11) | |
 
 **Atualize esta tabela ao concluir cada etapa.**
 
-## Estado atual (fim da etapa 3)
+## Estado atual (fim da etapa 4)
 - `src/core/` (puro, sem UI): `tipos.ts`, `formacoes.ts`, `raridade.ts`, `validacao.ts`,
   `rng.ts` (mulberry32 com seed; estado = 1 número), `posicoes.ts` (penalidade: alternativa −3;
   improvisado −8/−14/−22 conforme distância de setor; goleiro ↔ linha −35; mínimo 30),
@@ -171,7 +171,16 @@ falso, sem notificação de culpa.
 - Tela "Time completo": botão "Disputar a Libertadores" desativado até a etapa 5.
 - Dados: Vasco (1989, 1997, 1998, 2000, 2011, 2024) e Flamengo (1981, 1987, 1992, 2009, 2019,
   2021, 2022, 2025). Os outros 10 clubes têm arquivo com nome/cores e `temporadas: []`.
-- `data/adversarios.json` vazio (etapa 4). `data/finalistas-libertadores.json` completo, não revisado.
+- `data/adversarios.json`: 57 elencos (todos os finalistas 1980–2025 que não são os 12 jogáveis),
+  11 titulares + até 3 reservas. Jogadores de baixa confiança têm `"duvida": true` (224 de 674);
+  a validação lista quantos por elenco e o app mostra um "?" laranja (aba "Rivais").
+  Regra: nunca inventar nome para completar 11 — se não houver nome plausível, deixar a vaga para o
+  dono preencher e avisar.
+- Ainda faltam 29 finalistas que são temporadas dos 12 clubes jogáveis (entram na etapa 7).
+- `src/core/pool.ts`: `montarPool` junta adversários + temporadas dos clubes (escaladas
+  automaticamente), com `forca` (média dos titulares) e `campeaoLibertadores`. Exportado como
+  `POOL` em `src/dados`. Base para o sorteio de adversários da etapa 5.
+- `data/finalistas-libertadores.json` completo, não revisado.
 
 ## Comandos
 ```

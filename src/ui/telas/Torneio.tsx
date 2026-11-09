@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import type { EstadoDraft } from '../../core/draft';
 import { timeDoDraft, type Time } from '../../core/motor';
 import { narrarPartida, type EventoNarracao } from '../../core/narracao';
-import { FASES, NOME_FASE, resumoCampanha, type JogoTorneio, type LinhaTabela, type Torneio } from '../../core/torneio';
+import { FASES, resumoCampanha, type JogoTorneio, type LinhaTabela, type Torneio } from '../../core/torneio';
 import { POOL } from '../../dados';
 import { Faixa } from '../componentes/Faixa';
 import { clubePorId, varsClube } from '../util';

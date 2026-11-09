@@ -291,3 +291,32 @@ summary { padding: 14px; font-weight: 700; min-height: 48px; }
 .lista-time .nome { flex: 1; font-size: 15px; }
 .lista-time .nome small { color: var(--fraco); font-size: 12px; }
 .lista-time .nota { font-weight: 900; color: var(--c); font-size: 17px; }
+
+/* ================= Etapa 3: placar e laboratório ================= */
+.abas { grid-template-columns: repeat(4, 1fr); }
+.abas button { font-size: 14px; }
+.placar { margin-top: 12px; padding: 14px; border-radius: 16px; background: var(--painel); border: 1px solid var(--borda); animation: entra .3s ease-out; }
+.linha-placar { display: grid; grid-template-columns: 1fr auto auto auto 1fr; align-items: center; gap: 8px; }
+.linha-placar b { font-size: 36px; font-weight: 900; line-height: 1; }
+.linha-placar i { color: var(--fraco); font-style: normal; }
+.equipe { font-size: 14px; font-weight: 700; line-height: 1.2; color: var(--fraco); }
+.equipe.venceu { color: var(--texto); }
+.equipe.direita, .autores .direita { text-align: right; }
+.penaltis { text-align: center; margin: 6px 0 0; font-weight: 800; color: var(--ouro); }
+.autores { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 8px; }
+.autores ul { list-style: none; padding: 0; margin: 0; font-size: 13px; line-height: 1.6; }
+.autores small { color: var(--fraco); }
+.lab label { display: block; font-size: 13px; color: var(--fraco); margin-bottom: 10px; }
+.lab select { display: block; width: 100%; margin-top: 4px; min-height: 48px; padding: 0 10px; border-radius: 12px; border: 1px solid var(--borda); background: var(--painel); color: var(--texto); font: inherit; font-size: 16px; }
+.lab-opcoes { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; align-items: center; margin-bottom: 12px; }
+.lab-opcoes select { margin: 0; font-size: 14px; }
+.lab .check { display: flex; align-items: center; gap: 8px; margin: 0; font-size: 15px; color: var(--texto); min-height: 48px; }
+.lab .check input { width: 22px; height: 22px; }
+.setores { width: 100%; border-collapse: collapse; font-size: 13px; }
+.setores th { color: var(--fraco); font-weight: 600; text-align: right; padding: 4px; }
+.setores td { text-align: right; padding: 6px 4px; border-top: 1px solid var(--borda); font-variant-numeric: tabular-nums; }
+.setores td:first-child, .setores th:first-child { text-align: left; }
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-top: 12px; }
+.stats div { padding: 10px 4px; border-radius: 12px; background: var(--painel); border: 1px solid var(--borda); text-align: center; }
+.stats b { display: block; font-size: 20px; font-weight: 900; }
+.stats small { font-size: 11px; color: var(--fraco); }

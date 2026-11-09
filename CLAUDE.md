@@ -141,8 +141,8 @@ falso, sem notificação de culpa.
 |---|-------|--------|
 | 1 | Estrutura do projeto + dados de Vasco e Flamengo + finalistas 1980–2025 + validação | ✅ feita |
 | 2 | Telas de clube, modo, formação e o draft completo (itens 1–2 de engajamento) | ✅ feita |
-| 3 | Motor de simulação + testes | ⏭ próxima |
-| 4 | Elencos dos finalistas da Libertadores (adversários) | |
+| 3 | Motor de simulação + testes | ✅ feita |
+| 4 | Elencos dos finalistas da Libertadores (adversários) | ⏭ próxima |
 | 5 | Torneio Libertadores com revelação jogo a jogo (itens 3–4) | |
 | 6 | Tela final + card de compartilhamento (item 5) | |
 | 7 | Dados dos 10 clubes jogáveis restantes | |
@@ -150,13 +150,23 @@ falso, sem notificação de culpa.
 
 **Atualize esta tabela ao concluir cada etapa.**
 
-## Estado atual (fim da etapa 2)
+## Estado atual (fim da etapa 3)
 - `src/core/` (puro, sem UI): `tipos.ts`, `formacoes.ts`, `raridade.ts`, `validacao.ts`,
   `rng.ts` (mulberry32 com seed; estado = 1 número), `posicoes.ts` (penalidade: alternativa −3;
   improvisado −8/−14/−22 conforme distância de setor; goleiro ↔ linha −35; mínimo 30),
   `draft.ts` (estado imutável: `iniciarDraft`, `resortear`, `escolher`, `vagasLivres`, `forcaGeral`).
 - `src/ui/`: `App.tsx` (troca de telas + salva a partida em localStorage, chave `tc:partida:v1`),
   `telas/` (Inicio, Configurar, Draft, TimeCompleto, Dados), `componentes/` (Campo, Carta, Roleta, Faixa).
+- `src/core/motor.ts`: forças por setor (pesos por vaga), λ = 1,25·e^(d/25) com
+  d = (ofensivo A − defensivo B) + ½(meio A − meio B); estilo multiplica λ (ofensivo ×1,18 marca /
+  ×1,10 sofre; defensivo ×0,85 / ×0,80); mando +10%; gols Poisson; autores por peso de vaga e nota;
+  3% gol contra; chances perdidas em `lances` (para a narração da etapa 5); pênaltis cobrança a
+  cobrança (conversão 55–90% pela nota cobrador × goleiro); `escalarAutomatico` (melhor 11 entre as
+  4 formações, para adversários vindos dos arquivos de clubes); `timeDoDraft`; `estatisticas`.
+  Recebe um `Rng` mutável, para encadear um torneio inteiro a partir de uma seed.
+- Calibragem atual (5000 jogos, campo neutro): 90×70 → 96% vitórias; 80×80 → 37/27/35%, 2,5 gols;
+  84×80 → 50/27/23%.
+- UI de teste: aba "Motor" em "Conferir dados" (laboratório) e "Amistoso de teste" no Time completo.
 - A roleta é só apresentação: o ano já vem sorteado pelo `core` (com seed).
 - Tela "Time completo": botão "Disputar a Libertadores" desativado até a etapa 5.
 - Dados: Vasco (1989, 1997, 1998, 2000, 2011, 2024) e Flamengo (1981, 1987, 1992, 2009, 2019,

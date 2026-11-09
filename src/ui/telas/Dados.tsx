@@ -4,8 +4,9 @@ import { validarDados } from '../../core/validacao';
 import { raridade, NOME_RARIDADE } from '../../core/raridade';
 import type { ClubeJogavel, Temporada } from '../../core/tipos';
 import { Faixa } from '../componentes/Faixa';
+import { Laboratorio } from './Laboratorio';
 
-type Aba = 'clubes' | 'finais' | 'validacao';
+type Aba = 'clubes' | 'finais' | 'validacao' | 'motor';
 
 export function Dados({ voltar }: { voltar: () => void }) {
   const [aba, setAba] = useState<Aba>('clubes');
@@ -17,10 +18,12 @@ export function Dados({ voltar }: { voltar: () => void }) {
         <button className={aba === 'clubes' ? 'ativa' : ''} onClick={() => setAba('clubes')}>Clubes</button>
         <button className={aba === 'finais' ? 'ativa' : ''} onClick={() => setAba('finais')}>Finais</button>
         <button className={aba === 'validacao' ? 'ativa' : ''} onClick={() => setAba('validacao')}>Validação</button>
+        <button className={aba === 'motor' ? 'ativa' : ''} onClick={() => setAba('motor')}>Motor</button>
       </nav>
       {aba === 'clubes' && <AbaClubes />}
       {aba === 'finais' && <AbaFinais />}
       {aba === 'validacao' && <AbaValidacao />}
+      {aba === 'motor' && <Laboratorio />}
     </div>
   );
 }

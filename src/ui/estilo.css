@@ -432,3 +432,26 @@ summary { padding: 14px; font-weight: 700; min-height: 48px; }
 .trofeu.ouro h2 { color: var(--ouro); }
 .trofeu p { color: var(--fraco); margin: 6px 0 0; }
 .trofeu .resumo { color: var(--texto); font-weight: 700; }
+
+/* ================= Etapa 6: tela final ================= */
+.trofeu.invicto { box-shadow: 0 0 60px #f5c54277; }
+.selo-invicto { display: inline-block; margin: 2px 0 4px; padding: 4px 12px; border-radius: 999px; background: var(--ouro); color: #1a1000; font-size: 12px; font-weight: 900; letter-spacing: 1.5px; text-transform: uppercase; animation: brilha 1.6s ease-in-out infinite; }
+.trofeu.ouro h2 { font-size: 30px; animation: lendaria-entra .8s cubic-bezier(.2,1.4,.4,1); }
+.sub-trofeu { display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 14px; }
+.quase { margin: 10px 0 0; padding: 14px 16px; border-radius: 16px; background: #ef444418; border: 1px solid #ef444455; }
+.quase.bom { background: #22c55e14; border-color: #22c55e44; }
+.quase p { margin: 0; font-size: 17px; font-weight: 800; line-height: 1.35; }
+.quase p + p { margin-top: 6px; font-size: 14px; font-weight: 600; color: var(--fraco); }
+.numeros { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 14px; }
+.numeros div { padding: 12px 6px; border-radius: 14px; background: var(--painel); border: 1px solid var(--borda); text-align: center; min-width: 0; }
+.numeros b { display: block; font-size: 22px; font-weight: 900; }
+.numeros small { display: block; font-size: 11px; color: var(--fraco); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.secao { margin: 22px 0 8px; font-size: 13px; color: var(--fraco); text-transform: uppercase; letter-spacing: 1px; }
+.acoes-card { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.acoes-card .botao-grande { margin-top: 0; font-size: 15px; min-height: 52px; }
+.previa-card { display: block; width: 100%; aspect-ratio: 1080 / 1350; margin-top: 10px; border-radius: 14px; border: 1px solid var(--borda); }
+.previa-card.carregando { display: flex; align-items: center; justify-content: center; color: var(--fraco); background: var(--painel); }
+.confete { position: fixed; inset: 0; pointer-events: none; overflow: hidden; z-index: 30; }
+.confete i { position: absolute; top: -20px; width: 10px; height: 16px; border-radius: 2px; animation: cai linear forwards; }
+@keyframes cai { to { top: 105vh; transform: rotate(720deg) translateX(40px); } }
+@media (prefers-reduced-motion: reduce) { .confete { display: none; } }

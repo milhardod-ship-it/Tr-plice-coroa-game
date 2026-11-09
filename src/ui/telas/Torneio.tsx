@@ -2,10 +2,11 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import type { EstadoDraft } from '../../core/draft';
 import { timeDoDraft, type Time } from '../../core/motor';
 import { narrarPartida, type EventoNarracao } from '../../core/narracao';
-import { FASES, resumoCampanha, type JogoTorneio, type LinhaTabela, type Torneio } from '../../core/torneio';
+import { FASES, type JogoTorneio, type LinhaTabela, type Torneio } from '../../core/torneio';
 import { POOL } from '../../dados';
 import { Faixa } from '../componentes/Faixa';
 import { clubePorId, varsClube } from '../util';
+import { Final } from './Final';
 
 interface Props {
   draft: EstadoDraft;
@@ -28,7 +29,7 @@ export function TorneioTela({ draft, torneio, vistos, marcarVistos, novoMesmoClu
   useEffect(() => { window.scrollTo(0, 0); }, [assistindo, vistos]);
 
   if (terminou) {
-    return <Campanha torneio={torneio} clubeNome={clube.nome} estilo={varsClube(clube)} novoMesmoClube={novoMesmoClube} inicio={inicio} />;
+    return <Final draft={draft} torneio={torneio} jogarDeNovo={novoMesmoClube} inicio={inicio} />;
   }
 
   const jogo = torneio.jogos[vistos];
@@ -130,7 +131,7 @@ function Tabela({ linhas, titulo }: { linhas: LinhaTabela[]; titulo: string }) {
   );
 }
 
-function ResultadoCurto({ jogo, nomeMeu }: { jogo: JogoTorneio; nomeMeu: string }) {
+export function ResultadoCurto({ jogo, nomeMeu }: { jogo: JogoTorneio; nomeMeu: string }) {
   const { r } = jogo;
   const cls = r.golsA > r.golsB || (r.penaltis && r.vencedor === 'a') ? 'v' : r.golsA < r.golsB || r.vencedor === 'b' ? 'd' : 'e';
   const autores = (lado: 'a' | 'b') => r.gols.filter((g) => g.time === lado).map((g) => `${g.autor}${g.contra ? ' (contra)' : ''} ${g.minuto > 90 ? `90+${g.minuto - 90}` : g.minuto}'`).join(', ');
@@ -264,28 +265,3 @@ function placarAntes(vis: EventoNarracao[]): [number, number] | undefined {
   return cobr.length > 1 ? cobr[cobr.length - 2].placarPenaltis : [0, 0];
 }
 
-/* ---------------- Fim da campanha (versão simples; a etapa 6 traz a tela final completa) ---------------- */
-
-function Campanha({ torneio, clubeNome, estilo, novoMesmoClube, inicio }: {
-  torneio: Torneio; clubeNome: string; estilo: React.CSSProperties; novoMesmoClube: () => void; inicio: () => void;
-}) {
-  const res = resumoCampanha(torneio);
-  const campeao = torneio.desfecho === 'campeao';
-  const ultimo = torneio.jogos[torneio.jogos.length - 1];
-  const titulo = campeao
-    ? res.invicto ? 'CAMPEÃO INVICTO!' : 'CAMPEÃO DA LIBERTADORES!'
-    : { grupos: 'Eliminado na fase de grupos', oitavas: 'Eliminado nas oitavas', quartas: 'Eliminado nas quartas', semi: 'Eliminado na semifinal', final: 'Vice-campeão' }[torneio.faseFinal];
-  return (
-    <div className="tela campanha" style={estilo}>
-      <div className={`trofeu ${campeao ? 'ouro' : ''}`}>
-        {campeao && <span className="coroa">♛</span>}
-        <h2>{titulo}</h2>
-        {!campeao && ultimo.r.penaltis && <p>Nos pênaltis, {ultimo.r.penaltis.golsA} × {ultimo.r.penaltis.golsB}, contra o {ultimo.adv.nome} {ultimo.adv.ano}.</p>}
-        <p className="resumo">{res.v}V · {res.e}E · {res.d}D · {res.gp} gols marcados, {res.gc} sofridos</p>
-      </div>
-      {torneio.jogos.map((j, i) => <ResultadoCurto key={i} jogo={j} nomeMeu={clubeNome} />)}
-      <button className="botao-grande primario" onClick={novoMesmoClube}>Jogar de novo com o {clubeNome}</button>
-      <button className="link-discreto" onClick={inicio}>Início</button>
-    </div>
-  );
-}

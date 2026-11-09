@@ -144,13 +144,13 @@ falso, sem notificação de culpa.
 | 3 | Motor de simulação + testes | ✅ feita |
 | 4 | Elencos dos finalistas da Libertadores (adversários) | ✅ feita |
 | 5 | Torneio Libertadores com revelação jogo a jogo (itens 3–4) | ✅ feita |
-| 6 | Tela final + card de compartilhamento (item 5) | ⏭ próxima |
-| 7 | Dados dos 10 clubes jogáveis restantes | |
+| 6 | Tela final + card de compartilhamento (item 5) | ✅ feita |
+| 7 | Dados dos 10 clubes jogáveis restantes | ⏭ próxima |
 | 8 | Desafio do Dia, sequência, álbum, conquistas, recordes e sons (itens 6–11) | |
 
 **Atualize esta tabela ao concluir cada etapa.**
 
-## Estado atual (fim da etapa 5)
+## Estado atual (fim da etapa 6)
 - `src/core/` (puro, sem UI): `tipos.ts`, `formacoes.ts`, `raridade.ts`, `validacao.ts`,
   `rng.ts` (mulberry32 com seed; estado = 1 número), `posicoes.ts` (penalidade: alternativa −3;
   improvisado −8/−14/−22 conforme distância de setor; goleiro ↔ linha −35; mínimo 30),
@@ -193,9 +193,17 @@ falso, sem notificação de culpa.
 - `src/core/idolos.ts`: ídolo = nota ≥85 em temporada com título; overlay no draft (só no Clássico).
 - `data/confrontos.json`: 29 confrontos de Libertadores + 13 clássicos regionais (validado).
 - UI: `telas/Torneio.tsx` (painel da fase com tabela e próximo rival, partida ao vivo com relógio
-  que desacelera na reta final, pausa antes de cada pênalti, 2,5×, pular jogo, pular tudo; resumo
-  simples da campanha — a etapa 6 faz a tela final de verdade). Partida salva:
+  que desacelera na reta final, pausa antes de cada pênalti, 2,5×, pular jogo, pular tudo). Partida salva:
   `{ draft, torneio?, vistos }` em `tc:partida:v1` (aceita o formato antigo).
+
+- `src/core/campanha.ts`: `analisarCampanha` → título, invicto, mensagens de "quase" (pênaltis
+  "por X a Y", "faltou 1 gol para o invicto/para os pênaltis", pontos que faltaram no grupo),
+  V-E-D, gols, artilheiro, maior vitória.
+- `src/ui/telas/Final.tsx`: desfecho (confete se campeão, selo "Campeão invicto"), quadro "quase",
+  botão grande "Jogar de novo" (novo draft com mesmo clube/modo/formação em 1 toque), números,
+  card, campanha e time. `src/ui/card.ts`: card PNG 1080×1350 num canvas (sem escudos/fotos),
+  compartilhado com `navigator.share` (arquivo) ou baixado.
+- Processo: só fazer push se `npm run build` passar (encadear com `&&`).
 
 ## Comandos
 ```

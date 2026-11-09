@@ -20,8 +20,8 @@ Nome provisório: **Tríplice Coroa** (pode mudar).
 - Ao fim de cada etapa: rode `npm run build` (precisa passar sem erros — senão a Vercel falha),
   `npm test`, faça commit e push, e avise que dá para abrir o link da Vercel.
 - Teste o layout em **390px de largura**.
-- Branch de trabalho atual: `claude/libertadores-football-game-chhk8w`
-  (a Vercel publica a `main` no link principal; outras branches viram link de preview).
+- Branch de trabalho: `claude/libertadores-football-game-chhk8w`. Ao fim de cada etapa, envie também
+  para a `main` (fast-forward), que a Vercel publica em https://triplice-coroa.vercel.app.
 
 ## Escopo desta versão
 Apenas **modo solo**. Um multiplayer com amigos (campeonato entre os times montados) virá depois,
@@ -140,8 +140,8 @@ falso, sem notificação de culpa.
 | # | Etapa | Status |
 |---|-------|--------|
 | 1 | Estrutura do projeto + dados de Vasco e Flamengo + finalistas 1980–2025 + validação | ✅ feita |
-| 2 | Telas de clube, modo, formação e o draft completo (itens 1–2 de engajamento) | ⏭ próxima |
-| 3 | Motor de simulação + testes | |
+| 2 | Telas de clube, modo, formação e o draft completo (itens 1–2 de engajamento) | ✅ feita |
+| 3 | Motor de simulação + testes | ⏭ próxima |
 | 4 | Elencos dos finalistas da Libertadores (adversários) | |
 | 5 | Torneio Libertadores com revelação jogo a jogo (itens 3–4) | |
 | 6 | Tela final + card de compartilhamento (item 5) | |
@@ -150,11 +150,15 @@ falso, sem notificação de culpa.
 
 **Atualize esta tabela ao concluir cada etapa.**
 
-## Estado atual (fim da etapa 1)
-- `src/core/`: `tipos.ts`, `formacoes.ts`, `raridade.ts`, `validacao.ts` (puros, sem UI).
-- `src/dados/index.ts`: carrega os JSON via `import.meta.glob`.
-- `src/ui/App.tsx`: por enquanto é uma tela de **conferência dos dados** (abas Clubes, Finais,
-  Validação). Na etapa 2 vira o jogo; vale manter a conferência acessível (ex.: link discreto "Dados").
+## Estado atual (fim da etapa 2)
+- `src/core/` (puro, sem UI): `tipos.ts`, `formacoes.ts`, `raridade.ts`, `validacao.ts`,
+  `rng.ts` (mulberry32 com seed; estado = 1 número), `posicoes.ts` (penalidade: alternativa −3;
+  improvisado −8/−14/−22 conforme distância de setor; goleiro ↔ linha −35; mínimo 30),
+  `draft.ts` (estado imutável: `iniciarDraft`, `resortear`, `escolher`, `vagasLivres`, `forcaGeral`).
+- `src/ui/`: `App.tsx` (troca de telas + salva a partida em localStorage, chave `tc:partida:v1`),
+  `telas/` (Inicio, Configurar, Draft, TimeCompleto, Dados), `componentes/` (Campo, Carta, Roleta, Faixa).
+- A roleta é só apresentação: o ano já vem sorteado pelo `core` (com seed).
+- Tela "Time completo": botão "Disputar a Libertadores" desativado até a etapa 5.
 - Dados: Vasco (1989, 1997, 1998, 2000, 2011, 2024) e Flamengo (1981, 1987, 1992, 2009, 2019,
   2021, 2022, 2025). Os outros 10 clubes têm arquivo com nome/cores e `temporadas: []`.
 - `data/adversarios.json` vazio (etapa 4). `data/finalistas-libertadores.json` completo, não revisado.

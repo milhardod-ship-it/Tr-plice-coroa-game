@@ -1,26 +1,39 @@
 import type { EstadoDraft } from '../core/draft';
 import { FORMACOES } from '../core/formacoes';
+import type { Torneio } from '../core/torneio';
 import { CLUBES } from '../dados';
 
 const CHAVE = 'tc:partida:v1';
 
-export function salvarPartida(d: EstadoDraft | null) {
+/** Uma partida = draft + (depois) torneio já simulado + quantos jogos o jogador já assistiu. */
+export interface PartidaSalva {
+  draft: EstadoDraft;
+  torneio?: Torneio;
+  vistos: number;
+}
+
+export function salvarPartida(p: PartidaSalva | null) {
   try {
-    if (d) localStorage.setItem(CHAVE, JSON.stringify(d));
+    if (p) localStorage.setItem(CHAVE, JSON.stringify(p));
     else localStorage.removeItem(CHAVE);
   } catch {
     /* modo privado / armazenamento cheio: o jogo segue sem salvar */
   }
 }
 
-export function carregarPartida(): EstadoDraft | null {
+export function carregarPartida(): PartidaSalva | null {
   try {
     const bruto = localStorage.getItem(CHAVE);
     if (!bruto) return null;
-    const d = JSON.parse(bruto) as EstadoDraft;
-    const f = FORMACOES[d.formacao];
+    const obj = JSON.parse(bruto);
+    // Formato antigo (etapa 2): só o draft.
+    const p: PartidaSalva = obj.escalacao ? { draft: obj, vistos: 0 } : obj;
+    const d = p.draft;
+    const f = FORMACOES[d?.formacao];
     const ok = f && CLUBES.some((c) => c.id === d.clubeId) && d.escalacao?.length === f.vagas.length;
-    return ok ? d : null;
+    if (!ok) return null;
+    if (p.torneio && !Array.isArray(p.torneio.jogos)) return { draft: d, vistos: 0 };
+    return { draft: d, torneio: p.torneio, vistos: p.vistos ?? 0 };
   } catch {
     return null;
   }

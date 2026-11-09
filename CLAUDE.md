@@ -143,14 +143,14 @@ falso, sem notificação de culpa.
 | 2 | Telas de clube, modo, formação e o draft completo (itens 1–2 de engajamento) | ✅ feita |
 | 3 | Motor de simulação + testes | ✅ feita |
 | 4 | Elencos dos finalistas da Libertadores (adversários) | ✅ feita |
-| 5 | Torneio Libertadores com revelação jogo a jogo (itens 3–4) | ⏭ próxima |
-| 6 | Tela final + card de compartilhamento (item 5) | |
+| 5 | Torneio Libertadores com revelação jogo a jogo (itens 3–4) | ✅ feita |
+| 6 | Tela final + card de compartilhamento (item 5) | ⏭ próxima |
 | 7 | Dados dos 10 clubes jogáveis restantes | |
 | 8 | Desafio do Dia, sequência, álbum, conquistas, recordes e sons (itens 6–11) | |
 
 **Atualize esta tabela ao concluir cada etapa.**
 
-## Estado atual (fim da etapa 4)
+## Estado atual (fim da etapa 5)
 - `src/core/` (puro, sem UI): `tipos.ts`, `formacoes.ts`, `raridade.ts`, `validacao.ts`,
   `rng.ts` (mulberry32 com seed; estado = 1 número), `posicoes.ts` (penalidade: alternativa −3;
   improvisado −8/−14/−22 conforme distância de setor; goleiro ↔ linha −35; mínimo 30),
@@ -166,9 +166,8 @@ falso, sem notificação de culpa.
   Recebe um `Rng` mutável, para encadear um torneio inteiro a partir de uma seed.
 - Calibragem atual (5000 jogos, campo neutro): 90×70 → 96% vitórias; 80×80 → 37/27/35%, 2,5 gols;
   84×80 → 50/27/23%.
-- UI de teste: aba "Motor" em "Conferir dados" (laboratório) e "Amistoso de teste" no Time completo.
+- UI de teste: aba "Motor" em "Conferir dados" (laboratório).
 - A roleta é só apresentação: o ano já vem sorteado pelo `core` (com seed).
-- Tela "Time completo": botão "Disputar a Libertadores" desativado até a etapa 5.
 - Dados: Vasco (1989, 1997, 1998, 2000, 2011, 2024) e Flamengo (1981, 1987, 1992, 2009, 2019,
   2021, 2022, 2025). Os outros 10 clubes têm arquivo com nome/cores e `temporadas: []`.
 - `data/adversarios.json`: 57 elencos (todos os finalistas 1980–2025 que não são os 12 jogáveis),
@@ -181,6 +180,22 @@ falso, sem notificação de culpa.
   automaticamente), com `forca` (média dos titulares) e `campeaoLibertadores`. Exportado como
   `POOL` em `src/dados`. Base para o sorteio de adversários da etapa 5.
 - `data/finalistas-libertadores.json` completo, não revisado.
+- `src/core/torneio.ts`: `jogarTorneio` simula o torneio INTEIRO quando começa (até título ou
+  eliminação); a UI só revela jogo a jogo (`vistos`). Seed do torneio = `seedDeTexto(`${seedDoDraft}-libertadores`)`.
+  Grupo: 3 rivais da faixa de força 0–60% do pool (≥2 estrangeiros, clubes distintos, nunca o
+  próprio clube), turno e returno com mando (+10%), jogos paralelos e tabela por rodada; passam 2
+  (desempate: pontos, saldo, gols pró, sorteio). Mata-mata em campo neutro, pênaltis no empate:
+  oitavas 20–70%, quartas 40–85%, semi 55–100%; final contra um campeão da Libertadores (dos 60% mais
+  fortes). `anunciarConfronto` (vingança se o clube do jogador foi o perdedor; senão clássico).
+- Taxa de título medida (2000 torneios): time de nota 82 → 8%; 85 → 22%; 88 → 38%; 91 → 58%.
+- `src/core/narracao.ts`: frases de rádio determinísticas (seed por jogo) a partir do resultado;
+  intervalo, aviso de reta final (≥80' com diferença ≤1), virada, vingança, pênaltis cobrança a cobrança.
+- `src/core/idolos.ts`: ídolo = nota ≥85 em temporada com título; overlay no draft (só no Clássico).
+- `data/confrontos.json`: 29 confrontos de Libertadores + 13 clássicos regionais (validado).
+- UI: `telas/Torneio.tsx` (painel da fase com tabela e próximo rival, partida ao vivo com relógio
+  que desacelera na reta final, pausa antes de cada pênalti, 2,5×, pular jogo, pular tudo; resumo
+  simples da campanha — a etapa 6 faz a tela final de verdade). Partida salva:
+  `{ draft, torneio?, vistos }` em `tc:partida:v1` (aceita o formato antigo).
 
 ## Comandos
 ```

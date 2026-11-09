@@ -1,9 +1,5 @@
 import { useEffect, useState } from 'react';
-import { simularPartida, timeDoDraft, type ResultadoPartida } from '../../core/motor';
-import { Rng } from '../../core/rng';
-import { POOL } from '../../dados';
-import { Placar } from '../componentes/Placar';
-import { novaSeed } from '../persistencia';
+
 import { forcaGeral, type EstadoDraft } from '../../core/draft';
 import { FORMACOES } from '../../core/formacoes';
 import { encaixe, notaEfetiva } from '../../core/posicoes';
@@ -17,8 +13,8 @@ const ORDEM_RAR: Raridade[] = ['lenda', 'ouro', 'prata', 'bronze'];
 
 /** Fim do draft: o time é revelado jogador a jogador (no Almanaque, é aqui que as notas aparecem). */
 export function TimeCompleto({
-  estado, novoMesmoClube, inicio,
-}: { estado: EstadoDraft; novoMesmoClube: () => void; inicio: () => void }) {
+  estado, disputar, novoMesmoClube, inicio,
+}: { estado: EstadoDraft; disputar: () => void; novoMesmoClube: () => void; inicio: () => void }) {
   const clube = clubePorId(estado.clubeId);
   const vagas = FORMACOES[estado.formacao].vagas;
   const [revelados, setRevelados] = useState(0);
@@ -40,15 +36,6 @@ export function TimeCompleto({
       classe: `cheio r-${raridade(x.jogador.nota)} revelado`,
     };
   });
-
-  const [amistoso, setAmistoso] = useState<{ nomeB: string; r: ResultadoPartida } | null>(null);
-  const jogarAmistoso = () => {
-    // Adversário: qualquer time histórico do pool (finalistas + temporadas dos clubes).
-    const rng = new Rng(novaSeed());
-    const adv = rng.item(POOL).time;
-    const meu = timeDoDraft(estado, 'meu', `Seu ${clube.nome}`);
-    setAmistoso({ nomeB: adv.nome, r: simularPartida(meu, adv, rng) });
-  };
 
   const contagem = ORDEM_RAR.map((r) => ({ r, n: estado.escalacao.filter((x) => raridade(x!.jogador.nota) === r).length }))
     .filter((c) => c.n > 0);
@@ -96,15 +83,9 @@ export function TimeCompleto({
             })}
           </ul>
 
-          <button className="botao-grande secundario" onClick={jogarAmistoso}>
-            {amistoso ? 'Outro amistoso' : 'Amistoso de teste'}
-            <small>contra um elenco histórico sorteado</small>
-          </button>
-          {amistoso && <Placar nomeA={`Seu ${clube.nome}`} nomeB={amistoso.nomeB} r={amistoso.r} />}
-
-          <button className="botao-grande primario" disabled>
+          <button className="botao-grande primario pulsante" onClick={disputar}>
             Disputar a Libertadores
-            <small>chega na etapa 5</small>
+            <small>grupos, oitavas, quartas, semi e final</small>
           </button>
           <button className="botao-grande secundario" onClick={novoMesmoClube}>Montar outro {clube.nome}</button>
           <button className="link-discreto" onClick={inicio}>Início</button>

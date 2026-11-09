@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import {
   escolher, forcaGeral, jogadoresUsados, resortear, rodadaAtual, temporadaAtual, vagasLivres, RODADAS,
   type EstadoDraft,
@@ -7,6 +7,7 @@ import { FORMACOES } from '../../core/formacoes';
 import { encaixe, notaEfetiva } from '../../core/posicoes';
 import { raridade } from '../../core/raridade';
 import { POSICOES, type Jogador } from '../../core/tipos';
+import { ehIdolo, textoIdolo } from '../../core/idolos';
 import { Campo, type ItemCampo } from '../componentes/Campo';
 import { Carta } from '../componentes/Carta';
 import { Faixa } from '../componentes/Faixa';
@@ -35,8 +36,17 @@ export function Draft({ estado, mudar, sair }: { estado: EstadoDraft; mudar: (e:
     [temporada],
   );
 
+  const [idolo, setIdolo] = useState<string | null>(null);
+  useEffect(() => {
+    if (!idolo) return;
+    const t = setTimeout(() => setIdolo(null), 2800);
+    return () => clearTimeout(t);
+  }, [idolo]);
+
   const colocar = (vaga: number) => {
     if (!selecionado) return;
+    // Entrada especial para ídolos (só no Clássico: no Almanaque entregaria a nota).
+    if (!almanaque && ehIdolo(selecionado, temporada)) setIdolo(textoIdolo(selecionado, temporada, clube.nome, estado.rng));
     mudar(escolher(estado, clube, selecionado.nome, vaga));
     setSelecionado(null);
   };
@@ -95,6 +105,13 @@ export function Draft({ estado, mudar, sair }: { estado: EstadoDraft; mudar: (e:
             })}
           </div>
         </>
+      )}
+
+      {idolo && (
+        <div className="idolo" onClick={() => setIdolo(null)}>
+          <span className="estrela">★</span>
+          <p>{idolo}</p>
+        </div>
       )}
 
       {selecionado && (

@@ -2,7 +2,8 @@
  * Carrega os JSONs de /data no bundle do navegador.
  * Basta criar/editar arquivos em data/clubes/*.json — o glob pega tudo.
  */
-import type { ArquivoAdversarios, ArquivoFinalistas, ClubeJogavel } from '../core/tipos';
+import type { ArquivoAdversarios, ArquivoConfrontos, ArquivoFinalistas, ClubeJogavel } from '../core/tipos';
+import confrontosJson from '../../data/confrontos.json';
 import adversariosJson from '../../data/adversarios.json';
 import finalistasJson from '../../data/finalistas-libertadores.json';
 
@@ -24,3 +25,5 @@ export const FINALISTAS = finalistasJson as ArquivoFinalistas;
 import { montarPool } from '../core/pool';
 /** Todos os times históricos (adversários + temporadas dos clubes jogáveis). */
 export const POOL = montarPool(CLUBES, ADVERSARIOS, FINALISTAS);
+
+export const CONFRONTOS = (confrontosJson as ArquivoConfrontos).confrontos;

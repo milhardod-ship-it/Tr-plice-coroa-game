@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { CLUBES, ADVERSARIOS, FINALISTAS, POOL } from '../../dados';
+import { CLUBES, ADVERSARIOS, CONFRONTOS, FINALISTAS, POOL } from '../../dados';
 import { validarDados } from '../../core/validacao';
 import { raridade, NOME_RARIDADE } from '../../core/raridade';
 import type { ClubeJogavel, Jogador } from '../../core/tipos';
@@ -151,7 +151,7 @@ function AbaFinais() {
 }
 
 function AbaValidacao() {
-  const r = useMemo(() => validarDados(CLUBES, ADVERSARIOS, FINALISTAS), []);
+  const r = useMemo(() => validarDados(CLUBES, ADVERSARIOS, FINALISTAS, { descricao: '', confrontos: CONFRONTOS }), []);
   return (
     <div className="validacao">
       <div className={`selo ${r.erros.length ? 'ruim' : 'bom'}`}>

@@ -1,12 +1,21 @@
-import type { EstadoDraft } from '../../core/draft';
 import { rodadaAtual, draftCompleto, RODADAS } from '../../core/draft';
 import { Faixa } from '../componentes/Faixa';
 import { clubePorId } from '../util';
+import type { PartidaSalva } from '../persistencia';
+import { NOME_FASE } from '../../core/torneio';
 
 export function Inicio({
   salvo, novoJogo, continuar, abrirDados,
-}: { salvo: EstadoDraft | null; novoJogo: () => void; continuar: () => void; abrirDados: () => void }) {
-  const clube = salvo ? clubePorId(salvo.clubeId) : null;
+}: { salvo: PartidaSalva | null; novoJogo: () => void; continuar: () => void; abrirDados: () => void }) {
+  const clube = salvo ? clubePorId(salvo.draft.clubeId) : null;
+  const status = () => {
+    if (!salvo) return '';
+    const { draft, torneio, vistos } = salvo;
+    if (!draftCompleto(draft)) return `draft · rodada ${rodadaAtual(draft)} de ${RODADAS}`;
+    if (!torneio) return 'time completo';
+    if (vistos >= torneio.jogos.length) return 'campanha encerrada';
+    return `Libertadores · ${NOME_FASE[torneio.jogos[vistos].fase]}`;
+  };
   return (
     <div className="tela inicio">
       <div className="marca">
@@ -21,7 +30,7 @@ export function Inicio({
           <span>
             Continuar partida
             <small>
-              {clube.nome} · {draftCompleto(salvo) ? 'time completo' : `rodada ${rodadaAtual(salvo)} de ${RODADAS}`}
+              {clube.nome} · {status()}
             </small>
           </span>
         </button>

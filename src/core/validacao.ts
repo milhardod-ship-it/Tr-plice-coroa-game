@@ -9,6 +9,7 @@ import {
   NOTA_MIN,
   POSICOES,
   type ArquivoAdversarios,
+  type ArquivoConfrontos,
   type ArquivoFinalistas,
   type ClubeJogavel,
   type Jogador,
@@ -77,6 +78,7 @@ export function validarDados(
   clubes: ClubeJogavel[],
   adversarios: ArquivoAdversarios,
   finalistas: ArquivoFinalistas,
+  confrontos?: ArquivoConfrontos,
 ): ResultadoValidacao {
   const erros: string[] = [];
   const avisos: string[] = [];
@@ -169,6 +171,17 @@ export function validarDados(
   }
   for (let ano = 1980; ano <= 2025; ano++) {
     if (!anosFinal.has(ano)) erros.push(`Finalistas: falta o ano ${ano}.`);
+  }
+
+  // ---- Confrontos ----
+  const idsConhecidos = new Set<string>([...idsClubes, ...(finalistas.finais ?? []).flatMap((f) => [f.campeao.id, f.vice.id])]);
+  for (const c of confrontos?.confrontos ?? []) {
+    const onde = `Confronto "${c.titulo}"`;
+    if (!Array.isArray(c.clubes) || c.clubes.length !== 2) { erros.push(`${onde}: "clubes" precisa ter 2 ids.`); continue; }
+    for (const id of c.clubes) if (!idsConhecidos.has(id)) erros.push(`${onde}: id "${id}" desconhecido.`);
+    if (!c.clubes.some((id) => idsClubes.has(id))) avisos.push(`${onde}: nenhum dos dois é clube jogável (nunca aparece).`);
+    if (c.perdedor && !c.clubes.includes(c.perdedor)) erros.push(`${onde}: "perdedor" não está em "clubes".`);
+    if (!['final', 'mata-mata', 'classico'].includes(c.tipo)) erros.push(`${onde}: tipo "${c.tipo}" inválido.`);
   }
 
   return { erros, avisos, pendentes };

@@ -6,7 +6,7 @@
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { validarDados } from '../src/core/validacao';
-import type { ArquivoAdversarios, ArquivoFinalistas, ClubeJogavel } from '../src/core/tipos';
+import type { ArquivoAdversarios, ArquivoConfrontos, ArquivoFinalistas, ClubeJogavel } from '../src/core/tipos';
 
 const DATA = join(import.meta.dirname, '..', 'data');
 const ler = <T>(arq: string): T => {
@@ -24,7 +24,8 @@ const clubes = readdirSync(join(DATA, 'clubes'))
 const adversarios = ler<ArquivoAdversarios>(join(DATA, 'adversarios.json'));
 const finalistas = ler<ArquivoFinalistas>(join(DATA, 'finalistas-libertadores.json'));
 
-const { erros, avisos, pendentes } = validarDados(clubes, adversarios, finalistas);
+const confrontos = ler<ArquivoConfrontos>(join(DATA, 'confrontos.json'));
+const { erros, avisos, pendentes } = validarDados(clubes, adversarios, finalistas, confrontos);
 const estrito = process.argv.includes('--estrito');
 
 const temporadas = clubes.reduce((s, c) => s + c.temporadas.length, 0);

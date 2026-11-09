@@ -90,3 +90,19 @@ export interface ArquivoFinalistas {
   descricao: string;
   finais: Final[];
 }
+
+export interface Confronto {
+  clubes: [string, string];
+  /** final / mata-mata = confronto histórico de Libertadores; classico = rivalidade regional. */
+  tipo: 'final' | 'mata-mata' | 'classico';
+  /** Quem perdeu aquele confronto (ausente em clássicos regionais ou quando cada um ganhou uma). */
+  perdedor?: string;
+  titulo: string;
+  texto: string;
+  revisado: boolean;
+}
+
+export interface ArquivoConfrontos {
+  descricao: string;
+  confrontos: Confronto[];
+}

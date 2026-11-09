@@ -16,6 +16,8 @@ import {
   type Posicao,
 } from './tipos';
 
+/** Último ano aceito para temporadas (temporada atual, em andamento). */
+export const ANO_MAX = 2026;
 export const MIN_JOGADORES_TEMPORADA = 11;
 export const RECOMENDADO_JOGADORES_TEMPORADA = 16;
 
@@ -99,7 +101,7 @@ export function validarDados(
       const onde = `${c.nome} ${t.ano}`;
       if (anos.has(t.ano)) erros.push(`${onde}: temporada duplicada.`);
       anos.add(t.ano);
-      if (!Number.isInteger(t.ano) || t.ano < 1980 || t.ano > 2025) erros.push(`${onde}: ano fora de 1980–2025.`);
+      if (!Number.isInteger(t.ano) || t.ano < 1980 || t.ano > ANO_MAX) erros.push(`${onde}: ano fora de 1980–${ANO_MAX}.`);
       if (typeof t.revisado !== 'boolean') erros.push(`${onde}: falta "revisado".`);
       if (typeof t.observacao !== 'string') erros.push(`${onde}: falta "observacao".`);
       if (!Array.isArray(t.titulos)) erros.push(`${onde}: "titulos" deve ser uma lista.`);

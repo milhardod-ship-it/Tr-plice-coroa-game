@@ -401,6 +401,1120 @@
       ]
     },
     {
+      "ano": 2001,
+      "observacao": "11º na fase de classificação do Brasileirão; última temporada da dupla Romário e Juninho Paulista",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Helton",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Fábio",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Rafael",
+          "posicao": "LD",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Odvan",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Géder",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Alexandre Torres",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Gilberto",
+          "posicao": "LE",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Fabiano Eller",
+          "posicao": "VOL",
+          "alternativas": [
+            "ZAG"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Jamir",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "William Feijó",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Jorginho",
+          "posicao": "MC",
+          "alternativas": [
+            "LD",
+            "PD"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Donizete Oliveira",
+          "posicao": "MC",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "Léo Lima",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Juninho Paulista",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Euller",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD",
+            "PE"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Ely Thadeu",
+          "posicao": "PE",
+          "alternativas": [
+            "PD",
+            "ATA"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Romário",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 90
+        },
+        {
+          "nome": "Souza",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 72
+        }
+      ]
+    },
+    {
+      "ano": 2002,
+      "observacao": "15º no Brasileirão, com Petković e Ramon no meio-campo",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fábio",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Russo",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Gomes",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Wellington Paulo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Edinho",
+          "posicao": "LE",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "João Paulo",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 68,
+          "duvida": true
+        },
+        {
+          "nome": "Bruno Lazaroni",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Léo Lima",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Ramon",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Petković",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Valdir",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Souza",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Zé Carlos",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 68,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "ano": 2003,
+      "observacao": "Campeão Carioca (2 a 1 no Fluminense na final), com Marcelinho Carioca eleito o melhor do campeonato",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fábio",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Russo",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Alex",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Wellington Paulo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Edinho",
+          "posicao": "LE",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Henrique Lima",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Bruno Lazaroni",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "Léo Lima",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Marcelinho Carioca",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Petković",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Cadu",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Marques",
+          "posicao": "ATA",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Valdir",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Souza",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74
+        }
+      ]
+    },
+    {
+      "ano": 2004,
+      "observacao": "16º no Brasileirão com Joel Santana; Petković como referência",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fábio",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Cássio",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Thiago Maciel",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Gomes",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Júnior",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Anderson Costa",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 68,
+          "duvida": true
+        },
+        {
+          "nome": "Ygor",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Coutinho",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Henrique",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Róbson Luiz",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Everton",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Petković",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Muriqui",
+          "posicao": "ATA",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "Valdir",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74
+        }
+      ]
+    },
+    {
+      "ano": 2005,
+      "observacao": "Romário, aos 39 anos, artilheiro do Brasileirão; 12º lugar com Renato Gaúcho",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Cássio",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Wagner Diniz",
+          "posicao": "LD",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Jorge Luiz",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Fábio Braz",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Diego",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 68,
+          "duvida": true
+        },
+        {
+          "nome": "Ygor",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Abedi",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Ramon",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Morais",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Alex Dias",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Romário",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 88
+        }
+      ]
+    },
+    {
+      "ano": 2006,
+      "observacao": "Vice da Copa do Brasil (final contra o Flamengo), com Renato Gaúcho",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Cássio",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Wagner Diniz",
+          "posicao": "LD",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "Jorge Luiz",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Fábio Braz",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Diego",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Ygor",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Andrade",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Roberto Lopes",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Abedi",
+          "posicao": "MC",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Ives",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 66
+        },
+        {
+          "nome": "Ramon",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Morais",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Edílson",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Valdiram",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Leandro Amaral",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76
+        }
+      ]
+    },
+    {
+      "ano": 2007,
+      "observacao": "Ano do milésimo gol de Romário; 10º no Brasileirão, com Conca e Morais",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Silvio Luiz",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Cássio",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Wagner Diniz",
+          "posicao": "LD",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Eduardo",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 66
+        },
+        {
+          "nome": "Jorge Luiz",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Júlio Santos",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Luizão",
+          "posicao": "ZAG",
+          "alternativas": [
+            "LD"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Rubens Júnior",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Amaral",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Andrade",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Perdigão",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Leandro Bonfim",
+          "posicao": "MEI",
+          "alternativas": [
+            "MC",
+            "PD"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "Darío Conca",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Morais",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Marcelinho",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE",
+            "ATA"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Abuda",
+          "posicao": "ATA",
+          "alternativas": [
+            "PE",
+            "PD"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Alan Kardec",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Romário",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        }
+      ]
+    },
+    {
+      "ano": 2008,
+      "observacao": "Primeiro rebaixamento da história (18º); despedida de Edmundo",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Tiago",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 68,
+          "duvida": true
+        },
+        {
+          "nome": "Rafael",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 68,
+          "duvida": true
+        },
+        {
+          "nome": "Wagner Diniz",
+          "posicao": "LD",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Eduardo Luiz",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Jorge Luiz",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Fernando",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Odvan",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 66
+        },
+        {
+          "nome": "Baiano",
+          "posicao": "LD",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 66
+        },
+        {
+          "nome": "Valmir",
+          "posicao": "LE",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 66
+        },
+        {
+          "nome": "Jonílson",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Mateus",
+          "posicao": "MC",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 68
+        },
+        {
+          "nome": "Mádson",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Alex Teixeira",
+          "posicao": "PE",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "Pinilla",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Leandro Amaral",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Edmundo",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Alan Kardec",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 68
+        }
+      ]
+    },
+    {
+      "ano": 2009,
+      "observacao": "Campeão da Série B e volta à elite",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fernando Prass",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "Titi",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Fernando",
+          "posicao": "ZAG",
+          "alternativas": [
+            "LD"
+          ],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Ramon",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 68,
+          "duvida": true
+        },
+        {
+          "nome": "Amaral",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Nilton",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Carlos Alberto",
+          "posicao": "MEI",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Philippe Coutinho",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Rodrigo Pimpão",
+          "posicao": "PE",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "Élton",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Alan Kardec",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Adriano",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 70,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "ano": 2010,
+      "observacao": "11º no Brasileirão; Dedé desponta na zaga",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fernando Prass",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Dedé",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Fernando",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Márcio Careca",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 68,
+          "duvida": true
+        },
+        {
+          "nome": "Rafael Carioca",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Nilton",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Jumar",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 66,
+          "duvida": true
+        },
+        {
+          "nome": "Allan",
+          "posicao": "LD",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 66,
+          "duvida": true
+        },
+        {
+          "nome": "Felipe",
+          "posicao": "MEI",
+          "alternativas": [
+            "LE",
+            "MC"
+          ],
+          "nota": 80,
+          "duvida": true
+        },
+        {
+          "nome": "Carlos Alberto",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Philippe Coutinho",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "Zé Roberto",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Éder Luís",
+          "posicao": "PD",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Élton",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Dodô",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        }
+      ]
+    },
+    {
       "ano": 2011,
       "observacao": "Campeão da Copa do Brasil e vice-campeão brasileiro",
       "titulos": [
@@ -525,6 +1639,1468 @@
           "posicao": "ATA",
           "alternativas": [],
           "nota": 70
+        }
+      ]
+    },
+    {
+      "ano": 2012,
+      "observacao": "Quartas de final da Libertadores (eliminado pelo Corinthians) e 5º no Brasileirão",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fernando Prass",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Fagner",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Dedé",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Renato Silva",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Rodolfo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Thiago Feltri",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Wendel",
+          "posicao": "PE",
+          "alternativas": [
+            "LE"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Nilton",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Eduardo Costa",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Fellipe Bastos",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Juninho Pernambucano",
+          "posicao": "MEI",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Felipe",
+          "posicao": "MEI",
+          "alternativas": [
+            "LE"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Carlos Alberto",
+          "posicao": "MEI",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Diego Souza",
+          "posicao": "MEI",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Éder Luís",
+          "posicao": "PD",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "William Barbio",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Alecsandro",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Carlos Tenorio",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74
+        }
+      ]
+    },
+    {
+      "ano": 2013,
+      "observacao": "Segundo rebaixamento (18º), com quatro técnicos na temporada",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Michel Alves",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Diogo Silva",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Nei",
+          "posicao": "LD",
+          "alternativas": [
+            "LE"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Fagner",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Yotún",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Cris",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Rafael Vaz",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Luan",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Jomar",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Guiñazú",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Sandro Silva",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Pedro Ken",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "Juninho Pernambucano",
+          "posicao": "MEI",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Marlone",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "Bernardo",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Wendel",
+          "posicao": "PE",
+          "alternativas": [
+            "LE"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Edmílson",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "André",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Carlos Tenorio",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 72
+        }
+      ]
+    },
+    {
+      "ano": 2014,
+      "observacao": "Acesso na Série B (3º) e vice do Carioca",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Martín Silva",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Diogo Silva",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 66
+        },
+        {
+          "nome": "André Rocha",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Rodrigo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Luan",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Rafael Vaz",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Marlon",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Diego Renan",
+          "posicao": "LE",
+          "alternativas": [
+            "LD"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Guiñazú",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Fabrício",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Eduardo Aranda",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Pedro Ken",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Douglas",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Santiago Montoya",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Everton Costa",
+          "posicao": "PD",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "Edmílson",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "Kléber",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Thalles",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 68
+        }
+      ]
+    },
+    {
+      "ano": 2015,
+      "observacao": "Campeão Carioca, mas rebaixado no Brasileirão (18º)",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Martín Silva",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Mádson",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Rodrigo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Luan",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Jomar",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Christianno",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Júlio César",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Guiñazú",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Serginho",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Diguinho",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Julio dos Santos",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Andrezinho",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Nenê",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Jorge Henrique",
+          "posicao": "PD",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Rafael Silva",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD",
+            "PE"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Riascos",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Dagoberto",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Germán Herrera",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 72
+        }
+      ]
+    },
+    {
+      "ano": 2016,
+      "observacao": "Campeão Carioca e acesso na Série B (3º)",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Martín Silva",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Mádson",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Rodrigo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Luan",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Jomar",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Júlio César",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Marcelo Mattos",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Julio dos Santos",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Andrezinho",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Nenê",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Jorge Henrique",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Éder Luís",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Thalles",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Leandrão",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 68
+        }
+      ]
+    },
+    {
+      "ano": 2017,
+      "observacao": "7º no Brasileirão e vaga na Libertadores",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Martín Silva",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Gilberto",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Anderson Martins",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Paulão",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Breno",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Ramon",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Henrique",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Jean",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Wellington",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Bruno Paulista",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Douglas",
+          "posicao": "MEI",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Mateus Vital",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Nenê",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Evander",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Yago Pikachu",
+          "posicao": "PD",
+          "alternativas": [
+            "LD"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Paulinho",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Luís Fabiano",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Andrés Ríos",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74
+        }
+      ]
+    },
+    {
+      "ano": 2018,
+      "observacao": "Fase de grupos da Libertadores; 16º no Brasileirão",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Martín Silva",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Yago Pikachu",
+          "posicao": "LD",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Ricardo Graça",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Paulão",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Erazo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Leandro Castán",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "Henrique",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Desábato",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Wellington",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Bruno Silva",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Thiago Galhardo",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Evander",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Giovanni Augusto",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Paulinho",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Rildo",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Andrés Ríos",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Maxi López",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ]
+    },
+    {
+      "ano": 2019,
+      "observacao": "12º no Brasileirão com Vanderlei Luxemburgo; Pikachu foi o mais utilizado",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fernando Miguel",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Yago Pikachu",
+          "posicao": "LD",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Leandro Castán",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Werley",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Henrique",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Danilo Barcelos",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Raul",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Richard",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Andrey",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Guarín",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Marcos Júnior",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Bruno César",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Rossi",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Talles Magno",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Marrony",
+          "posicao": "ATA",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "Ribamar",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 68,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "ano": 2020,
+      "observacao": "Terceiro rebaixamento, apesar dos gols de Germán Cano",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fernando Miguel",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Léo Matos",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Werley",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Leandro Castán",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Ricardo Graça",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Jadson",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Henrique",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Neto Borges",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Bruno Gomes",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Raul",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Leonardo Gil",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Marcos Júnior",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Benítez",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Vinícius",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Talles Magno",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Marrony",
+          "posicao": "ATA",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Germán Cano",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        }
+      ]
+    },
+    {
+      "ano": 2021,
+      "observacao": "Série B sem acesso, com Cano e a volta de Nenê",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Vanderlei",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Lucão",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Léo Matos",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Ernando",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Leandro Castán",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Walber",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 66
+        },
+        {
+          "nome": "Zeca",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Riquelme",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Andrey",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Bruno Gomes",
+          "posicao": "VOL",
+          "alternativas": [
+            "LD"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Galarza",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "MT",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Marquinhos Gabriel",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "Nenê",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Gabriel Pec",
+          "posicao": "PE",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "Germán Cano",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Morato",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 70,
+          "duvida": true
+        },
+        {
+          "nome": "Léo Jabá",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 68,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "ano": 2022,
+      "observacao": "Acesso dramático na Série B e chegada da SAF",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Thiago Rodrigues",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Weverton",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 68
+        },
+        {
+          "nome": "Quintero",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Anderson Conceição",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Edimar",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Yuri Lara",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Zé Gabriel",
+          "posicao": "VOL",
+          "alternativas": [
+            "ZAG"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Andrey Santos",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Marlon Gomes",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Bruno Nazário",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Nenê",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Gabriel Pec",
+          "posicao": "PE",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Figueiredo",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Alex Teixeira",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 72,
+          "duvida": true
+        },
+        {
+          "nome": "Eguinaldo",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Raniel",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 72
+        }
+      ]
+    },
+    {
+      "ano": 2023,
+      "observacao": "Escapou do rebaixamento na última rodada (15º), com Payet e Vegetti",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Léo Jardim",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Ivan",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Paulo Henrique",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Puma Rodríguez",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Léo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Medel",
+          "posicao": "ZAG",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Capasso",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Maicon",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Lucas Piton",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Jair",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Zé Gabriel",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Galarza",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Praxedes",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Mateus Carvalho",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 70
+        },
+        {
+          "nome": "Payet",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Serginho",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Orellano",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Gabriel Pec",
+          "posicao": "PE",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Rossi",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Vegetti",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Pedro Raul",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 72
         }
       ]
     },
@@ -658,6 +3234,281 @@
           "posicao": "ATA",
           "alternativas": [],
           "nota": 82
+        }
+      ]
+    },
+    {
+      "ano": 2025,
+      "observacao": "Vice da Copa do Brasil (final contra o Corinthians) e 14º no Brasileirão",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Léo Jardim",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Daniel Fuzato",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Paulo Henrique",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Puma Rodríguez",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Robert Renan",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Lucas Freitas",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Mauricio Lemos",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Lucas Piton",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Hugo Moura",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Tchê Tchê",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Thiago Mendes",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Cauan Barros",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Philippe Coutinho",
+          "posicao": "MEI",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Matheus França",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Payet",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Nuno Moreira",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Rayan",
+          "posicao": "PD",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Andrés Gómez",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "David",
+          "posicao": "PE",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 72
+        },
+        {
+          "nome": "Vegetti",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 84
+        }
+      ]
+    },
+    {
+      "ano": 2026,
+      "observacao": "Temporada em andamento (dados até nov/2026): Brasileirão e Copa Sul-Americana; saíram Coutinho, Vegetti e Rayan",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Léo Jardim",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Daniel Fuzato",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Paulo Henrique",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Puma Rodríguez",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Robert Renan",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Carlos Cuesta",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Lucas Freitas",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Alan Saldivia",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 72
+        },
+        {
+          "nome": "Lucas Piton",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Cuiabano",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Santiago Sosa",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Thiago Mendes",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Tchê Tchê",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC",
+            "MEI"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Cauan Barros",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 70
+        },
+        {
+          "nome": "Johan Rojas",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Andrés Gómez",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Marino Hinestroza",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Nuno Moreira",
+          "posicao": "PE",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Brenner",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Facundo Colidio",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Claudio Spinelli",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74
         }
       ]
     }

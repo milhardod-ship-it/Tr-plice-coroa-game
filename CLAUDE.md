@@ -168,8 +168,10 @@ falso, sem notificação de culpa.
   84×80 → 50/27/23%.
 - UI de teste: aba "Motor" em "Conferir dados" (laboratório).
 - A roleta é só apresentação: o ano já vem sorteado pelo `core` (com seed).
-- Dados dos 12 clubes: 79 temporadas, 1073 jogadores (70 com `"duvida": true`). Temporadas:
-  Flamengo 1981/87/92/2009/19/21/22/25; Vasco 1989/97/98/2000/11/24; Fluminense 1984/2007/08/10/12/23;
+- Dados dos 12 clubes: 103 temporadas. **Piloto "todos os anos": Vasco tem 1989, 1997, 1998 e TODOS os anos
+  de 2000 a 2026** (2001–2026 conferidos, quando possível, em páginas de temporada da Wikipédia e notícias;
+  64 jogadores com dúvida nesses anos; 2026 = temporada em andamento). Demais clubes:
+  Flamengo 1981/87/92/2009/19/21/22/25; Fluminense 1984/2007/08/10/12/23;
   Botafogo 1989/95/2010/13/23/24; Corinthians 1990/98/99/2005/12/15/17; Palmeiras 1993/99/2000/16/20/21/22/25;
   São Paulo 1986/92/93/94/2005/06/08; Santos 1995/2002/03/04/10/11/20; Atlético-MG 1980/2012/13/14/21/24;
   Cruzeiro 1997/2003/09/13/14/17; Grêmio 1983/84/95/96/2007/17; Internacional 1980/2006/08/10/15/20.
@@ -223,6 +225,11 @@ falso, sem notificação de culpa.
   `src/ui/som.ts` (sons sintetizados por Web Audio: roleta, temporada lendária, Lenda, escolha,
   gol, gol sofrido, apito, conquista); botão 🔊/🔇 fixo no canto inferior esquerdo (silencia
   som e vibração).
+- Efeito do piloto: com 30 temporadas uniformes, o time do Vasco no draft fica em média com força ~79,
+  contra ~85 do Flamengo (8 temporadas quase todas lendárias). Decisão pendente com o dono: peso para
+  Temporadas Lendárias, expandir todos os clubes, ou outra forma de equilíbrio.
+- `ANO_MAX = 2026` em `validacao.ts`. Ambiente cloud "Tr-plice-coroa-game" libera pt/en.wikipedia.org
+  e www.ogol.com.br (o ogol bloqueia robôs; a Wikipédia limita muitas consultas seguidas).
 - Processo: só fazer push se `npm run build` passar (encadear com `&&`).
 
 ## Comandos

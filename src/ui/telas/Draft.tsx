@@ -13,6 +13,7 @@ import { Carta } from '../componentes/Carta';
 import { Faixa } from '../componentes/Faixa';
 import { Roleta } from '../componentes/Roleta';
 import { clubePorId, nomeCurto, varsClube } from '../util';
+import { sons } from '../som';
 
 const SIMBOLO = { natural: '✓', alternativa: '≈', improvisado: '!' } as const;
 
@@ -31,6 +32,18 @@ export function Draft({ estado, mudar, sair }: { estado: EstadoDraft; mudar: (e:
   const [verTime, setVerTime] = useState(false);
   const mostrando = revelada === chave;
 
+  // Sons: roleta a cada sorteio; acorde dourado na Temporada Lendária; brilho quando aparece uma Lenda.
+  useEffect(() => { sons.roleta(); }, [chave]);
+  useEffect(() => {
+    if (!mostrando) return;
+    if (lendaria) sons.lendaria();
+    if (!almanaque && temporada.jogadores.some((j) => raridade(j.nota) === 'lenda' && !usados.has(j.nome))) {
+      const t = setTimeout(() => sons.lenda(), 700);
+      return () => clearTimeout(t);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mostrando]);
+
   const ordenados = useMemo(
     () => [...temporada.jogadores].sort((a, b) => POSICOES.indexOf(a.posicao) - POSICOES.indexOf(b.posicao)),
     [temporada],
@@ -47,6 +60,7 @@ export function Draft({ estado, mudar, sair }: { estado: EstadoDraft; mudar: (e:
     if (!selecionado) return;
     // Entrada especial para ídolos (só no Clássico: no Almanaque entregaria a nota).
     if (!almanaque && ehIdolo(selecionado, temporada)) setIdolo(textoIdolo(selecionado, temporada, clube.nome, estado.rng));
+    sons.escolha();
     mudar(escolher(estado, clube, selecionado.nome, vaga));
     setSelecionado(null);
   };

@@ -1,20 +1,39 @@
 import { useEffect, useMemo, useState } from 'react';
 import { analisarCampanha } from '../../core/campanha';
-import type { EstadoDraft } from '../../core/draft';
 import { FORMACOES } from '../../core/formacoes';
 import { notaEfetiva } from '../../core/posicoes';
 import { raridade } from '../../core/raridade';
-import type { Torneio } from '../../core/torneio';
+import { textoCompartilharDesafio } from '../../core/desafio';
+import type { PartidaSalva } from '../persistencia';
 import { gerarCard } from '../card';
 import { Faixa } from '../componentes/Faixa';
 import { clubePorId, varsClube } from '../util';
 import { ResultadoCurto } from './Torneio';
 
 /** Tela final: o desfecho, o quão perto chegou, o card para compartilhar e o "jogar de novo". */
-export function Final({ draft, torneio, jogarDeNovo, inicio }: {
-  draft: EstadoDraft; torneio: Torneio; jogarDeNovo: () => void; inicio: () => void;
+export function Final({ partida, registrar, jogarDeNovo, inicio }: {
+  partida: PartidaSalva; registrar: () => void; jogarDeNovo: () => void; inicio: () => void;
 }) {
+  const { draft } = partida;
+  const torneio = partida.torneio!;
   const clube = clubePorId(draft.clubeId);
+  // Conta a campanha (álbum, recordes, conquistas, desafio) ao chegar aqui — uma vez só.
+  useEffect(() => { registrar(); }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  const [copiado, setCopiado] = useState(false);
+  const textoDesafio = partida.desafio
+    ? textoCompartilharDesafio(partida.desafio.numero, clube.nome, analisarCampanha(torneio).titulo.replace(/!$/, ''), torneio, 'triplice-coroa.vercel.app')
+    : '';
+  const compartilharDesafio = async () => {
+    try {
+      if (navigator.share) { await navigator.share({ text: textoDesafio }); return; }
+    } catch (e) {
+      if ((e as Error).name === 'AbortError') return;
+    }
+    try {
+      await navigator.clipboard.writeText(textoDesafio);
+      setCopiado(true);
+    } catch { /* sem área de transferência */ }
+  };
   const a = useMemo(() => analisarCampanha(torneio), [torneio]);
   const [card, setCard] = useState<{ blob: Blob; url: string } | null>(null);
   const [aviso, setAviso] = useState('');
@@ -71,9 +90,27 @@ export function Final({ draft, torneio, jogarDeNovo, inicio }: {
         {a.quase.map((q) => <p key={q}>{q}</p>)}
       </div>
 
-      <button className="botao-grande primario pulsante" onClick={jogarDeNovo}>
+      {partida.novidades && (partida.novidades.conquistas.length > 0 || partida.novidades.recordes.length > 0) && (
+        <div className="novidades">
+          {partida.novidades.conquistas.map((c) => (
+            <div key={c.id} className="nov-conquista"><span>{c.emoji}</span><div><small>Conquista desbloqueada</small><b>{c.nome}</b></div></div>
+          ))}
+          {partida.novidades.recordes.map((r) => <div key={r} className="nov-recorde">📈 Novo recorde · {r}</div>)}
+        </div>
+      )}
+
+      {partida.desafio && (
+        <div className="share-desafio">
+          <pre>{textoDesafio}</pre>
+          <button className="botao-grande primario" onClick={compartilharDesafio}>
+            {copiado ? 'Copiado! Cole no WhatsApp' : 'Compartilhar resultado do desafio'}
+          </button>
+        </div>
+      )}
+
+      <button className={`botao-grande ${partida.desafio ? 'secundario' : 'primario pulsante'}`} onClick={jogarDeNovo}>
         Jogar de novo com o {clube.nome}
-        <small>novo draft em 1 toque</small>
+        <small>{partida.desafio ? 'no modo livre, quantas vezes quiser' : 'novo draft em 1 toque'}</small>
       </button>
 
       <div className="numeros">

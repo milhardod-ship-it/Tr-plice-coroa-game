@@ -146,11 +146,11 @@ falso, sem notificação de culpa.
 | 5 | Torneio Libertadores com revelação jogo a jogo (itens 3–4) | ✅ feita |
 | 6 | Tela final + card de compartilhamento (item 5) | ✅ feita |
 | 7 | Dados dos 10 clubes jogáveis restantes | ✅ feita |
-| 8 | Desafio do Dia, sequência, álbum, conquistas, recordes e sons (itens 6–11) | ⏭ próxima |
+| 8 | Desafio do Dia, sequência, álbum, conquistas, recordes e sons (itens 6–11) | ✅ feita |
 
-**Atualize esta tabela ao concluir cada etapa.**
+**Atualize esta tabela ao concluir cada etapa.** Próximo passo combinado: fase de lapidação (revisão de dados, calibragem e ajustes de interface pedidos pelo dono).
 
-## Estado atual (fim da etapa 7)
+## Estado atual (fim da etapa 8)
 - `src/core/` (puro, sem UI): `tipos.ts`, `formacoes.ts`, `raridade.ts`, `validacao.ts`,
   `rng.ts` (mulberry32 com seed; estado = 1 número), `posicoes.ts` (penalidade: alternativa −3;
   improvisado −8/−14/−22 conforme distância de setor; goleiro ↔ linha −35; mínimo 30),
@@ -206,6 +206,23 @@ falso, sem notificação de culpa.
   botão grande "Jogar de novo" (novo draft com mesmo clube/modo/formação em 1 toque), números,
   card, campanha e time. `src/ui/card.ts`: card PNG 1080×1350 num canvas (sem escudos/fotos),
   compartilhado com `navigator.share` (arquivo) ou baixado.
+- `jogarTorneio` usa DOIS geradores: `sorteio` (seed) sorteia TODOS os rivais antes de qualquer jogo
+  (mesma seed ⇒ mesmos rivais para qualquer time) e outro (seed ^ 0x9e3779b9) simula os jogos.
+- Desafio do Dia (`src/core/desafio.ts`): #1 = 2026-11-01; seed = `seedDeTexto('tc-desafio-AAAA-MM-DD')`;
+  clube do dia sorteado pela seed; modo Clássico fixo; formação e estilo livres. Texto compacto
+  com quadradinhos (🟩 V, 🟨 E, 🟥 D, 🟦/🟧 pênaltis ganhos/perdidos). Data local do aparelho.
+- `sequencia.ts`: 1 dia de folga permitido (2 faltas seguidas quebram); hoje ainda não jogado não conta.
+- `conquistas.ts`: 10 conquistas (Campeão, Invicto, 7 a 0, Só anos 80, Virada, Muralha, Frieza,
+  Vingança, Almanaque vivo, Galeria de lendas). `progresso.ts`: álbum (nomes escalados por clube,
+  registrados quando o draft completa), recordes (campanhas, títulos, melhor campanha, maior
+  goleada, artilharia por clube|nome), desafios por data, preferência de som. Registro da campanha
+  uma única vez (`registrada` na partida) ao abrir a tela final.
+- localStorage: `tc:partida:v1` (modo livre), `tc:desafio:v1` (desafio), `tc:progresso:v1`.
+- UI: Início com card do Desafio (sequência 🔥, resultado do dia), "Modo livre", "Álbum,
+  conquistas e recordes" (`telas/Colecao.tsx`, silhuetas para não escalados); toast de conquista;
+  `src/ui/som.ts` (sons sintetizados por Web Audio: roleta, temporada lendária, Lenda, escolha,
+  gol, gol sofrido, apito, conquista); botão 🔊/🔇 fixo no canto inferior esquerdo (silencia
+  som e vibração).
 - Processo: só fazer push se `npm run build` passar (encadear com `&&`).
 
 ## Comandos

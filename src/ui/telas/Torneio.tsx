@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import type { EstadoDraft } from '../../core/draft';
 import { timeDoDraft, type Time } from '../../core/motor';
 import { narrarPartida, type EventoNarracao } from '../../core/narracao';
 import { FASES, type JogoTorneio, type LinhaTabela, type Torneio } from '../../core/torneio';
@@ -7,12 +6,13 @@ import { POOL } from '../../dados';
 import { Faixa } from '../componentes/Faixa';
 import { clubePorId, varsClube } from '../util';
 import { Final } from './Final';
+import type { PartidaSalva } from '../persistencia';
+import { sons, vibrar } from '../som';
 
 interface Props {
-  draft: EstadoDraft;
-  torneio: Torneio;
-  vistos: number;
+  partida: PartidaSalva;
   marcarVistos: (n: number) => void;
+  registrar: () => void;
   novoMesmoClube: () => void;
   inicio: () => void;
 }
@@ -20,7 +20,9 @@ interface Props {
 const timeAdv = (chave: string, nome: string): Time =>
   POOL.find((p) => p.chave === chave)?.time ?? { id: chave, nome, estilo: 'equilibrado', escalacao: [] };
 
-export function TorneioTela({ draft, torneio, vistos, marcarVistos, novoMesmoClube, inicio }: Props) {
+export function TorneioTela({ partida, marcarVistos, registrar, novoMesmoClube, inicio }: Props) {
+  const { draft, vistos } = partida;
+  const torneio = partida.torneio!;
   const clube = clubePorId(draft.clubeId);
   const meu = useMemo(() => timeDoDraft(draft, 'meu', clube.nome), [draft, clube]);
   const [assistindo, setAssistindo] = useState(false);
@@ -29,7 +31,7 @@ export function TorneioTela({ draft, torneio, vistos, marcarVistos, novoMesmoClu
   useEffect(() => { window.scrollTo(0, 0); }, [assistindo, vistos]);
 
   if (terminou) {
-    return <Final draft={draft} torneio={torneio} jogarDeNovo={novoMesmoClube} inicio={inicio} />;
+    return <Final partida={partida} registrar={registrar} jogarDeNovo={novoMesmoClube} inicio={inicio} />;
   }
 
   const jogo = torneio.jogos[vistos];
@@ -56,7 +58,7 @@ export function TorneioTela({ draft, torneio, vistos, marcarVistos, novoMesmoClu
     <div className="tela torneio" style={varsClube(clube)}>
       <header className="cab-torneio">
         <button className="voltar" onClick={inicio}>‹ Sair</button>
-        <h2>Libertadores</h2>
+        <h2>{partida.desafio ? `Desafio #${partida.desafio.numero}` : 'Libertadores'}</h2>
         <Faixa clube={clube} />
       </header>
       <Fases atual={jogo.fase} />
@@ -206,9 +208,13 @@ function PartidaAoVivo({
     return () => clearTimeout(timer.current);
   }, [mostrados, minuto, cobrancaRevelada, fresco, acabou, eventos, tenso, vel, ultimo]);
 
-  // Vibração curta a cada gol do jogador (quando o aparelho permite).
+  // Som e vibração a cada gol; apito no fim (o botão de silenciar desliga os dois).
   useEffect(() => {
-    if (ultimo?.tipo === 'gol' && ultimo.lado === 'a') navigator.vibrate?.(150);
+    if (!ultimo) return;
+    if (ultimo.tipo === 'gol') {
+      if (ultimo.lado === 'a') { sons.gol(); vibrar([120, 60, 120]); } else sons.golContra();
+    }
+    if (ultimo.tipo === 'fim') sons.apito();
   }, [ultimo]);
 
   const pular = () => { clearTimeout(timer.current); setMostrados(eventos.length); setCobrancaRevelada(true); setFresco(false); setMinuto(120); };

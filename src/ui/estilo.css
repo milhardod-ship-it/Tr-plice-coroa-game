@@ -20,7 +20,7 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 button { font: inherit; color: inherit; cursor: pointer; }
-.app { max-width: 520px; margin: 0 auto; padding: 16px 16px calc(32px + env(safe-area-inset-bottom)); }
+.app { max-width: 520px; margin: 0 auto; padding: 16px 16px calc(72px + env(safe-area-inset-bottom)); }
 
 
 .abas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-bottom: 16px; position: sticky; top: 0; z-index: 2; background: var(--fundo); padding: 6px 0; }
@@ -455,3 +455,61 @@ summary { padding: 14px; font-weight: 700; min-height: 48px; }
 .confete i { position: absolute; top: -20px; width: 10px; height: 16px; border-radius: 2px; animation: cai linear forwards; }
 @keyframes cai { to { top: 105vh; transform: rotate(720deg) translateX(40px); } }
 @media (prefers-reduced-motion: reduce) { .confete { display: none; } }
+
+/* ================= Etapa 8: desafio, coleção, som ================= */
+.btn-som { position: fixed; bottom: calc(12px + env(safe-area-inset-bottom)); left: max(10px, calc(50% - 250px)); opacity: .85; z-index: 40; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--borda); background: #151b23e6; font-size: 18px; }
+.inicio .marca { margin-bottom: 18px; }
+.card-desafio { padding: 16px; border-radius: 18px; border: 1px solid var(--ouro); background: linear-gradient(160deg, #2a2108, var(--painel) 65%); box-shadow: 0 0 28px #f5c54222; }
+.card-desafio.feito { border-color: var(--borda); background: var(--painel); box-shadow: none; }
+.cd-topo { display: flex; justify-content: space-between; align-items: center; font-weight: 900; font-size: 18px; color: var(--ouro); }
+.chama { font-size: 14px; color: #fdba74; background: #7c2d1222; border: 1px solid #fb923c55; padding: 3px 10px; border-radius: 999px; }
+.cd-clube { display: flex; align-items: center; gap: 8px; margin-top: 8px; font-weight: 800; font-size: 17px; }
+.cd-clube small { color: var(--fraco); font-weight: 600; font-size: 12px; }
+.cd-res { margin: 10px 0 2px; font-weight: 900; font-size: 18px; }
+.cd-quad { margin: 0; font-size: 20px; letter-spacing: 2px; }
+.cd-nota { display: block; margin-top: 8px; color: var(--fraco); text-align: center; }
+.cab-desafio { padding: 12px 14px; border-radius: 14px; border: 1px solid var(--ouro); background: #2a210855; margin: 6px 0 4px; }
+.cab-desafio small { display: block; color: var(--ouro); font-weight: 800; font-size: 12px; text-transform: uppercase; letter-spacing: .5px; }
+.cab-desafio b { display: flex; align-items: center; gap: 8px; margin-top: 4px; font-size: 17px; }
+.share-desafio { margin-top: 12px; padding: 14px; border-radius: 16px; background: var(--painel); border: 1px solid var(--borda); }
+.share-desafio pre { margin: 0; white-space: pre-wrap; font-family: inherit; font-size: 15px; line-height: 1.5; }
+.novidades { display: grid; gap: 8px; margin-top: 10px; }
+.nov-conquista, .toast-conquista { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-radius: 14px; background: linear-gradient(135deg, #3b2a06, var(--painel)); border: 1px solid var(--ouro); animation: lendaria-entra .6s cubic-bezier(.2,1.4,.4,1); }
+.nov-conquista span, .toast-conquista span { font-size: 28px; }
+.nov-conquista small, .toast-conquista small { display: block; font-size: 11px; color: var(--ouro); text-transform: uppercase; letter-spacing: 1px; font-weight: 800; }
+.nov-conquista b, .toast-conquista b { font-size: 16px; }
+.nov-recorde { padding: 10px 14px; border-radius: 12px; background: #22c55e14; border: 1px solid #22c55e44; font-weight: 700; font-size: 14px; }
+.toast-conquista { position: fixed; left: 16px; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom)); z-index: 50; max-width: 488px; margin: 0 auto; box-shadow: 0 10px 40px #000a; }
+
+.abas-3 { grid-template-columns: repeat(3, 1fr) !important; }
+.abas-3 button { font-size: 14px !important; }
+.chips-clubes { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 6px; margin: 0 -16px; padding-left: 16px; padding-right: 16px; scrollbar-width: none; }
+.chips-clubes button { flex: none; display: flex; align-items: center; gap: 6px; min-height: 40px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--borda); background: var(--painel); font-weight: 700; font-size: 13px; }
+.chips-clubes button.sel { border-color: var(--verde); background: #22c55e1a; }
+.chips-clubes .faixa { width: 22px; height: 14px; }
+.chips-clubes small { color: var(--fraco); }
+.album-total { margin: 12px 0 6px; font-size: 16px; }
+.album-total b { font-size: 22px; color: var(--verde); }
+.barra-album { height: 8px; border-radius: 4px; background: var(--painel-2); overflow: hidden; margin-bottom: 12px; }
+.barra-album i { display: block; height: 100%; background: linear-gradient(90deg, var(--verde), var(--ouro)); }
+.album { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.fig { position: relative; min-height: 92px; padding: 8px 6px; border-radius: 12px; border: 2px solid var(--c); background: linear-gradient(160deg, color-mix(in srgb, var(--c) 18%, var(--painel)), var(--painel)); display: flex; flex-direction: column; justify-content: flex-end; gap: 2px; min-width: 0; }
+.fig b { font-size: 12px; line-height: 1.15; overflow-wrap: anywhere; }
+.fig small { font-size: 10px; color: var(--fraco); }
+.fig-pos { position: absolute; top: 6px; left: 6px; font-size: 9px; font-weight: 900; color: var(--fraco); }
+.fig.silhueta { --c: #2a3442; background: var(--painel); align-items: center; justify-content: center; }
+.fig.silhueta .sombra { font-size: 30px; filter: grayscale(1) brightness(.35); }
+.lista-conquistas { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.lista-conquistas li { display: flex; align-items: center; gap: 12px; padding: 12px; border-radius: 14px; background: var(--painel); border: 1px solid var(--borda); opacity: .55; }
+.lista-conquistas li.ok { opacity: 1; border-color: #f5c54266; }
+.lista-conquistas .emoji { font-size: 26px; width: 34px; text-align: center; }
+.lista-conquistas b { display: block; }
+.lista-conquistas small { color: var(--fraco); font-size: 13px; }
+.recordes .rec { margin-top: 10px; padding: 14px; border-radius: 14px; background: var(--painel); border: 1px solid var(--borda); }
+.recordes .rec > small { display: block; color: var(--fraco); font-size: 12px; text-transform: uppercase; letter-spacing: .5px; margin-bottom: 4px; }
+.recordes .rec > b { font-size: 16px; }
+.recordes ol { margin: 4px 0 0; padding-left: 20px; }
+.recordes ol li { padding: 4px 0; }
+.recordes ol li { display: list-item; }
+.recordes ol li span small { color: var(--fraco); }
+.recordes ol li b { float: right; color: var(--verde); }

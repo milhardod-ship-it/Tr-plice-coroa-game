@@ -14,7 +14,7 @@ const ORDEM_RAR: Raridade[] = ['lenda', 'ouro', 'prata', 'bronze'];
 /** Fim do draft: o time é revelado jogador a jogador (no Almanaque, é aqui que as notas aparecem). */
 export function TimeCompleto({
   estado, disputar, novoMesmoClube, inicio,
-}: { estado: EstadoDraft; disputar: () => void; novoMesmoClube: () => void; inicio: () => void }) {
+}: { estado: EstadoDraft; disputar: () => void; novoMesmoClube?: () => void; inicio: () => void }) {
   const clube = clubePorId(estado.clubeId);
   const vagas = FORMACOES[estado.formacao].vagas;
   const [revelados, setRevelados] = useState(0);
@@ -87,7 +87,7 @@ export function TimeCompleto({
             Disputar a Libertadores
             <small>grupos, oitavas, quartas, semi e final</small>
           </button>
-          <button className="botao-grande secundario" onClick={novoMesmoClube}>Montar outro {clube.nome}</button>
+          {novoMesmoClube && <button className="botao-grande secundario" onClick={novoMesmoClube}>Montar outro {clube.nome}</button>}
           <button className="link-discreto" onClick={inicio}>Início</button>
         </div>
       )}

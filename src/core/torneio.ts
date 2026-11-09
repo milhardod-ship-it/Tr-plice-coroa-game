@@ -109,7 +109,10 @@ export interface EntradaTorneio {
 }
 
 export function jogarTorneio({ meu, meuClubeId, pool, confrontos, seed }: EntradaTorneio): Torneio {
-  const rng = new Rng(seed);
+  // Dois geradores: um só para SORTEAR os rivais (todos sorteados antes de qualquer jogo, então
+  // a mesma seed dá os mesmos rivais para qualquer time — base do Desafio do Dia) e outro para os jogos.
+  const sorteio = new Rng(seed);
+  const rng = new Rng((seed ^ 0x9e3779b9) >>> 0);
   // Pool elegível: fora o próprio clube, ordenado por força (desempate estável pela chave).
   const elegiveis = pool
     .filter((p) => p.clubeId !== meuClubeId)
@@ -123,7 +126,7 @@ export function jogarTorneio({ meu, meuClubeId, pool, confrontos, seed }: Entrad
   const sortear = (candidatos: TimeHistorico[]): TimeHistorico => {
     const livres = candidatos.filter((p) => !usadosClube.has(p.clubeId));
     const lista = livres.length ? livres : elegiveis.filter((p) => !usadosClube.has(p.clubeId));
-    const escolhido = rng.item(lista.length ? lista : elegiveis);
+    const escolhido = sorteio.item(lista.length ? lista : elegiveis);
     usadosClube.add(escolhido.clubeId);
     return escolhido;
   };
@@ -134,10 +137,19 @@ export function jogarTorneio({ meu, meuClubeId, pool, confrontos, seed }: Entrad
   const grupoHist = [sortear(estrangeiros), sortear(estrangeiros), sortear(janelaGrupo)];
   // Ordem aleatória no grupo (para o 3º não ser sempre o eventual brasileiro).
   for (let i = grupoHist.length - 1; i > 0; i--) {
-    const j = rng.inteiro(i + 1);
+    const j = sorteio.inteiro(i + 1);
     [grupoHist[i], grupoHist[j]] = [grupoHist[j], grupoHist[i]];
   }
   const [A, B, C] = grupoHist;
+
+  // Rivais do mata-mata, já definidos (o jogador só os enfrenta se avançar).
+  const rivaisMataMata = {} as Record<Exclude<Fase, 'grupos'>, TimeHistorico>;
+  for (const fase of ['oitavas', 'quartas', 'semi'] as const) rivaisMataMata[fase] = sortear(faixa(JANELA[fase]));
+  {
+    const n = elegiveis.length;
+    const campeoes = elegiveis.filter((p, i) => p.campeaoLibertadores && i >= Math.floor(0.35 * n));
+    rivaisMataMata.final = sortear(campeoes.length ? campeoes : elegiveis.filter((p) => p.campeaoLibertadores));
+  }
 
   const jogos: JogoTorneio[] = [];
   const paralelos: JogoParalelo[] = [];
@@ -152,7 +164,7 @@ export function jogarTorneio({ meu, meuClubeId, pool, confrontos, seed }: Entrad
     if (gc > gf) { a.v++; a.pts += 3; b.d++; } else if (gc < gf) { b.v++; b.pts += 3; a.d++; } else { a.e++; b.e++; a.pts++; b.pts++; }
   };
   // Desempate final (após pontos, saldo e gols pró): sorteio, feito uma vez só.
-  const desempate = new Map<string, number>([...linhas.keys()].map((k) => [k, rng.proximo()]));
+  const desempate = new Map<string, number>([...linhas.keys()].map((k) => [k, sorteio.proximo()]));
   const ordenar = () =>
     [...linhas.values()]
       .map((l) => ({ ...l }))
@@ -185,14 +197,7 @@ export function jogarTorneio({ meu, meuClubeId, pool, confrontos, seed }: Entrad
 
   // ---- Mata-mata: jogo único em campo neutro, pênaltis se empatar ----
   for (const fase of ['oitavas', 'quartas', 'semi', 'final'] as const) {
-    let adv: TimeHistorico;
-    if (fase === 'final') {
-      const n = elegiveis.length;
-      const campeoes = elegiveis.filter((p, i) => p.campeaoLibertadores && i >= Math.floor(0.35 * n));
-      adv = sortear(campeoes.length ? campeoes : elegiveis.filter((p) => p.campeaoLibertadores));
-    } else {
-      adv = sortear(faixa(JANELA[fase]));
-    }
+    const adv = rivaisMataMata[fase];
     const r = simularPartida(meu, adv.time, rng, { mando: 'neutro', mataMata: true });
     jogos.push({
       fase, rotulo: NOME_FASE[fase], adv: info(adv), mando: 'neutro', r,

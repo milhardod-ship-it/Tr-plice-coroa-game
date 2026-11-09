@@ -20,15 +20,17 @@ const ESTILOS: { id: Estilo; nome: string; desc: string }[] = [
 ];
 
 export function Configurar({
-  inicial, comecar, voltar,
-}: { inicial?: Partial<Escolhas>; comecar: (e: Escolhas) => void; voltar: () => void }) {
-  const [passo, setPasso] = useState<1 | 2 | 3>(inicial?.clubeId ? 2 : 1);
+  inicial, desafioNumero, comecar, voltar,
+}: { inicial?: Partial<Escolhas>; desafioNumero?: number; comecar: (e: Escolhas) => void; voltar: () => void }) {
+  // No Desafio do Dia o clube e o modo são fixos (iguais para todos): começa direto na formação.
+  const desafio = desafioNumero !== undefined;
+  const [passo, setPasso] = useState<1 | 2 | 3>(desafio ? 3 : inicial?.clubeId ? 2 : 1);
   const [clubeId, setClubeId] = useState(inicial?.clubeId ?? '');
   const [modo, setModo] = useState<Modo>(inicial?.modo ?? 'classico');
   const [formacao, setFormacao] = useState<FormacaoId>(inicial?.formacao ?? '4-3-3');
   const [estilo, setEstilo] = useState<Estilo>(inicial?.estilo ?? 'equilibrado');
 
-  const anterior = () => (passo === 1 ? voltar() : setPasso((passo - 1) as 1 | 2));
+  const anterior = () => (passo === 1 || desafio ? voltar() : setPasso((passo - 1) as 1 | 2));
   const clube = clubeId ? clubePorId(clubeId) : null;
 
   return (
@@ -79,6 +81,12 @@ export function Configurar({
 
       {passo === 3 && clube && (
         <>
+          {desafio && (
+            <div className="cab-desafio">
+              <small>Desafio #{desafioNumero} · igual para todos hoje</small>
+              <b><Faixa clube={clube} /> {clube.nome} · modo Clássico</b>
+            </div>
+          )}
           <h2 className="titulo-tela">Formação e estilo</h2>
           <div className="formacoes">
             {LISTA_FORMACOES.map((f) => (
@@ -97,7 +105,7 @@ export function Configurar({
             ))}
           </div>
           <button className="botao-grande primario" onClick={() => comecar({ clubeId, modo, formacao, estilo })}>
-            Começar o draft
+            {desafio ? 'Começar o desafio' : 'Começar o draft'}
           </button>
         </>
       )}

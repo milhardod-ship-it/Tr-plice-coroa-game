@@ -5,5 +5,637 @@
     "primaria": "#FFFFFF",
     "secundaria": "#000000"
   },
-  "temporadas": []
+  "temporadas": [
+    {
+      "ano": 1990,
+      "observacao": "Campeão Brasileiro, o primeiro título nacional",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Ronaldo",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Giba",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Marcelo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Guinei",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Jacenir",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Márcio Bittencourt",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Wilson Mano",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Neto",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 90
+        },
+        {
+          "nome": "Fabinho",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Mauro",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Tupãzinho",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ]
+    },
+    {
+      "ano": 1998,
+      "observacao": "Campeão Brasileiro",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Nei",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Índio",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Gamarra",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 88
+        },
+        {
+          "nome": "Batata",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Kléber",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Rincón",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Vampeta",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Ricardinho",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Marcelinho Carioca",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Edílson",
+          "posicao": "PD",
+          "alternativas": [
+            "ATA",
+            "PE"
+          ],
+          "nota": 86
+        },
+        {
+          "nome": "Didi",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ]
+    },
+    {
+      "ano": 1999,
+      "observacao": "Campeão Brasileiro (bi) e base do Mundial de 2000",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Dida",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Índio",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Adílson",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Nenê",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Kléber",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Rincón",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Vampeta",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Ricardinho",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Marcelinho Carioca",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Edílson",
+          "posicao": "PD",
+          "alternativas": [
+            "ATA",
+            "PE"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Luizão",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Fernando Baiano",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76
+        }
+      ]
+    },
+    {
+      "ano": 2005,
+      "observacao": "Campeão Brasileiro com Tevez",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fábio Costa",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Coelho",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Anderson",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Betão",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Gustavo Nery",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Marcelo Mattos",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Mascherano",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Rosinei",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Carlos Alberto",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Roger",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Tevez",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 92
+        },
+        {
+          "nome": "Nilmar",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Jô",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76
+        }
+      ]
+    },
+    {
+      "ano": 2012,
+      "observacao": "Campeão invicto da Libertadores (final contra o Boca) e do Mundial contra o Chelsea",
+      "titulos": [
+        "Copa Libertadores",
+        "Mundial de Clubes"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Cássio",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Alessandro",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Edenílson",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Chicão",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Leandro Castán",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Fábio Santos",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Ralf",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Paulinho",
+          "posicao": "MC",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 86
+        },
+        {
+          "nome": "Danilo",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Alex",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Douglas",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Jorge Henrique",
+          "posicao": "PD",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Emerson Sheik",
+          "posicao": "ATA",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Romarinho",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Paolo Guerrero",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 84
+        }
+      ]
+    },
+    {
+      "ano": 2015,
+      "observacao": "Campeão Brasileiro",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Cássio",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Fagner",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Felipe",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Gil",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Uendel",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Guilherme Arana",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Ralf",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Bruno Henrique",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Elias",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Renato Augusto",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Jádson",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 88
+        },
+        {
+          "nome": "Malcom",
+          "posicao": "PD",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Vágner Love",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        }
+      ]
+    },
+    {
+      "ano": 2017,
+      "observacao": "Campeão Brasileiro",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Cássio",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Fagner",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Balbuena",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Pablo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Guilherme Arana",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Gabriel",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Maycon",
+          "posicao": "MC",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Rodriguinho",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Jadson",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Romero",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Clayson",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Jô",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 86
+        }
+      ]
+    }
+  ]
 }

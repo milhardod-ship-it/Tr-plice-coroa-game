@@ -5,5 +5,639 @@
     "primaria": "#E30613",
     "secundaria": "#FFFFFF"
   },
-  "temporadas": []
+  "temporadas": [
+    {
+      "ano": 1980,
+      "observacao": "Vice da Libertadores (final contra o Nacional-URU), base do tri brasileiro invicto de 1979",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Benítez",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "João Carlos",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Mauro Pastor",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Mauro Galvão",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Cláudio Mineiro",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Batista",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Falcão",
+          "posicao": "MC",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 90,
+          "duvida": true
+        },
+        {
+          "nome": "Jair",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Mário Sérgio",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Valdomiro",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Bira",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Chico Spina",
+          "posicao": "PE",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 76,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "ano": 2006,
+      "observacao": "Campeão da Libertadores (final contra o São Paulo) e do Mundial contra o Barcelona",
+      "titulos": [
+        "Copa Libertadores",
+        "Mundial de Clubes"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Clemer",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Ceará",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Índio",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Fabiano Eller",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Bolívar",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Rubens Cardoso",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Jorge Wagner",
+          "posicao": "LE",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Edinho",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Wellington Monteiro",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Tinga",
+          "posicao": "MC",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Alex",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Adriano Gabiru",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Fernandão",
+          "posicao": "MEI",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Rafael Sóbis",
+          "posicao": "ATA",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Iarley",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Alexandre Pato",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76
+        }
+      ]
+    },
+    {
+      "ano": 2008,
+      "observacao": "Campeão da Copa Sul-Americana",
+      "titulos": [
+        "Copa Sul-Americana"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Lauro",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Bolívar",
+          "posicao": "ZAG",
+          "alternativas": [
+            "LD"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Índio",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Álvaro",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Marcão",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Guiñazú",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Magrão",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Edinho",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "D'Alessandro",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 86
+        },
+        {
+          "nome": "Alex",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Andrezinho",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Taison",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Nilmar",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Alecsandro",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ]
+    },
+    {
+      "ano": 2010,
+      "observacao": "Campeão da Libertadores (final contra o Guadalajara)",
+      "titulos": [
+        "Copa Libertadores"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Renan",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Nei",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Bolívar",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Índio",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Kléber",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Sandro",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Guiñazú",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Tinga",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Andrezinho",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "D'Alessandro",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Giuliano",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Taison",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Rafael Sóbis",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Alecsandro",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Leandro Damião",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ]
+    },
+    {
+      "ano": 2015,
+      "observacao": "Semifinalista da Libertadores",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Alisson",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "William",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Paulão",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Ernando",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Geferson",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Rodrigo Dourado",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Nilton",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Aránguiz",
+          "posicao": "MC",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Anderson",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "D'Alessandro",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Alex",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Valdívia",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Vitinho",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Lisandro López",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Nilmar",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Eduardo Sasha",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 76
+        }
+      ]
+    },
+    {
+      "ano": 2020,
+      "observacao": "Vice-campeão brasileiro (temporada decidida em 2021)",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Marcelo Lomba",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Rodinei",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Rodrigo Moledo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Víctor Cuesta",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Zé Gabriel",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Moisés",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Rodrigo Dourado",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Edenílson",
+          "posicao": "MC",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Praxedes",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Patrick",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Marcos Guilherme",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Caio Vidal",
+          "posicao": "PE",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Thiago Galhardo",
+          "posicao": "ATA",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Yuri Alberto",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ]
+    }
+  ]
 }

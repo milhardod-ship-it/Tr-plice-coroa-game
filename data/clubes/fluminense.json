@@ -5,5 +5,541 @@
     "primaria": "#7A1E35",
     "secundaria": "#006437"
   },
-  "temporadas": []
+  "temporadas": [
+    {
+      "ano": 1984,
+      "observacao": "Campeão Brasileiro, o Fluminense de Romerito e Assis",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Paulo Victor",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Aldo",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Duílio",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Ricardo Gomes",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Branco",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Jandir",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Delei",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Assis",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 86
+        },
+        {
+          "nome": "Romerito",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Tato",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Washington",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 84
+        }
+      ]
+    },
+    {
+      "ano": 2007,
+      "observacao": "Campeão da Copa do Brasil",
+      "titulos": [
+        "Copa do Brasil"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fernando Henrique",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Gabriel",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Thiago Silva",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Luiz Alberto",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Junior Cesar",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Arouca",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Cícero",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Thiago Neves",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Carlos Alberto",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80,
+          "duvida": true
+        },
+        {
+          "nome": "Adriano Magrão",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Alex Dias",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 78
+        }
+      ]
+    },
+    {
+      "ano": 2008,
+      "observacao": "Vice da Libertadores (final contra a LDU no Maracanã)",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fernando Henrique",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Gabriel",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Thiago Silva",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 88
+        },
+        {
+          "nome": "Luiz Alberto",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Junior Cesar",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Ygor",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Arouca",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Cícero",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Conca",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 86
+        },
+        {
+          "nome": "Thiago Neves",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Washington",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Dodô",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ]
+    },
+    {
+      "ano": 2010,
+      "observacao": "Campeão Brasileiro com Conca, o craque do campeonato",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Ricardo Berna",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Mariano",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Gum",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Leandro Euzébio",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Carlinhos",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Diguinho",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Valencia",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Deco",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Conca",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 92
+        },
+        {
+          "nome": "Emerson Sheik",
+          "posicao": "ATA",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Washington",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Fred",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 84
+        }
+      ]
+    },
+    {
+      "ano": 2012,
+      "observacao": "Campeão Brasileiro com Fred artilheiro",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Diego Cavalieri",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Bruno",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Gum",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Leandro Euzébio",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Carlinhos",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Edinho",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Jean",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Deco",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Thiago Neves",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Wellington Nem",
+          "posicao": "PD",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Rafael Sóbis",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Fred",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 90
+        }
+      ]
+    },
+    {
+      "ano": 2023,
+      "observacao": "Campeão da Libertadores (final contra o Boca Juniors no Maracanã)",
+      "titulos": [
+        "Copa Libertadores"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fábio",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Samuel Xavier",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Guga",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Nino",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Felipe Melo",
+          "posicao": "ZAG",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Marcelo",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Diogo Barbosa",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "André",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Martinelli",
+          "posicao": "MC",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Lima",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Ganso",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Arias",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Keno",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Germán Cano",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 88
+        },
+        {
+          "nome": "John Kennedy",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ]
+    }
+  ]
 }

@@ -5,5 +5,542 @@
     "primaria": "#000000",
     "secundaria": "#FFFFFF"
   },
-  "temporadas": []
+  "temporadas": [
+    {
+      "ano": 1989,
+      "observacao": "Campeão Carioca: o fim do jejum de 21 anos, gol de Maurício",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Ricardo Cruz",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Josimar",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Wilson Gottardo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Mauro Galvão",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Marquinhos",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Carlos Alberto Santos",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Luisinho",
+          "posicao": "MC",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "Vitor",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Maurício",
+          "posicao": "PD",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Paulinho Criciúma",
+          "posicao": "ATA",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Valdeir",
+          "posicao": "PE",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 76,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "ano": 1995,
+      "observacao": "Campeão Brasileiro com Túlio artilheiro",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Wagner",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Wilson Goiano",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Gonçalves",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Wilson Gottardo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "André Silva",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Leandro Ávila",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Jamir",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Beto",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Sérgio Manoel",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Donizete",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD",
+            "PE"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Túlio",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 92
+        }
+      ]
+    },
+    {
+      "ano": 2010,
+      "observacao": "Campeão Carioca com Loco Abreu",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Jefferson",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Alessandro",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Antônio Carlos",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Fábio Ferreira",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Marcelo Cordeiro",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Leandro Guerreiro",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Somália",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 74
+        },
+        {
+          "nome": "Lúcio Flávio",
+          "posicao": "MEI",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Maicosuel",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Caio",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Herrera",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Loco Abreu",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 84
+        }
+      ]
+    },
+    {
+      "ano": 2013,
+      "observacao": "Campeão Carioca com Seedorf",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Jefferson",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Lucas",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Bolívar",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Dória",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Julio César",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Marcelo Mattos",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Gabriel",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Renato",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Seedorf",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 88
+        },
+        {
+          "nome": "Lodeiro",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Vitinho",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Rafael Marques",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ]
+    },
+    {
+      "ano": 2023,
+      "observacao": "Liderou o Brasileirão por quase toda a temporada",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Lucas Perri",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Di Plácido",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Adryelson",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Víctor Cuesta",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Marçal",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Tchê Tchê",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Marlon Freitas",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Eduardo",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Júnior Santos",
+          "posicao": "PD",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Victor Sá",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Tiquinho Soares",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 86
+        }
+      ]
+    },
+    {
+      "ano": 2024,
+      "observacao": "Campeão da Libertadores (final contra o Atlético-MG) e do Brasileiro",
+      "titulos": [
+        "Copa Libertadores",
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "John",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Vitinho",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Bastos",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Alexander Barboza",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Adryelson",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Alex Telles",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Cuiabano",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Gregore",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Marlon Freitas",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Thiago Almada",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Savarino",
+          "posicao": "PD",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Luiz Henrique",
+          "posicao": "PD",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Júnior Santos",
+          "posicao": "ATA",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Igor Jesus",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Tiquinho Soares",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ]
+    }
+  ]
 }

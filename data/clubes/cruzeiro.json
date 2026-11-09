@@ -5,5 +5,619 @@
     "primaria": "#003DA5",
     "secundaria": "#FFFFFF"
   },
-  "temporadas": []
+  "temporadas": [
+    {
+      "ano": 1997,
+      "observacao": "Campeão da Libertadores (final contra o Sporting Cristal)",
+      "titulos": [
+        "Copa Libertadores"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Dida",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Vítor",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Wilson Gottardo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "João Carlos",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "Gélson Baresi",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Nonato",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Fabinho",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Cleisson",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Ricardinho",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Palhinha",
+          "posicao": "MEI",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Elivélton",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Marcelo Ramos",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 84
+        }
+      ]
+    },
+    {
+      "ano": 2003,
+      "observacao": "Tríplice Coroa: Brasileiro, Copa do Brasil e Mineiro",
+      "titulos": [
+        "Campeonato Brasileiro",
+        "Copa do Brasil"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Gomes",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Maurinho",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Cris",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Luisão",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Leandro",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Augusto Recife",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Maldonado",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Felipe Melo",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Wendell",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Alex",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 92
+        },
+        {
+          "nome": "Mota",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Deivid",
+          "posicao": "ATA",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Aristizábal",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ]
+    },
+    {
+      "ano": 2009,
+      "observacao": "Vice da Libertadores (final contra o Estudiantes)",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fábio",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Jonathan",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Leonardo Silva",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Thiago Heleno",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Gerson Magrão",
+          "posicao": "LE",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Fabrício",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Marquinhos Paraná",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Henrique",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Ramires",
+          "posicao": "MC",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 82,
+          "duvida": true
+        },
+        {
+          "nome": "Wagner",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Kléber",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Thiago Ribeiro",
+          "posicao": "ATA",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Wellington Paulista",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ]
+    },
+    {
+      "ano": 2013,
+      "observacao": "Campeão Brasileiro",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fábio",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Mayke",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Ceará",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Dedé",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Bruno Rodrigo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Egídio",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Nilton",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Lucas Silva",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Souza",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Everton Ribeiro",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Ricardo Goulart",
+          "posicao": "MEI",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 86
+        },
+        {
+          "nome": "Júlio Baptista",
+          "posicao": "MEI",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Willian",
+          "posicao": "PE",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Dagoberto",
+          "posicao": "PD",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Borges",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ]
+    },
+    {
+      "ano": 2014,
+      "observacao": "Campeão Brasileiro (bi)",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fábio",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Mayke",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Léo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Manoel",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Dedé",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Egídio",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Henrique",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Lucas Silva",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Nilton",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Everton Ribeiro",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Ricardo Goulart",
+          "posicao": "MEI",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Willian",
+          "posicao": "PE",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Marquinhos",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Alisson",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Marcelo Moreno",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ]
+    },
+    {
+      "ano": 2017,
+      "observacao": "Campeão da Copa do Brasil",
+      "titulos": [
+        "Copa do Brasil"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fábio",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Ezequiel",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Léo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Murilo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Diogo Barbosa",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Henrique",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Hudson",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Lucas Romero",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Thiago Neves",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Arrascaeta",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Robinho",
+          "posicao": "MEI",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Alisson",
+          "posicao": "PE",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Rafael Sóbis",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Ramón Ábila",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ]
+    }
+  ]
 }

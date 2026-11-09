@@ -5,5 +5,694 @@
     "primaria": "#E30613",
     "secundaria": "#000000"
   },
-  "temporadas": []
+  "temporadas": [
+    {
+      "ano": 1986,
+      "observacao": "Campeão Brasileiro",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Gilmar",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Zé Teodoro",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Oscar",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Dario Pereyra",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Nelsinho",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Bernardo",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Silas",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Pita",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Müller",
+          "posicao": "PD",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Sidney",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Careca",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 90
+        }
+      ]
+    },
+    {
+      "ano": 1992,
+      "observacao": "Campeão da Libertadores (final contra o Newell's) e do Mundial contra o Barcelona",
+      "titulos": [
+        "Copa Libertadores",
+        "Mundial Interclubes"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Zetti",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Vítor",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Antônio Carlos",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Ronaldão",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Ronaldo Luís",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Adílson",
+          "posicao": "VOL",
+          "alternativas": [
+            "ZAG"
+          ],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Pintado",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Toninho Cerezo",
+          "posicao": "MC",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Raí",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 92
+        },
+        {
+          "nome": "Cafu",
+          "posicao": "PD",
+          "alternativas": [
+            "LD"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Elivélton",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Palhinha",
+          "posicao": "ATA",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Müller",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 86
+        }
+      ]
+    },
+    {
+      "ano": 1993,
+      "observacao": "Campeão da Libertadores (final contra a Universidad Católica) e do Mundial contra o Milan",
+      "titulos": [
+        "Copa Libertadores",
+        "Mundial Interclubes"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Zetti",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Cafu",
+          "posicao": "LD",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 86
+        },
+        {
+          "nome": "Válber",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Ronaldão",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "André Luiz",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Dinho",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Doriva",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Toninho Cerezo",
+          "posicao": "MC",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Raí",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 90
+        },
+        {
+          "nome": "Leonardo",
+          "posicao": "MEI",
+          "alternativas": [
+            "LE",
+            "PE"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Juninho Paulista",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Palhinha",
+          "posicao": "ATA",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Müller",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 86
+        }
+      ]
+    },
+    {
+      "ano": 1994,
+      "observacao": "Vice da Libertadores (final contra o Vélez)",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Zetti",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Vítor",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Cafu",
+          "posicao": "PD",
+          "alternativas": [
+            "LD"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Júnior Baiano",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Ronaldão",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "André Luiz",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Doriva",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Axel",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Juninho Paulista",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Palhinha",
+          "posicao": "ATA",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Euller",
+          "posicao": "ATA",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Caio",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76
+        }
+      ]
+    },
+    {
+      "ano": 2005,
+      "observacao": "Campeão da Libertadores (final contra o Athletico) e do Mundial contra o Liverpool",
+      "titulos": [
+        "Copa Libertadores",
+        "Mundial de Clubes"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Rogério Ceni",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 90
+        },
+        {
+          "nome": "Cicinho",
+          "posicao": "LD",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Fabão",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Lugano",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Edcarlos",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Júnior",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Mineiro",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Josué",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Danilo",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Souza",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Amoroso",
+          "posicao": "ATA",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 86
+        },
+        {
+          "nome": "Luizão",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Aloísio",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Grafite",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Diego Tardelli",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 74
+        }
+      ]
+    },
+    {
+      "ano": 2006,
+      "observacao": "Vice da Libertadores (final contra o Internacional) e campeão Brasileiro",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Rogério Ceni",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 90
+        },
+        {
+          "nome": "Ilsinho",
+          "posicao": "LD",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Fabão",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "André Dias",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Edcarlos",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Júnior",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Mineiro",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Josué",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Danilo",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Lenílson",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Ricardo Oliveira",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80,
+          "duvida": true
+        },
+        {
+          "nome": "Aloísio",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Leandro",
+          "posicao": "ATA",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 78,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "ano": 2008,
+      "observacao": "Campeão Brasileiro (tri seguido)",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Rogério Ceni",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 88
+        },
+        {
+          "nome": "Joílson",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "André Dias",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Miranda",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Rodrigo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Jorge Wagner",
+          "posicao": "LE",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Richarlyson",
+          "posicao": "VOL",
+          "alternativas": [
+            "LE"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Zé Luís",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Jean",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Hernanes",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 86
+        },
+        {
+          "nome": "Hugo",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Borges",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Dagoberto",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD",
+            "PE"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Washington",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ]
+    }
+  ]
 }

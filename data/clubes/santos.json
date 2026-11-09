@@ -5,5 +5,651 @@
     "primaria": "#FFFFFF",
     "secundaria": "#000000"
   },
-  "temporadas": []
+  "temporadas": [
+    {
+      "ano": 1995,
+      "observacao": "Vice-campeão brasileiro com Giovanni",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Edinho",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Marquinhos Capixaba",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Narciso",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Ronaldo Marconato",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Marcos Adriano",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Gallo",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Carlinhos",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Robert",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Giovanni",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 90
+        },
+        {
+          "nome": "Jamelli",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Camanducaia",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Macedo",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ]
+    },
+    {
+      "ano": 2002,
+      "observacao": "Campeão Brasileiro com os Meninos da Vila",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fábio Costa",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Maurinho",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "André Luís",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Alex",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Léo",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Paulo Almeida",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Renato",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Elano",
+          "posicao": "MC",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Diego",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Robinho",
+          "posicao": "PE",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Alberto",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ]
+    },
+    {
+      "ano": 2003,
+      "observacao": "Vice da Libertadores (final contra o Boca Juniors)",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Fábio Costa",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Reginaldo Araújo",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "André Luís",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Alex",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Léo",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Paulo Almeida",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Renato",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Elano",
+          "posicao": "MC",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Diego",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Robinho",
+          "posicao": "PE",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Ricardo Oliveira",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "William",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "ano": 2004,
+      "observacao": "Campeão Brasileiro",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Mauro",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Paulo César",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Domingos",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "André Luís",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "Léo",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Paulo Almeida",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Zé Elias",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Ricardinho",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Elano",
+          "posicao": "MC",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Robinho",
+          "posicao": "PE",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 90
+        },
+        {
+          "nome": "Deivid",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Basílio",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76
+        }
+      ]
+    },
+    {
+      "ano": 2010,
+      "observacao": "Campeão da Copa do Brasil e Paulista com Neymar, Ganso e Robinho",
+      "titulos": [
+        "Copa do Brasil"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Felipe",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Pará",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Edu Dracena",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Durval",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Léo",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Arouca",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Wesley",
+          "posicao": "MC",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Marquinhos",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Paulo Henrique Ganso",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 88
+        },
+        {
+          "nome": "Madson",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Robinho",
+          "posicao": "PE",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 86
+        },
+        {
+          "nome": "Neymar",
+          "posicao": "PE",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "André",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Zé Eduardo",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74
+        }
+      ]
+    },
+    {
+      "ano": 2011,
+      "observacao": "Campeão da Libertadores (final contra o Peñarol)",
+      "titulos": [
+        "Copa Libertadores"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Rafael",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Danilo",
+          "posicao": "LD",
+          "alternativas": [
+            "VOL"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Pará",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Edu Dracena",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Durval",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Bruno Rodrigo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Léo",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Arouca",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Adriano",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Elano",
+          "posicao": "MC",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Paulo Henrique Ganso",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Alan Patrick",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Neymar",
+          "posicao": "PE",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 92
+        },
+        {
+          "nome": "Zé Love",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Borges",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ]
+    },
+    {
+      "ano": 2020,
+      "observacao": "Vice da Libertadores (final contra o Palmeiras)",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "John",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Pará",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Lucas Veríssimo",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Luan Peres",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Felipe Jonatan",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Alison",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Diego Pituca",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Jean Mota",
+          "posicao": "MC",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 76
+        },
+        {
+          "nome": "Marinho",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Soteldo",
+          "posicao": "PE",
+          "alternativas": [
+            "MEI"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Lucas Braga",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Kaio Jorge",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 80
+        }
+      ]
+    }
+  ]
 }

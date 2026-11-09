@@ -5,5 +5,590 @@
     "primaria": "#0D80BF",
     "secundaria": "#000000"
   },
-  "temporadas": []
+  "temporadas": [
+    {
+      "ano": 1983,
+      "observacao": "Campeão da Libertadores (final contra o Peñarol) e do Mundial contra o Hamburgo",
+      "titulos": [
+        "Copa Libertadores",
+        "Mundial Interclubes"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Mazaropi",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Paulo Roberto",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Baidek",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Hugo De León",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 88
+        },
+        {
+          "nome": "Casemiro",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "China",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Osvaldo",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 78,
+          "duvida": true
+        },
+        {
+          "nome": "Bonamigo",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Tita",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Mário Sérgio",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 84
+        },
+        {
+          "nome": "Paulo César Caju",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Renato Gaúcho",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 88
+        },
+        {
+          "nome": "Tarciso",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Caio",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ]
+    },
+    {
+      "ano": 1984,
+      "observacao": "Vice da Libertadores (final contra o Independiente)",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Mazaropi",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Paulo Roberto",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Baidek",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Hugo De León",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Casemiro",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "China",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Osvaldo",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Bonamigo",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 76,
+          "duvida": true
+        },
+        {
+          "nome": "Tita",
+          "posicao": "MEI",
+          "alternativas": [],
+          "nota": 80,
+          "duvida": true
+        },
+        {
+          "nome": "Renato Gaúcho",
+          "posicao": "PD",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Tarciso",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Caio",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        }
+      ]
+    },
+    {
+      "ano": 1995,
+      "observacao": "Campeão da Libertadores (final contra o Atlético Nacional), time de Felipão",
+      "titulos": [
+        "Copa Libertadores"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Danrlei",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Arce",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Rivarola",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Adílson",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Roger",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Dinho",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Luís Carlos Goiano",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Émerson",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Arílson",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Carlos Miguel",
+          "posicao": "MEI",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Paulo Nunes",
+          "posicao": "ATA",
+          "alternativas": [
+            "PE",
+            "PD"
+          ],
+          "nota": 86
+        },
+        {
+          "nome": "Jardel",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 88
+        }
+      ]
+    },
+    {
+      "ano": 1996,
+      "observacao": "Campeão Brasileiro",
+      "titulos": [
+        "Campeonato Brasileiro"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Danrlei",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Arce",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Rivarola",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 80
+        },
+        {
+          "nome": "Adílson",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Roger",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Dinho",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Luís Carlos Goiano",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Émerson",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Carlos Miguel",
+          "posicao": "MEI",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Paulo Nunes",
+          "posicao": "ATA",
+          "alternativas": [
+            "PE",
+            "PD"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Aílton",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Zé Alcino",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76,
+          "duvida": true
+        }
+      ]
+    },
+    {
+      "ano": 2007,
+      "observacao": "Vice da Libertadores (final contra o Boca Juniors)",
+      "titulos": [],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Saja",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Patrício",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "William",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Teco",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 74
+        },
+        {
+          "nome": "Rolando Schiavi",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Lúcio",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 74,
+          "duvida": true
+        },
+        {
+          "nome": "Sandro Goiano",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Lucas Leiva",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Tcheco",
+          "posicao": "MEI",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Diego Souza",
+          "posicao": "MEI",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 82
+        },
+        {
+          "nome": "Carlos Eduardo",
+          "posicao": "MEI",
+          "alternativas": [
+            "PE"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Tuta",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Jonas",
+          "posicao": "ATA",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 76
+        }
+      ]
+    },
+    {
+      "ano": 2017,
+      "observacao": "Campeão da Libertadores (final contra o Lanús)",
+      "titulos": [
+        "Copa Libertadores"
+      ],
+      "revisado": false,
+      "jogadores": [
+        {
+          "nome": "Marcelo Grohe",
+          "posicao": "GOL",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Edílson",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Léo Moura",
+          "posicao": "LD",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Pedro Geromel",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 84
+        },
+        {
+          "nome": "Walter Kannemann",
+          "posicao": "ZAG",
+          "alternativas": [],
+          "nota": 82
+        },
+        {
+          "nome": "Bruno Cortez",
+          "posicao": "LE",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Michel",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Jailson",
+          "posicao": "VOL",
+          "alternativas": [],
+          "nota": 76
+        },
+        {
+          "nome": "Maicon",
+          "posicao": "VOL",
+          "alternativas": [
+            "MC"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Arthur",
+          "posicao": "MC",
+          "alternativas": [],
+          "nota": 86
+        },
+        {
+          "nome": "Ramiro",
+          "posicao": "MC",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 78
+        },
+        {
+          "nome": "Luan",
+          "posicao": "MEI",
+          "alternativas": [
+            "ATA"
+          ],
+          "nota": 88
+        },
+        {
+          "nome": "Fernandinho",
+          "posicao": "PE",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Everton",
+          "posicao": "PE",
+          "alternativas": [
+            "PD"
+          ],
+          "nota": 80
+        },
+        {
+          "nome": "Lucas Barrios",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 78
+        },
+        {
+          "nome": "Jael",
+          "posicao": "ATA",
+          "alternativas": [],
+          "nota": 74
+        }
+      ]
+    }
+  ]
 }

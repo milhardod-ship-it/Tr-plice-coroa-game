@@ -94,10 +94,10 @@ export function anunciarConfronto(meuClube: string, advClube: string, confrontos
  * Cresce a cada fase; a final é sempre contra um campeão da Libertadores.
  */
 const JANELA: Record<Exclude<Fase, 'final'>, [number, number]> = {
-  grupos: [0, 0.6],
-  oitavas: [0.2, 0.7],
-  quartas: [0.4, 0.85],
-  semi: [0.55, 1],
+  grupos: [0, 0.55],
+  oitavas: [0.15, 0.65],
+  quartas: [0.3, 0.8],
+  semi: [0.45, 0.95],
 };
 
 export interface EntradaTorneio {
@@ -188,7 +188,7 @@ export function jogarTorneio({ meu, meuClubeId, pool, confrontos, seed }: Entrad
     let adv: TimeHistorico;
     if (fase === 'final') {
       const n = elegiveis.length;
-      const campeoes = elegiveis.filter((p, i) => p.campeaoLibertadores && i >= Math.floor(0.4 * n));
+      const campeoes = elegiveis.filter((p, i) => p.campeaoLibertadores && i >= Math.floor(0.35 * n));
       adv = sortear(campeoes.length ? campeoes : elegiveis.filter((p) => p.campeaoLibertadores));
     } else {
       adv = sortear(faixa(JANELA[fase]));

@@ -145,12 +145,12 @@ falso, sem notificação de culpa.
 | 4 | Elencos dos finalistas da Libertadores (adversários) | ✅ feita |
 | 5 | Torneio Libertadores com revelação jogo a jogo (itens 3–4) | ✅ feita |
 | 6 | Tela final + card de compartilhamento (item 5) | ✅ feita |
-| 7 | Dados dos 10 clubes jogáveis restantes | ⏭ próxima |
-| 8 | Desafio do Dia, sequência, álbum, conquistas, recordes e sons (itens 6–11) | |
+| 7 | Dados dos 10 clubes jogáveis restantes | ✅ feita |
+| 8 | Desafio do Dia, sequência, álbum, conquistas, recordes e sons (itens 6–11) | ⏭ próxima |
 
 **Atualize esta tabela ao concluir cada etapa.**
 
-## Estado atual (fim da etapa 6)
+## Estado atual (fim da etapa 7)
 - `src/core/` (puro, sem UI): `tipos.ts`, `formacoes.ts`, `raridade.ts`, `validacao.ts`,
   `rng.ts` (mulberry32 com seed; estado = 1 número), `posicoes.ts` (penalidade: alternativa −3;
   improvisado −8/−14/−22 conforme distância de setor; goleiro ↔ linha −35; mínimo 30),
@@ -168,26 +168,29 @@ falso, sem notificação de culpa.
   84×80 → 50/27/23%.
 - UI de teste: aba "Motor" em "Conferir dados" (laboratório).
 - A roleta é só apresentação: o ano já vem sorteado pelo `core` (com seed).
-- Dados: Vasco (1989, 1997, 1998, 2000, 2011, 2024) e Flamengo (1981, 1987, 1992, 2009, 2019,
-  2021, 2022, 2025). Os outros 10 clubes têm arquivo com nome/cores e `temporadas: []`.
+- Dados dos 12 clubes: 79 temporadas, 1073 jogadores (70 com `"duvida": true`). Temporadas:
+  Flamengo 1981/87/92/2009/19/21/22/25; Vasco 1989/97/98/2000/11/24; Fluminense 1984/2007/08/10/12/23;
+  Botafogo 1989/95/2010/13/23/24; Corinthians 1990/98/99/2005/12/15/17; Palmeiras 1993/99/2000/16/20/21/22/25;
+  São Paulo 1986/92/93/94/2005/06/08; Santos 1995/2002/03/04/10/11/20; Atlético-MG 1980/2012/13/14/21/24;
+  Cruzeiro 1997/2003/09/13/14/17; Grêmio 1983/84/95/96/2007/17; Internacional 1980/2006/08/10/15/20.
+- `npm run validar:estrito` passa: todos os 92 finalistas de 1980–2025 têm elenco.
 - `data/adversarios.json`: 57 elencos (todos os finalistas 1980–2025 que não são os 12 jogáveis),
   11 titulares + até 3 reservas. Jogadores de baixa confiança têm `"duvida": true` (224 de 674);
   a validação lista quantos por elenco e o app mostra um "?" laranja (aba "Rivais").
   Regra: nunca inventar nome para completar 11 — se não houver nome plausível, deixar a vaga para o
   dono preencher e avisar.
-- Ainda faltam 29 finalistas que são temporadas dos 12 clubes jogáveis (entram na etapa 7).
 - `src/core/pool.ts`: `montarPool` junta adversários + temporadas dos clubes (escaladas
   automaticamente), com `forca` (média dos titulares) e `campeaoLibertadores`. Exportado como
   `POOL` em `src/dados`. Base para o sorteio de adversários da etapa 5.
 - `data/finalistas-libertadores.json` completo, não revisado.
 - `src/core/torneio.ts`: `jogarTorneio` simula o torneio INTEIRO quando começa (até título ou
   eliminação); a UI só revela jogo a jogo (`vistos`). Seed do torneio = `seedDeTexto(`${seedDoDraft}-libertadores`)`.
-  Grupo: 3 rivais da faixa de força 0–60% do pool (≥2 estrangeiros, clubes distintos, nunca o
+  Grupo: 3 rivais da faixa de força 0–55% do pool (≥2 estrangeiros, clubes distintos, nunca o
   próprio clube), turno e returno com mando (+10%), jogos paralelos e tabela por rodada; passam 2
   (desempate: pontos, saldo, gols pró, sorteio). Mata-mata em campo neutro, pênaltis no empate:
-  oitavas 20–70%, quartas 40–85%, semi 55–100%; final contra um campeão da Libertadores (dos 60% mais
+  oitavas 15–65%, quartas 30–80%, semi 45–95%; final contra um campeão da Libertadores (dos 65% mais
   fortes). `anunciarConfronto` (vingança se o clube do jogador foi o perdedor; senão clássico).
-- Taxa de título medida (2000 torneios): time de nota 82 → 8%; 85 → 22%; 88 → 38%; 91 → 58%.
+- Taxa de título medida (2000 torneios, pool de 136 times): nota 82 → 6%; 85 → 18%; 88 → 35%; 91 → 55%.
 - `src/core/narracao.ts`: frases de rádio determinísticas (seed por jogo) a partir do resultado;
   intervalo, aviso de reta final (≥80' com diferença ≤1), virada, vingança, pênaltis cobrança a cobrança.
 - `src/core/idolos.ts`: ídolo = nota ≥85 em temporada com título; overlay no draft (só no Clássico).

@@ -8,7 +8,8 @@
     "importar": "tsx scripts/importar.ts",
     "build": "npm run importar && tsc && vite build",
     "preview": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "coletar": "tsx scripts/coletar.ts"
   },
   "dependencies": {
     "react": "^19.3.1",

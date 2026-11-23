@@ -6,6 +6,7 @@ export function normalizar(texto: string): string {
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')
     .toLowerCase()
+    .replace(/['’`]/g, '')
     .replace(/[^a-z0-9]+/g, ' ')
     .trim();
 }
@@ -45,11 +46,16 @@ export function extrairTamanho(texto: string): { tamanho: Tamanho | null; porKg:
   const simples = t.match(/(\d+(?:\.\d+)?)\s*(kg|g|ml|litros|litro|l)\b/);
   if (simples) {
     const f = FATOR[simples[2]];
+    // "Cerveja 350ml Pack c/18 unidades" → 18 × 350 ml
+    const pack = t.match(/\bpack\s*(?:c|com)?\s*(\d+)\b/);
+    if (pack) return { tamanho: { valor: arred(Number(pack[1]) * numero(simples[1]) * f.fator), unidade: f.unidade }, porKg: false };
     return { tamanho: { valor: arred(numero(simples[1]) * f.fator), unidade: f.unidade }, porKg: false };
   }
 
   const unidades = t.match(/(?:c|com)\s*(\d+)\s*(?:unidades|unids|unid|un)\b/);
   if (unidades) return { tamanho: { valor: Number(unidades[1]), unidade: 'un' }, porKg: false };
+
+  if (/\blitro\b/.test(t)) return { tamanho: { valor: 1000, unidade: 'ml' }, porKg: false };
 
   if (/\b(quilo|kg)\b/.test(t)) return { tamanho: { valor: 1000, unidade: 'g' }, porKg: true };
 

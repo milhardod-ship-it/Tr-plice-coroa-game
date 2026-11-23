@@ -1,22 +1,28 @@
-// Importa os encartes (dados brutos + curadoria manual) para data/ofertas.json.
-// Rode com: npm run importar
+// Importa os encartes (coletas do robô + dados manuais) para data/ofertas.json e data/encartes.json.
+// Rode com: npm run importar  (o build já roda)
 //
-// Fontes:
-//  - data/brutos/mundial-site-*.json      lista de ofertas do site do Mundial (dados prontos)
-//  - data/brutos/atacadao-ofertao-*.json  dados embutidos no PDF do Atacadão
-//  - data/curadoria/*.json                ofertas lidas de imagem (Guanabara, Boa do Dia)
+// Fontes em data/brutos/:
+//  - guanabara-site-<início>.json  coletado pelo robô (npm run coletar) do site do Guanabara
+//  - mundial-site-<data>.json      coletado pelo robô do site do Mundial (só o mais recente vale)
+//  - atacadao-ofertao-*.json       dados embutidos no PDF do Atacadão (manual, por enquanto)
+// E em data/curadoria/: ofertas lidas de imagem (ex.: Boa do Dia do Atacadão).
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { idProduto } from '../src/core/canonico';
+import type { ColetaGuanabara } from '../src/coleta/guanabara';
+import type { ColetaMundial } from '../src/coleta/mundial';
+import { idProduto, unificarProdutos } from '../src/core/canonico';
 import { categorizar } from '../src/core/categorias';
-import { extrairTamanho, normalizar } from '../src/core/texto';
-import type { MercadoId, Oferta, Preco, ProgramaId } from '../src/core/tipos';
+import { MARCAS_CONHECIDAS, limparNome, separarMarca } from '../src/core/marcas';
+import { extrairTamanho } from '../src/core/texto';
+import type { Encarte, MercadoId, Oferta, Preco, ProgramaId } from '../src/core/tipos';
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..');
 const ler = (rel: string) => JSON.parse(readFileSync(join(RAIZ, rel), 'utf8'));
+const brutos = readdirSync(join(RAIZ, 'data/brutos')).sort();
 
-const ofertas: Oferta[] = [];
+let ofertas: Oferta[] = [];
+const encartes: Encarte[] = ler('data/encartes-manuais.json');
 let seq = 0;
 
 /** Cria uma oferta por marca (ofertas "Marca A, B ou C" valem para cada uma). */
@@ -32,7 +38,7 @@ function adicionar(base: {
   fim?: string;
   limite?: string;
   produto?: string;
-  categoria?: Oferta['categoria'];
+  imagem?: string;
 }) {
   const { tamanho, porKg } = extrairTamanho(base.textoTamanho);
   const marcas = base.marcas.length ? base.marcas : [''];
@@ -47,13 +53,14 @@ function adicionar(base: {
       nome: base.nome,
       marca,
       original: base.original,
-      categoria: base.categoria ?? categorizar(`${base.nome} ${base.original}`),
+      categoria: categorizar(`${base.nome} ${base.original}`),
       tamanho,
       porKg,
       precos: base.precos,
       ...(base.precoDe ? { precoDe: base.precoDe } : {}),
       ...(base.fim ? { fim: base.fim } : {}),
       ...(base.limite ? { limite: base.limite } : {}),
+      ...(base.imagem ? { imagem: base.imagem } : {}),
       revisado: false,
     });
   }
@@ -77,49 +84,69 @@ function capitalizar(txt: string): string {
 
 /** Data local (Rio, UTC−3) a partir de um instante ISO em UTC. */
 function dataLocal(iso: string): string {
-  const d = new Date(new Date(iso).getTime() - 3 * 3600 * 1000);
-  return d.toISOString().slice(0, 10);
+  return new Date(new Date(iso).getTime() - 3 * 3600 * 1000).toISOString().slice(0, 10);
 }
 
-// ---------------------------------------------------------------- Mundial
+const marcasConhecidas = new Set<string>(MARCAS_CONHECIDAS);
+
+// ---------------------------------------------------------------- Mundial (robô; só a coleta mais recente)
 {
-  const brutos = ler('data/brutos/mundial-site-2026-11-19.json') as any[];
-  for (const o of brutos) {
-    const p = o.product;
-    const imperdivel = !p.customBrand && !p.customWeight;
-    const nomeBase = imperdivel
-      ? capitalizar(String(p.customName).replace(/\s+(c\/\s*\d+.*|\d.*|kg)$/i, ''))
-      : [p.customName, p.customType].filter(Boolean).join(' ');
-    const marca = p.customBrand ? capitalizar(p.customBrand) : '';
-    const textoTamanho = o.measureUnit === 'KG' ? 'Quilo' : `${p.customWeight ?? ''} ${p.customName ?? ''}`;
-    const preco = reais(o.price)!;
-    const normal = reais(o.oldPrice);
-    let condicao = 'no app Mundial Total';
-    if (o.quantity > 1) {
-      condicao = o.percent
-        ? `levando ${o.quantity}, ${o.percent}% off (app Mundial Total)`
-        : `leve ${o.quantity}, pague ${o.quantity2} (app Mundial Total)`;
+  const arquivo = brutos.filter((f) => f.startsWith('mundial-site-')).pop();
+  if (arquivo) {
+    const c = ler(`data/brutos/${arquivo}`) as ColetaMundial;
+    const idEncarte = arquivo.replace('.json', '');
+    const fins: string[] = [];
+    for (const o of c.ofertas as any[]) {
+      const p = o.product;
+      if (p.customBrand) marcasConhecidas.add(capitalizar(p.customBrand));
+      const imperdivel = !p.customBrand && !p.customWeight;
+      const nomeBase = imperdivel
+        ? capitalizar(String(p.customName).replace(/\s+(c\/\s*\d+.*|\d.*|kg)$/i, ''))
+        : [p.customName, p.customType].filter(Boolean).join(' ');
+      const marca = p.customBrand ? capitalizar(p.customBrand) : '';
+      const textoTamanho = o.measureUnit === 'KG' ? 'Quilo' : `${p.customWeight ?? ''} ${p.customName ?? ''}`;
+      const preco = reais(o.price)!;
+      const normal = reais(o.oldPrice);
+      let condicao = 'no app Mundial Total';
+      if (o.quantity > 1) {
+        condicao = o.percent
+          ? `levando ${o.quantity}, ${o.percent}% off (app Mundial Total)`
+          : `leve ${o.quantity}, pague ${o.quantity2} (app Mundial Total)`;
+      }
+      const precos: Preco[] = normal
+        ? [
+            { valor: normal, exige: [] },
+            { valor: preco, exige: ['mundial-total'], condicao },
+          ]
+        : [{ valor: preco, exige: [] }];
+      const fim = dataLocal(o.unpublishedIn);
+      fins.push(fim);
+      adicionar({
+        mercado: 'mundial',
+        encarte: idEncarte,
+        nome: nomeBase.trim(),
+        marcas: [marca],
+        original: [p.customName, p.customBrand, p.customType, p.customWeight, p.customDetail].filter(Boolean).join(' ').replace(/\s+/g, ' '),
+        textoTamanho,
+        precos,
+        fim,
+        imagem: p.images?.[0]?.url,
+      });
     }
-    const precos: Preco[] = normal
-      ? [
-          { valor: normal, exige: [] },
-          { valor: preco, exige: ['mundial-total'], condicao },
-        ]
-      : [{ valor: preco, exige: [] }];
-    adicionar({
+    const inicios = c.encartes.map((e) => dataLocal(e.publicadoEm)).sort();
+    encartes.push({
+      id: idEncarte,
       mercado: 'mundial',
-      encarte: 'mundial-2026-11-19',
-      nome: nomeBase.trim(),
-      marcas: [marca],
-      original: [p.customName, p.customBrand, p.customType, p.customWeight, p.customDetail].filter(Boolean).join(' ').replace(/\s+/g, ' '),
-      textoTamanho,
-      precos,
-      fim: dataLocal(o.unpublishedIn),
+      titulo: c.encartes.map((e) => e.descricao.replace(/^Encarte - /, '')).join(' + ') || 'Ofertas do site',
+      inicio: inicios[0] ?? c.coletadoEm.slice(0, 10),
+      fim: fins.sort().pop() ?? c.coletadoEm.slice(0, 10),
+      lojas: [],
+      fonte: `site do Mundial (robô, ${c.coletadoEm.slice(0, 10)})`,
     });
   }
 }
 
-// ---------------------------------------------------------------- Atacadão (PDF)
+// ---------------------------------------------------------------- Atacadão (dados embutidos no PDF)
 const MARCAS_ATACADAO = [
   'Copacol', 'Aurora', 'Frimesa', 'Friboi', 'Sadia', 'Canção', 'Lar', 'São Geraldo', 'Imperial', 'Mutumilk',
   'Perdigão', 'Uai', 'Aldente', 'Kicaldo', 'Guarani', 'Bulnez', 'Pramesa', 'Cisne', 'Junco', 'Único', 'Panco',
@@ -128,27 +155,28 @@ const MARCAS_ATACADAO = [
   'Pink Moon', 'Cliper', 'Itaipava', 'Amstel', 'Grapette', 'Antarctica', 'Búfalo', 'Comfort', 'Cif', 'Veja',
   'Harpic', 'Darling', 'Palmolive', 'Giovanna Baby', 'Lady', 'Dunlop', 'Celeste', 'Kerocopo', 'Vittamax', 'Alklin',
 ];
+for (const m of MARCAS_ATACADAO) marcasConhecidas.add(m);
 
-function separarMarcas(linha: string, lista: string[]): { nome: string; marcas: string[] } {
+function separarMarcasAtacadao(linha: string): { nome: string; marcas: string[] } {
   let resto = ` ${linha} `;
   const marcas: string[] = [];
-  for (const m of lista) {
+  for (const m of MARCAS_ATACADAO) {
     const re = new RegExp(`(?<=[\\s/])${m.replace(/ /g, '\\s+')}(?=[\\s/,])`, 'i');
     if (re.test(resto)) {
       marcas.push(m);
       resto = resto.replace(re, ' ');
     }
   }
-  const nome = resto.replace(/[/,]/g, ' ').replace(/\s+/g, ' ').trim();
-  return { nome, marcas };
+  return { nome: resto.replace(/[/,]/g, ' ').replace(/\s+/g, ' ').trim(), marcas };
 }
 
-{
-  const pdf = ler('data/brutos/atacadao-ofertao-2026-11-17.json');
+for (const arquivo of brutos.filter((f) => f.startsWith('atacadao-ofertao-'))) {
+  const pdf = ler(`data/brutos/${arquivo}`);
+  const idEncarte = arquivo.replace('.json', '');
   for (const pg of pdf.paginas) {
     for (const it of pg.itens) {
       const linhas = String(it.descricao).split('\n').map((s: string) => s.trim()).filter(Boolean);
-      const { nome, marcas } = separarMarcas(linhas[0], MARCAS_ATACADAO);
+      const { nome, marcas } = separarMarcasAtacadao(linhas[0]);
       const c = it.campos;
       const precos: Preco[] = [];
       const normal = reais(c.P);
@@ -165,7 +193,7 @@ function separarMarcas(linha: string, lista: string[]): { nome: string; marcas: 
       const de = reais(c.D);
       adicionar({
         mercado: 'atacadao',
-        encarte: 'atacadao-ofertao-2026-11-17',
+        encarte: idEncarte,
         nome,
         marcas,
         original: linhas.join(' · '),
@@ -173,6 +201,45 @@ function separarMarcas(linha: string, lista: string[]): { nome: string; marcas: 
         precos,
         precoDe: de && normal && de > normal ? de : undefined,
         limite: c.QUNTOFERTAO ? 'limite por cliente: consulte no app' : undefined,
+      });
+    }
+  }
+}
+
+// ---------------------------------------------------------------- Guanabara (robô; encartes das últimas 2 semanas)
+{
+  const coletas = brutos
+    .filter((f) => f.startsWith('guanabara-site-'))
+    .map((f) => ({ arquivo: f, c: ler(`data/brutos/${f}`) as ColetaGuanabara }));
+  const maisRecente = coletas.map((x) => x.c.fim).sort().pop();
+  const limite = maisRecente ? new Date(new Date(maisRecente).getTime() - 14 * 86400000).toISOString().slice(0, 10) : '';
+  const listaMarcas = [...marcasConhecidas];
+  for (const { arquivo, c } of coletas) {
+    if (c.fim < limite) continue;
+    const idEncarte = arquivo.replace('.json', '');
+    encartes.push({
+      id: idEncarte,
+      mercado: 'guanabara',
+      titulo: 'Encarte Guanabara',
+      inicio: c.inicio,
+      fim: c.fim,
+      lojas: [],
+      fonte: `site do Guanabara (robô, ${c.coletadoEm.slice(0, 10)})`,
+    });
+    for (const it of c.itens) {
+      const preco = reais(it.preco);
+      if (!preco) continue;
+      const { marca, nome } = separarMarca(it.nome, listaMarcas);
+      const obs = it.nome.match(/\(([^)]*)\)/)?.[1]?.trim();
+      adicionar({
+        mercado: 'guanabara',
+        encarte: idEncarte,
+        nome: limparNome(nome) || nome,
+        marcas: marca ? [marca] : [],
+        original: it.nome,
+        textoTamanho: it.nome,
+        precos: [{ valor: preco, exige: [], ...(obs && !/^pe[çc]a$/i.test(obs) ? { condicao: obs.replace(/^Exc\.?:?\s*/i, 'exceto ') } : {}) }],
+        imagem: it.imagem ?? undefined,
       });
     }
   }
@@ -190,7 +257,6 @@ interface ItemCuradoria {
   condicao?: string;
   limite?: string;
   produto?: string;
-  pagina?: number;
 }
 interface ArquivoCuradoria {
   encarte: string;
@@ -224,9 +290,16 @@ for (const arq of readdirSync(join(RAIZ, 'data/curadoria')).filter((f) => f.ends
   }
 }
 
+// ---------------------------------------------------------------- Junta o mesmo produto escrito de jeitos diferentes
+const antes = new Set(ofertas.map((o) => o.produto)).size;
+ofertas = unificarProdutos(ofertas);
+const depois = new Set(ofertas.map((o) => o.produto)).size;
+
 // ---------------------------------------------------------------- Saída
 ofertas.sort((a, b) => a.id.localeCompare(b.id, 'en', { numeric: true }));
 writeFileSync(join(RAIZ, 'data/ofertas.json'), JSON.stringify(ofertas, null, 1) + '\n');
+encartes.sort((a, b) => a.mercado.localeCompare(b.mercado) || a.inicio.localeCompare(b.inicio));
+writeFileSync(join(RAIZ, 'data/encartes.json'), JSON.stringify(encartes, null, 1) + '\n');
 
 const porMercado = new Map<string, number>();
 for (const o of ofertas) porMercado.set(o.mercado, (porMercado.get(o.mercado) ?? 0) + 1);
@@ -237,9 +310,6 @@ for (const o of ofertas) {
 }
 const emVarios = [...produtos].filter(([, m]) => m.size > 1);
 console.log(`Ofertas: ${ofertas.length} (${[...porMercado].map(([m, n]) => `${m} ${n}`).join(', ')})`);
-console.log(`Produtos: ${produtos.size}; em 2+ mercados: ${emVarios.length}`);
-for (const [id, m] of emVarios) console.log(`  ${id}  [${[...m].join(', ')}]`);
-if (process.argv.includes('--ids')) {
-  const filtro = normalizar(process.argv[process.argv.indexOf('--ids') + 1] ?? '');
-  for (const id of produtos.keys()) if (id.includes(filtro.replace(/ /g, '-'))) console.log('   ', id);
-}
+console.log(`Encartes: ${encartes.map((e) => `${e.id} [${e.inicio}..${e.fim}]`).join(', ')}`);
+console.log(`Produtos: ${depois} (unificados ${antes - depois}); em 2+ mercados: ${emVarios.length}`);
+if (process.argv.includes('--comparaveis')) for (const [id, m] of emVarios) console.log(`  ${id}  [${[...m].join(', ')}]`);

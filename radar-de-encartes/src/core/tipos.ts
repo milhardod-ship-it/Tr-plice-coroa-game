@@ -74,6 +74,8 @@ export interface Oferta {
   /** Data final desta oferta (pode ser antes do fim do encarte). */
   fim?: string;
   limite?: string;
+  /** Foto do produto publicada pelo mercado (quando a fonte tem). */
+  imagem?: string;
   revisado: boolean;
 }
 

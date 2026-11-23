@@ -1,0 +1,11 @@
+{
+  "name": "Radar de Encartes",
+  "short_name": "Radar",
+  "description": "Compare os preços dos encartes dos supermercados do Rio.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F4F6F2",
+  "theme_color": "#0B7A55",
+  "lang": "pt-BR",
+  "icons": [{ "src": "icone.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

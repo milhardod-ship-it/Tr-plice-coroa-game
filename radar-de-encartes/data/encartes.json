@@ -1,0 +1,38 @@
+[
+ {
+  "id": "guanabara-2026-11-18",
+  "mercado": "guanabara",
+  "titulo": "Aniversário Guanabara",
+  "inicio": "2026-11-18",
+  "fim": "2026-11-23",
+  "lojas": [],
+  "fonte": "App Guanabara (prints enviados pelo dono)"
+ },
+ {
+  "id": "atacadao-ofertao-2026-11-17",
+  "mercado": "atacadao",
+  "titulo": "Ofertão Atacadão",
+  "inicio": "2026-11-17",
+  "fim": "2026-11-23",
+  "lojas": ["Bangu", "Barra da Tijuca", "Benfica", "Bonsucesso", "Campo Grande (Mendanha)", "Guadalupe", "Jacarepaguá", "Pilares", "Realengo", "Santa Cruz", "Vicente de Carvalho", "Cabo Frio (Tamoios)", "Campos dos Goytacazes (Guarus)", "Campos dos Goytacazes (Santo Amaro)", "Itaboraí", "Maricá", "São Gonçalo (Alcântara)", "São Gonçalo (Manilha)", "São Pedro da Aldeia", "Macaé", "Nova Friburgo", "Resende", "Rio das Ostras", "Volta Redonda (São Geraldo)", "Volta Redonda (Vila Rica)", "Belford Roxo", "Duque de Caxias", "Nova Iguaçu (Comendador Soares)", "Nova Iguaçu (Maria da Luz)"],
+  "fonte": "PDF do Ofertão (dados embutidos)"
+ },
+ {
+  "id": "atacadao-boa-do-dia-2026-11-23",
+  "mercado": "atacadao",
+  "titulo": "Boa do Dia",
+  "inicio": "2026-11-23",
+  "fim": "2026-11-23",
+  "lojas": ["Bangu", "Barra da Tijuca", "Benfica", "Bonsucesso", "Campo Grande (Mendanha)", "Guadalupe", "Jacarepaguá", "Pilares", "Realengo", "Santa Cruz", "Vicente de Carvalho", "Cabo Frio (Tamoios)", "Campos dos Goytacazes (Guarus)", "Campos dos Goytacazes (Santo Amaro)", "Itaboraí", "Maricá", "São Gonçalo (Alcântara)", "São Gonçalo (Manilha)", "São Pedro da Aldeia", "Macaé", "Nova Friburgo", "Resende", "Rio das Ostras", "Volta Redonda (São Geraldo)", "Volta Redonda (Vila Rica)", "Belford Roxo", "Duque de Caxias", "Nova Iguaçu (Comendador Soares)", "Nova Iguaçu (Maria da Luz)"],
+  "fonte": "App Meu Atacadão (print enviado pelo dono)"
+ },
+ {
+  "id": "mundial-2026-11-19",
+  "mercado": "mundial",
+  "titulo": "Fim de Ano Mundial + ofertas do site",
+  "inicio": "2026-11-19",
+  "fim": "2026-12-02",
+  "lojas": [],
+  "fonte": "supermercadosmundial.com.br (lista de ofertas e encarte PDF)"
+ }
+]

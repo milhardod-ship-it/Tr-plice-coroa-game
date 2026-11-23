@@ -1,4 +1,4 @@
-import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { estaValida } from '../core/precos';
 import { agruparProdutos, type Produto } from '../core/produtos';
 import type { Categoria, ItemLista, Oferta, Perfil, ProgramaId } from '../core/tipos';
@@ -57,9 +57,24 @@ function salvarLocal(chave: string, valor: unknown) {
   }
 }
 
+/** Modo de teste: fixa a data para ver os encartes desta versão mesmo depois que vencerem. */
+export const CHAVE_DATA_TESTE = 'radar:data-teste:v1';
+export const DATA_DE_TESTE = '2026-11-23';
+
+export function definirDataDeTeste(ligar: boolean) {
+  if (ligar) salvarLocal(CHAVE_DATA_TESTE, DATA_DE_TESTE);
+  else
+    try {
+      localStorage.removeItem(CHAVE_DATA_TESTE);
+    } catch {
+      /* ignora */
+    }
+  location.reload();
+}
+
 /** Data de hoje no aparelho (AAAA-MM-DD). Para testes: ?data=2026-11-23 na URL. */
 function dataDeHoje(): string {
-  const p = new URLSearchParams(location.search).get('data');
+  const p = new URLSearchParams(location.search).get('data') ?? lerLocal<string | null>(CHAVE_DATA_TESTE, null);
   if (p && /^\d{4}-\d{2}-\d{2}$/.test(p)) return p;
   const d = new Date();
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
@@ -74,6 +89,7 @@ export function ProvedorApp({ children }: { children: ReactNode }) {
   const [focarBusca, setFocarBusca] = useState(false);
   const [produtoAberto, setProdutoAberto] = useState<string | null>(null);
   const [aviso, setAviso] = useState<string | null>(null);
+  const historicoOk = useRef(false);
 
   useEffect(() => salvarLocal('radar:perfil:v1', perfil), [perfil]);
   useEffect(() => salvarLocal('radar:lista:v1', lista), [lista]);
@@ -131,11 +147,19 @@ export function ProvedorApp({ children }: { children: ReactNode }) {
     focarBusca,
     produtoAberto,
     abrirProduto: (id) => {
-      history.pushState({ produto: id }, '');
+      try {
+        history.pushState({ produto: id }, '');
+        historicoOk.current = true;
+      } catch {
+        historicoOk.current = false; // visualizador sem histórico: o botão Voltar fecha direto
+      }
       setProdutoAberto(id);
       scrollTo(0, 0);
     },
-    fecharProduto: () => history.back(),
+    fecharProduto: () => {
+      if (historicoOk.current) history.back();
+      else setProdutoAberto(null);
+    },
     avisar,
     aviso,
   };

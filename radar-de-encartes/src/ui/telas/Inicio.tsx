@@ -101,7 +101,10 @@ export function Inicio() {
 function SemOfertas() {
   return (
     <div className="vazio">
-      <p>Nenhum encarte válido hoje. Os encartes desta versão de teste são de 17/11 a 02/12/2026.</p>
+      <p>
+        Nenhum encarte válido hoje. Os encartes desta versão de teste são de 17/11 a 02/12/2026: ative o “modo de teste” no
+        Perfil para vê-los.
+      </p>
     </div>
   );
 }

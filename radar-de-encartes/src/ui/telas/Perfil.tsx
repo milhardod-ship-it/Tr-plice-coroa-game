@@ -1,6 +1,6 @@
 import { MERCADOS, TODAS_OFERTAS } from '../../dados';
 import type { MercadoId } from '../../core/tipos';
-import { useApp } from '../contexto';
+import { DATA_DE_TESTE, definirDataDeTeste, useApp } from '../contexto';
 import { Icone } from '../Icone';
 
 const COM_PROGRAMAS: MercadoId[] = ['guanabara', 'mundial', 'atacadao'];
@@ -47,6 +47,13 @@ export function Perfil() {
           Versão de teste com {TODAS_OFERTAS.length} ofertas de Guanabara, Mundial e Atacadão (encartes de 17/11 a 02/12/2026).
           Os dados foram extraídos automaticamente e ainda não foram revisados. Data usada: {hoje.split('-').reverse().join('/')}.
         </p>
+        <label className="cartao opcao">
+          <input type="checkbox" checked={hoje === DATA_DE_TESTE} onChange={(e) => definirDataDeTeste(e.target.checked)} />
+          <span style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+            <span style={{ fontWeight: 600 }}>Modo de teste: fingir que hoje é 23/11/2026</span>
+            <span className="apoio">Para ver todos os encartes desta versão (inclusive o Boa do Dia) mesmo depois que vencerem.</span>
+          </span>
+        </label>
       </section>
     </>
   );

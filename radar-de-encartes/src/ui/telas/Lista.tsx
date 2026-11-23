@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { calcularLista, type Opcao } from '../../core/lista';
 import { mercadosDistintos } from '../../core/produtos';
 import { formatarReais } from '../../core/texto';
@@ -12,6 +12,7 @@ const TODOS_PROGRAMAS: Perfil = { programas: Object.keys(PROGRAMAS) as ProgramaI
 export function Lista() {
   const { lista, ofertas, perfil, produtos, mudarQuantidade, remover, limparLista, irPara, abrirProduto, adicionar } = useApp();
 
+  const [confirmarLimpar, setConfirmarLimpar] = useState(false);
   const r = useMemo(() => calcularLista(lista, ofertas, perfil), [lista, ofertas, perfil]);
   const comTudo = useMemo(() => calcularLista(lista, ofertas, TODOS_PROGRAMAS), [lista, ofertas]);
 
@@ -183,9 +184,25 @@ export function Lista() {
             </div>
           );
         })}
-        <button className="botao bloco" onClick={() => confirm('Limpar a lista inteira?') && limparLista()}>
-          Limpar lista
-        </button>
+        {confirmarLimpar ? (
+          <div className="cartao linha">
+            <span className="cresce">Apagar todos os itens?</span>
+            <button className="botao pequeno" onClick={() => setConfirmarLimpar(false)}>Cancelar</button>
+            <button
+              className="botao pequeno primario"
+              onClick={() => {
+                limparLista();
+                setConfirmarLimpar(false);
+              }}
+            >
+              Apagar
+            </button>
+          </div>
+        ) : (
+          <button className="botao bloco" onClick={() => setConfirmarLimpar(true)}>
+            Limpar lista
+          </button>
+        )}
       </section>
 
       {sugestoes.length > 0 && <Sugestoes ids={sugestoes.slice(0, 4).map((p) => p.id)} />}
